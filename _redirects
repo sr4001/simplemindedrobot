@@ -1,0 +1,4 @@
+# Redirects for Cloudflare Pages
+# Add your redirects here in the format:
+# /old-path    /new-path    301
+# /old-path/*  /new-path/:splat    301
