@@ -1,13 +1,13 @@
 # Hugo
-title = "My Docs"
-description = "Congrats on setting up a new Doks project!"
+title = "Simpleminded Robot"
+description = ""
 images = ["cover.png"]
 
 # mainSections
 mainSections = ["docs"]
 
 [social]
-  twitter = "getdoks"
+  twitter = ""
 
 # Doks (@thulite/doks-core)
 [doks]
@@ -45,7 +45,7 @@ mainSections = ["docs"]
 
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = false # false (default) or true
+  toTopButton = true # false (default) or true
   breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
@@ -66,7 +66,7 @@ mainSections = ["docs"]
   sectionFooter = false # false (default) or true
 
   # Blog
-  relatedPosts = false # false (default) or true
+  relatedPosts = true # false (default) or true
   imageList = true # true (default) or false
   imageSingle = true # true (default) or false
 

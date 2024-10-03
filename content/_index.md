@@ -1,12 +1,12 @@
 ---
-title: "Welcome to Doks"
+title: "Welcome to Simpleminded Robot"
 description: ""
-lead: "Congrats on setting up a new Doks project!"
-date: 2023-09-07T16:33:54+02:00
-lastmod: 2023-09-07T16:33:54+02:00
+lead: "Thoughts from a Simpleminded Robot: Exploring Complexity with a Touch of Tech and Curiosity"
+date: 2024-10-03T19:44:41.929Z
+lastmod: 2024-10-03T19:44:37.742Z
 draft: false
 seo:
-  title: "Welcome to Doks" # custom title (optional)
+  title: "Welcome to Simpleminded Robot" # custom title (optional)
   description: "" # custom description (recommended)
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
