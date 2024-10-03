@@ -90,3 +90,78 @@ pre {
 footer a {
   text-decoration: underline;
 }
+
+// Custom styles for blog post layout with table of contents
+@media (min-width: 992px) {
+  .blog-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .blog-content.with-toc .blog-main-content {
+    width: 75%;
+  }
+
+  .blog-content:not(.with-toc) .blog-main-content {
+    width: 100%;
+  }
+
+  .toc-wrapper {
+    width: 22%;
+    position: sticky;
+    top: 5rem;
+    align-self: flex-start;
+    max-height: calc(100vh - 7rem);
+    overflow-y: auto;
+  }
+}
+
+.toc-wrapper {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.toc-wrapper h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+#TableOfContents ul {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+#TableOfContents ul li {
+  margin-bottom: 0.5rem;
+}
+
+#TableOfContents ul li a {
+  color: #495057;
+  text-decoration: none;
+}
+
+#TableOfContents ul li a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.blog-main-content {
+  padding-top: 4rem;
+}
+
+.blog-main-content h1,
+.blog-main-content h2,
+.blog-main-content h3,
+.blog-main-content h4,
+.blog-main-content h5,
+.blog-main-content h6 {
+  scroll-margin-top: 70px;
+}
+
+header.navbar {
+  height: 60px; /* Adjust this value according to your actual navbar height */
+}
