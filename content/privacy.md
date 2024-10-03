@@ -8,8 +8,6 @@ draft: false
 type: "legal"
 ---
 
-# Privacy Policy
-
 ## Introduction
 
 Welcome to Simpleminded Robot. We value your privacy and are committed to protecting any personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your information when you interact with our blog.
