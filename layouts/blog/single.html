@@ -22,7 +22,11 @@
       </div>
     {{ end -}}
   {{ end -}}
-  <div class="col-md-12 col-lg-10">
+  {{ if .Params.toc }}
+    <div class="col-lg-12 col-lg-10">
+  {{ else }}
+    <div class="col-md-12 col-lg-10">
+  {{ end }}
     <div class="blog-content{{ if .Params.toc }} with-toc{{ end }}">
       <div class="blog-main-content">
         {{ with .Params.summary -}}<p class="lead">{{ . }}</p>{{ end -}}
