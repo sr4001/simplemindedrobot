@@ -18,7 +18,7 @@ tags:
   - media literacy
 contributors:
   - Scot Campbell
-pinned: false
+pinned: true
 homepage: false
 ---
 

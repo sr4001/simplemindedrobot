@@ -1,6 +1,6 @@
-title = "Simpleminded Robot"
+title = "AI and Agile Development Insights | Simpleminded Robot"
 baseurl = "http://sr4001.net/"
-canonifyURLs = false
+canonifyURLs = true
 disableAliases = true
 disableHugoGeneratorInject = true
 # disableKinds = ["taxonomy", "term"]
@@ -12,6 +12,9 @@ languageCode = "en-US"
 pagination.pagerSize = 10
 rssLimit = 10
 summarylength = 70 # 70 (default)
+
+# Site description
+description = "Explore insights on AI integration, Agile workflows, and tech advancements in software development."
 
 # Multilingual
 defaultContentLanguage = "en"

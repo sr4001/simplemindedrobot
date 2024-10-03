@@ -1,13 +1,13 @@
 ---
-title: "Welcome to Simpleminded Robot"
-description: ""
-lead: "Thoughts from a Simpleminded Robot: Exploring Complexity with a Touch of Tech and Curiosity"
+title: "AI and Agile Development Insights | Simpleminded Robot"
+description: "Explore cutting-edge insights on AI integration, Agile workflows, and tech advancements in software development. Join us in navigating the complexities of modern tech."
+lead: "Navigating the Intersection of AI and Agile: Insights from a Curious Tech Mind"
 date: 2024-10-03T19:44:41.929Z
 lastmod: 2024-10-03T19:44:37.742Z
 draft: false
 seo:
-  title: "Welcome to Simpleminded Robot" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
-  noindex: false # false (default) or true
+  title: "AI and Agile Development Insights | Simpleminded Robot"
+  description: "Discover how AI is transforming Agile development practices. Explore tech trends, project management insights, and innovative solutions for modern software development."
+  canonical: "https://sr4001.net/" # Assuming this is the correct canonical URL
+  noindex: false
 ---

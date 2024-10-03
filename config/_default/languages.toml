@@ -1,29 +1,11 @@
 [en]
   languageName = "English"
-  contentDir = "content/en"
+  contentDir = "content"
   weight = 10
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/example-post/">Doks version 1.0 just shipped!</a>'
-
-[de]
-  languageName = "German"
-  contentDir = "content/de"
-  weight = 15
-  [de.params]
-    languageISO = "DE"
-    languageTag = "de-DE"
-    alertText = 'Neue Version ist da! <a class="alert-link stretched-link" href="https://getdoks.org/blog/doks-v0.5/">Doks v0.5</a>'
-
-[nl]
-  languageName = "Nederlands"
-  contentDir = "content/nl"
-  weight = 20
-  [nl.params]
-    languageISO = "NL"
-    languageTag = "nl-NL"
-    titleAddition = "Modern documentatie-thema"
-    description = "Doks is een Hugo-thema waarmee je moderne documentatie-websites kunt bouwen die veilig, snel en klaar voor SEO zijn — standaard."
-    titleHome = "Doks thema"
-    alertText = 'Introductie van het Doks-kinderthema, verschillende DX + UX-updates en meer! <a class="alert-link stretched-link" href="https://getdoks.org/blog/doks-v0.2/">Bekijk Doks v0.2</a>'
+    titleAddition = "AI and Agile Development Insights"
+    description = "Explore cutting-edge insights on AI integration, Agile workflows, and tech advancements in software development. Join us in navigating the complexities of modern tech."
+    titleHome = "Simpleminded Robot"
+    alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/">Check out our latest insights on AI and Agile Development!</a>'
