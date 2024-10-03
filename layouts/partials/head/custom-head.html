@@ -3,5 +3,5 @@
 
 <!-- Additional custom head content can be added here -->
 
-{{ $customScss := resources.Get "scss/common/_custom.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "sha512" }}
+{{ $customScss := resources.Get "scss/common/_custom.scss" | css.Sass (dict "outputStyle" "compressed") | resources.Fingerprint "sha512" }}
 <link rel="stylesheet" href="{{ $customScss.RelPermalink }}" integrity="{{ $customScss.Data.Integrity }}" crossorigin="anonymous">

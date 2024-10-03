@@ -3,8 +3,8 @@
 
 // Override default styles with our custom colors
 body {
-  background-color: var(--sl-color-bg);
-  color: var(--sl-color-text);
+  background-color: $sl-color-bg;
+  color: $sl-color-text;
 }
 
 .navbar {
@@ -12,83 +12,124 @@ body {
 }
 
 .btn-primary {
-  background-color: var(--sl-color-accent);
-  border-color: var(--sl-color-accent);
+  background-color: $sl-color-accent;
+  border-color: $sl-color-accent;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: var(--sl-color-accent-high);
-  border-color: var(--sl-color-accent-high);
+  background-color: $sl-color-accent-high;
+  border-color: $sl-color-accent-high;
 }
 
+// Updated link styles
 a {
-  color: var(--sl-color-accent);
+  color: $sl-color-accent;
   transition: color 0.2s ease-in-out;
 }
 
-a:hover {
-  color: var(--sl-color-accent-high);
-  text-decoration: underline;
+a {
+  color: $sl-color-accent;
+}
+
+// Override links in list items
+li a {
+  color: $sl-color-accent;
+}
+
+li a:hover,
+li a:focus {
+  color: $sl-color-accent;
 }
 
 // Improve contrast for card titles
 .card-title {
-  color: var(--sl-color-accent-low);
+  color: $sl-color-accent-low;
 }
 
 // Style for code blocks
 pre {
-  background-color: var(--sl-color-bg-sidebar);
-  border: 1px solid var(--sl-color-accent-low);
+  background-color: $sl-color-bg-sidebar;
+  border: 1px solid $sl-color-accent-low;
   border-radius: 4px;
+}
+
+// Updated styles for navbar links and menu items
+.navbar-brand,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .dropdown-item {
+  color: $sl-color-accent !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .dropdown-item:hover,
+.navbar-light .navbar-nav .dropdown-item:focus,
+.navbar-light .navbar-nav .dropdown-item.active {
+  color: $sl-color-accent !important;
+  background-color: rgba($sl-color-accent, 0.1);
+}
+
+.navbar-light .navbar-nav .dropdown-menu {
+  background-color: $sl-color-bg;
+  border-color: $sl-color-accent;
 }
 
 // Dark mode styles
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: var(--sl-color-bg);
-    color: var(--sl-color-text);
+    background-color: $sl-color-bg;
+    color: $sl-color-text;
   }
 
   .navbar {
-    background-color: var(--sl-color-bg);
+    background-color: $sl-color-bg;
   }
 
-  a {
-    color: var(--sl-color-accent-high);
+  a, li a {
+    color: $sl-color-accent;
   }
 
-  a:hover {
-    color: var(--sl-color-accent);
+  a:hover, li a:hover,
+  a:focus, li a:focus {
+    color: $sl-color-accent;
   }
 
   .btn-primary {
-    background-color: var(--sl-color-accent);
-    border-color: var(--sl-color-accent);
+    background-color: $sl-color-accent;
+    border-color: $sl-color-accent;
   }
 
   .btn-primary:hover, .btn-primary:focus {
-    background-color: var(--sl-color-accent-high);
-    border-color: var(--sl-color-accent-high);
+    background-color: $sl-color-accent-high;
+    border-color: $sl-color-accent-high;
   }
 
   pre {
-    background-color: var(--sl-color-bg-sidebar);
-    border-color: var(--sl-color-accent);
+    background-color: $sl-color-bg-sidebar;
+    border-color: $sl-color-accent;
   }
-}
 
-// Additional styles for better visibility
-.navbar-brand, .navbar-light .navbar-nav .nav-link {
-  color: var(--sl-color-accent) !important;
-}
+  .navbar-brand,
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav .dropdown-item {
+    color: $link-color !important;
+  }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: var(--sl-color-accent-high) !important;
-}
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .dropdown-item:hover,
+  .navbar-light .navbar-nav .dropdown-item:focus,
+  .navbar-light .navbar-nav .dropdown-item.active {
+    color: $sl-color-accent !important;
+    background-color: rgba($sl-color-accent, 0.2);
+  }
 
-footer a {
-  text-decoration: underline;
+  .navbar-light .navbar-nav .dropdown-menu {
+    background-color: $sl-color-bg;
+    border-color: $sl-color-accent-high;
+  }
 }
 
 // Custom styles for blog post layout with table of contents
@@ -119,7 +160,7 @@ footer a {
 }
 
 .toc-wrapper {
-  background-color: #f8f9fa;
+  background-color: $sl-color-bg-sidebar;
   padding: 1rem;
   border-radius: 0.25rem;
   margin-bottom: 1rem;
@@ -140,13 +181,12 @@ footer a {
 }
 
 #TableOfContents ul li a {
-  color: #495057;
+  color: $link-color;
   text-decoration: none;
 }
 
-#TableOfContents ul li a:hover {
-  color: #007bff;
-  text-decoration: underline;
+#TableOfContents ul li a {
+  color: $sl-color-accent;
 }
 
 .blog-main-content {
@@ -164,4 +204,103 @@ footer a {
 
 header.navbar {
   height: 60px; /* Adjust this value according to your actual navbar height */
+}
+
+// New styles for pagination buttons
+.pagination {
+  .page-item {
+    .page-link {
+      color: $link-color;
+      border-color: $sl-color-accent;
+
+      &:hover, &:focus {
+        background-color: $sl-color-accent;
+        border-color: $sl-color-accent;
+        color: white;
+      }
+    }
+
+    &.active .page-link {
+      background-color: $sl-color-accent;
+      border-color: $sl-color-accent;
+      color: white;
+    }
+  }
+}
+
+// Dark mode styles for pagination
+@media (prefers-color-scheme: dark) {
+  .pagination {
+    .page-item {
+      .page-link {
+        color: $link-color;
+        border-color: $sl-color-accent-high;
+        background-color: $sl-color-bg;
+
+        &:hover, &:focus {
+          background-color: $sl-color-accent-high;
+          border-color: $sl-color-accent-high;
+          color: $sl-color-bg;
+        }
+      }
+
+      &.active .page-link {
+        background-color: $sl-color-accent-high;
+        border-color: $sl-color-accent-high;
+        color: $sl-color-bg;
+      }
+    }
+  }
+}
+
+// Override purple colors with blue
+$purple: $sl-color-accent;
+$db-purple-100: $sl-color-accent-high;
+$db-purple-200: $sl-color-accent;
+$db-purple-300: $sl-color-accent-low;
+$primary: $sl-color-accent;
+
+// Override callout styles
+.callout {
+  &-note {
+    background: tint-color($sl-color-accent, 80%);
+    code:not(:where(.not-content *)) {
+      color: var(--ec-codeFg);
+      background: shade-color($sl-color-accent, 75%);
+    }
+  }
+}
+
+// Override any other elements that might use $purple
+.purple-bg {
+  background-color: $sl-color-accent;
+}
+
+.purple-text {
+  color: $sl-color-accent;
+}
+
+// Ensure code blocks use the new color scheme
+code:not(:where(.not-content *)) {
+  color: $sl-color-accent;
+  background-color: tint-color($sl-color-accent, 90%);
+}
+
+// Override any remaining purple links
+a:not([class]),
+.content a:not([class]) {
+  color: $sl-color-accent;
+  text-decoration-color: $sl-color-accent;
+}
+
+a:not([class]):hover,
+.content a:not([class]):hover {
+  color: $sl-color-accent;
+}
+
+// Override header-bar style with light blue to dark blue gradient
+.header-bar {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(83.21deg, #87CEEB 0%, #0000FF 100%);
+  border-image-slice: 1;
 }

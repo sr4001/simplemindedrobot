@@ -46,21 +46,21 @@ mainSections = ["docs"]
   # Nav
   sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
   toTopButton = false # false (default) or true
-  breadcrumbTrail = false # false (default) or true
+  breadcrumbTrail = true # false (default) or true
   headlineHash = true # true (default) or false
   scrollSpy = true # true (default) or false
 
   # Multilingual
   multilingualMode = false # false (default) or true
-  showMissingLanguages = true # whether or not to show untranslated languages in the language menu; true (default) or false
+  showMissingLanguages = false # whether or not to show untranslated languages in the language menu; true (default) or false
 
   # Versioning
   docsVersioning = false # false (default) or true
   docsVersion = "1.0"
 
   # UX
-  headerBar = false # true (default) or false
-  backgroundDots = true # true (default) or false
+  headerBar = true # true (default) or false
+  backgroundDots = false # true (default) or false
 
   # Homepage
   sectionFooter = false # false (default) or true

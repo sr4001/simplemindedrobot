@@ -1,30 +1,47 @@
 // Custom color overrides
 
-:root {
-  // New accent color (blue)
-  --sl-hue-blue: 210;
-  --sl-color-accent-low: hsl(var(--sl-hue-blue), 80%, 25%);
-  --sl-color-accent: hsl(var(--sl-hue-blue), 80%, 50%);
-  --sl-color-accent-high: hsl(var(--sl-hue-blue), 80%, 75%);
+// Define SCSS variables for accent colors
+$sl-hue-blue: 210;
+$sl-color-accent-low: hsl($sl-hue-blue, 80%, 25%);
+$sl-color-accent: hsl($sl-hue-blue, 80%, 50%);
+$sl-color-accent-high: hsl($sl-hue-blue, 80%, 75%);
+$sl-color-text-accent: hsl($sl-hue-blue, 80%, 50%);
+$purple: hsl($sl-hue-blue, 80%, 50%);
+$db-purple-100: hsl($sl-hue-blue, 80%, 75%);
+$db-purple-200: hsl($sl-hue-blue, 80%, 50%);
+$db-purple-300: hsl($sl-hue-blue, 80%, 25%);
+$primary: hsl($sl-hue-blue, 80%, 50%);
 
-  // Background colors
-  --sl-color-bg: hsl(0, 0%, 100%);
-  --sl-color-bg-sidebar: hsl(210, 20%, 98%);
+// Background colors
+$sl-color-bg: hsl(0, 0%, 100%);
+$sl-color-bg-sidebar: hsl(210, 20%, 98%);
 
-  // Text colors
-  --sl-color-text: hsl(210, 20%, 20%);
-  --sl-color-text-accent: var(--sl-color-accent);
-}
+// Text colors
+$sl-color-text: hsl(210, 20%, 20%);
+$sl-color-text-accent: $sl-color-accent;
+
+// Assign $link-color to the medium highlight blue color
+$link-color: $sl-color-accent;
 
 // Dark mode overrides
 @media (prefers-color-scheme: dark) {
-  :root {
-    // Adjusted background colors for dark mode
-    --sl-color-bg: hsl(210, 20%, 10%);
-    --sl-color-bg-sidebar: hsl(210, 20%, 8%);
+  $sl-color-bg: hsl(210, 20%, 10%);
+  $sl-color-bg-sidebar: hsl(210, 20%, 8%);
+  $sl-color-text: hsl(210, 20%, 80%);
+  $sl-color-text-accent: $sl-color-accent-high;
 
-    // Modified text colors for dark mode
-    --sl-color-text: hsl(210, 20%, 80%);
-    --sl-color-text-accent: var(--sl-color-accent-high);
-  }
+  // Reassign $link-color for dark mode
+  $link-color: $sl-color-accent-high;
+}
+
+// CSS custom properties for use in HTML and CSS
+:root {
+  --sl-hue-blue: #{$sl-hue-blue};
+  --sl-color-accent-low: #{$sl-color-accent-low};
+  --sl-color-accent: #{$sl-color-accent};
+  --sl-color-accent-high: #{$sl-color-accent-high};
+  --sl-color-bg: #{$sl-color-bg};
+  --sl-color-bg-sidebar: #{$sl-color-bg-sidebar};
+  --sl-color-text: #{$sl-color-text};
+  --sl-color-text-accent: #{$sl-color-text-accent};
 }
