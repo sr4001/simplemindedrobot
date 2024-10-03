@@ -127,9 +127,9 @@ mainSections = ["docs"]
     suffix = ""
   [seo.favicons]
     sizes = [16, 32, 96, 192]
-    icon = "assets/img/favicon/favicon-32x32.png"
-    svgIcon = "assets/img/favicon/favicon.svg"
-    maskIcon = "assets/img/favicon/safari-pinned-tab.svg"
+    icon = "img/favicon/favicon-32x32.png"
+    svgIcon = "img/favicon/favicon.svg"
+    maskIcon = "img/favicon/safari-pinned-tab.svg"
     maskIconColor = "#5bbad5"
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
