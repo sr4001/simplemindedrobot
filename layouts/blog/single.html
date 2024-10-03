@@ -37,7 +37,13 @@
       </div>
       <div class="toc-wrapper">
         <h2>Table of Contents</h2>
-        {{ .TableOfContents }}
+        {{ if .Params.toc }}
+          {{ $tocStartLevel := .Params.tocStartLevel | default 2 }}
+          {{ $tocEndLevel := .Params.tocEndLevel | default 3 }}
+          {{ $.Scratch.Set "tocStartLevel" $tocStartLevel }}
+          {{ $.Scratch.Set "tocEndLevel" $tocEndLevel }}
+          {{ .TableOfContents }}
+        {{ end }}
       </div>
     </div>
   </div>

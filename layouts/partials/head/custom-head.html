@@ -18,9 +18,9 @@
     .toc-wrapper {
       width: 25%;
       position: sticky;
-      top: 2rem;
+      top: 5rem; /* Adjusted to account for navbar */
       align-self: flex-start;
-      max-height: calc(100vh - 4rem);
+      max-height: calc(100vh - 7rem); /* Adjusted to account for navbar */
       overflow-y: auto;
     }
   }
@@ -54,5 +54,30 @@
   #TableOfContents ul li a:hover {
     color: #007bff;
     text-decoration: underline;
+  }
+
+  /* Adjust main content to account for navbar */
+  .blog-main-content {
+    padding-top: 4rem; /* Adjust this value based on your navbar height */
+  }
+
+  /* Add scroll margin to headings to prevent them from being hidden behind the navbar */
+  .blog-main-content h1,
+  .blog-main-content h2,
+  .blog-main-content h3,
+  .blog-main-content h4,
+  .blog-main-content h5,
+  .blog-main-content h6 {
+    scroll-margin-top: 5rem; /* Adjust this value based on your navbar height */
+  }
+
+  /* Ensure the first heading doesn't have extra space above it */
+  .blog-main-content > h1:first-child,
+  .blog-main-content > h2:first-child,
+  .blog-main-content > h3:first-child,
+  .blog-main-content > h4:first-child,
+  .blog-main-content > h5:first-child,
+  .blog-main-content > h6:first-child {
+    margin-top: 0;
   }
 </style>
