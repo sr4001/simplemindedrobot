@@ -9,14 +9,20 @@
     .blog-content {
       display: flex;
       justify-content: space-between;
+      max-width: 1200px; /* Increased max-width for wider content */
+      margin: 0 auto; /* Center the content */
     }
 
-    .blog-main-content {
-      width: 70%;
+    .blog-content.with-toc .blog-main-content {
+      width: 75%; /* Increased width for main content when TOC is present */
+    }
+
+    .blog-content:not(.with-toc) .blog-main-content {
+      width: 100%; /* Full width when no TOC */
     }
 
     .toc-wrapper {
-      width: 25%;
+      width: 22%; /* Slightly reduced width for TOC */
       position: sticky;
       top: 5rem; /* Adjusted to account for navbar */
       align-self: flex-start;
