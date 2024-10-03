@@ -1,1 +1,92 @@
-// Put your custom SCSS code here
+// Import custom variables
+@import "variables-custom";
+
+// Override default styles with our custom colors
+body {
+  background-color: var(--sl-color-bg);
+  color: var(--sl-color-text);
+}
+
+.navbar {
+  background-color: white;
+}
+
+.btn-primary {
+  background-color: var(--sl-color-accent);
+  border-color: var(--sl-color-accent);
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: var(--sl-color-accent-high);
+  border-color: var(--sl-color-accent-high);
+}
+
+a {
+  color: var(--sl-color-accent);
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--sl-color-accent-high);
+  text-decoration: underline;
+}
+
+// Improve contrast for card titles
+.card-title {
+  color: var(--sl-color-accent-low);
+}
+
+// Style for code blocks
+pre {
+  background-color: var(--sl-color-bg-sidebar);
+  border: 1px solid var(--sl-color-accent-low);
+  border-radius: 4px;
+}
+
+// Dark mode styles
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--sl-color-bg);
+    color: var(--sl-color-text);
+  }
+
+  .navbar {
+    background-color: var(--sl-color-bg);
+  }
+
+  a {
+    color: var(--sl-color-accent-high);
+  }
+
+  a:hover {
+    color: var(--sl-color-accent);
+  }
+
+  .btn-primary {
+    background-color: var(--sl-color-accent);
+    border-color: var(--sl-color-accent);
+  }
+
+  .btn-primary:hover, .btn-primary:focus {
+    background-color: var(--sl-color-accent-high);
+    border-color: var(--sl-color-accent-high);
+  }
+
+  pre {
+    background-color: var(--sl-color-bg-sidebar);
+    border-color: var(--sl-color-accent);
+  }
+}
+
+// Additional styles for better visibility
+.navbar-brand, .navbar-light .navbar-nav .nav-link {
+  color: var(--sl-color-accent) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--sl-color-accent-high) !important;
+}
+
+footer a {
+  text-decoration: underline;
+}

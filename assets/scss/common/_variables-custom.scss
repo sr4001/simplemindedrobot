@@ -1,1 +1,30 @@
-// Put your custom SCSS variables here
+// Custom color overrides
+
+:root {
+  // New accent color (blue)
+  --sl-hue-blue: 210;
+  --sl-color-accent-low: hsl(var(--sl-hue-blue), 80%, 25%);
+  --sl-color-accent: hsl(var(--sl-hue-blue), 80%, 50%);
+  --sl-color-accent-high: hsl(var(--sl-hue-blue), 80%, 75%);
+
+  // Background colors
+  --sl-color-bg: hsl(0, 0%, 100%);
+  --sl-color-bg-sidebar: hsl(210, 20%, 98%);
+
+  // Text colors
+  --sl-color-text: hsl(210, 20%, 20%);
+  --sl-color-text-accent: var(--sl-color-accent);
+}
+
+// Dark mode overrides
+@media (prefers-color-scheme: dark) {
+  :root {
+    // Adjusted background colors for dark mode
+    --sl-color-bg: hsl(210, 20%, 10%);
+    --sl-color-bg-sidebar: hsl(210, 20%, 8%);
+
+    // Modified text colors for dark mode
+    --sl-color-text: hsl(210, 20%, 80%);
+    --sl-color-text-accent: var(--sl-color-accent-high);
+  }
+}
