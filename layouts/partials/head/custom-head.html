@@ -2,3 +2,57 @@
 {{ partial "head/favicon.html" . }}
 
 <!-- Additional custom head content can be added here -->
+
+<style>
+  /* Custom styles for blog post layout with table of contents */
+  @media (min-width: 992px) {
+    .blog-content {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .blog-main-content {
+      width: 70%;
+    }
+
+    .toc-wrapper {
+      width: 25%;
+      position: sticky;
+      top: 2rem;
+      align-self: flex-start;
+      max-height: calc(100vh - 4rem);
+      overflow-y: auto;
+    }
+  }
+
+  .toc-wrapper {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .toc-wrapper h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  #TableOfContents ul {
+    list-style-type: none;
+    padding-left: 1rem;
+  }
+
+  #TableOfContents ul li {
+    margin-bottom: 0.5rem;
+  }
+
+  #TableOfContents ul li a {
+    color: #495057;
+    text-decoration: none;
+  }
+
+  #TableOfContents ul li a:hover {
+    color: #007bff;
+    text-decoration: underline;
+  }
+</style>
