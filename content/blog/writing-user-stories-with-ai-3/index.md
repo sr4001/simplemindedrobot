@@ -18,6 +18,7 @@ tags:
   - software development
   - software testing
   - user stories
+series: ["Writing User Stories With AI"]
 contributors:
   - Scot Campbell
 pinned: false

@@ -197,7 +197,7 @@ AI has the potential to revolutionize the way teams create, manage, and test acc
 
 By embracing AI-powered tools, Agile teams can write more effective acceptance criteria, leading to higher-quality software that meets both business and technical goals. The future of acceptance criteria is smarter, more precise, and more automated—and AI is leading the way.
 
-### Related Posts
+### More on Simpleminded Robot
 
 For more insights on how AI can enhance Agile development processes, check out these related posts:
 

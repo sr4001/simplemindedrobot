@@ -59,6 +59,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   contributor = "contributors"
   category = "categories"
   tag = "tags"
+  series = "series"
 
 [permalinks]
   blog = "/blog/:slug/"
@@ -73,7 +74,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   includeNewer = true
   toLower = false
     [[related.indices]]
-      name = "categories"
+      name = "series"
       weight = 100
     [[related.indices]]
       name = "tags"

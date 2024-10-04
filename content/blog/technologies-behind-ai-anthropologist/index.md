@@ -15,6 +15,7 @@ tags:
   - emotion recognition
   - machine learning
   - organizational network analysis
+series: ["The AI Anthropologit"]
 contributors:
   - Scot Campbell
 pinned: false

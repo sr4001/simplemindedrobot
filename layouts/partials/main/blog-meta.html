@@ -38,10 +38,22 @@
 {{- with .Params.tags -}}
 <p>
   <small>
-    Tags:
+    Tags:&nbsp;
     {{- range $index, $tag := . -}}
       {{ if gt $index 0 }} {{ end -}}
       <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/" class="badge bg-secondary">{{ . }}</a>
+    {{- end -}}
+  </small>
+</p>
+{{- end -}}
+
+{{- with .Params.series -}}
+<p>
+  <small>
+    Part of:&nbsp;
+    {{- range $index, $tag := . -}}
+      {{ if gt $index 0 }} {{ end -}}
+      <a href="{{ "/series/" | relLangURL }}{{ . | urlize }}/" class="badge bg-secondary">{{ . }}</a>
     {{- end -}}
   </small>
 </p>

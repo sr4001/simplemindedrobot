@@ -12,6 +12,8 @@ tags:
   - project management
   - autonomous systems
   - decision-making
+  - agentic
+series: ["Agentic AI"]
 contributors:
   - Scot Campbell
 pinned: false
@@ -104,7 +106,7 @@ As agentic AI continues to evolve, it will unlock new levels of **efficiency, ad
 
 In the future, the most successful teams won't be the ones with the most resources, but the ones that can best leverage agentic AI to work smarter, faster, and more adaptively. The age of agentic AI in agile software development and project management is just beginning, and its full potential has yet to be realized. The only question left is: are you ready to embrace it?
 
-## Related Posts
+## More on Simpleminded Robot
 
 For more insights on AI in agile development and project management, check out these related posts:
 

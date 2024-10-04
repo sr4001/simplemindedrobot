@@ -16,6 +16,7 @@ tags:
   - consent
   - transparency
   - workplace AI
+series: ["The AI Anthropologit"]
 contributors:
   - Scot Campbell
 pinned: false
@@ -118,7 +119,7 @@ As we move forward into the final post of this series, we'll provide a practical
 
 In the final post of this series, we'll provide a detailed roadmap for implementing the AI Anthropologist in your organization. From gaining buy-in from stakeholders to rolling out the AI in stages, we'll cover everything you need to know to ensure a smooth and ethical integration. We'll also explore how to measure the success of the AI Anthropologist and continuously iterate on its implementation to improve workplace dynamics. Stay tuned!
 
-### Related Posts
+### More on Simpleminded Robot
 
 - [Writing User Stories with AI: Part 1]({{< relref "/blog/writing-user-stories-with-ai-1/" >}}): This post explores the intersection of AI and user stories, providing a foundation for how AI can be used to streamline and enhance workflows in the workplace—similar to the goals of the AI Anthropologist in uncovering workplace dynamics.
 

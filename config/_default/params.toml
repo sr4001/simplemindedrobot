@@ -134,7 +134,7 @@ mainSections = ["docs"]
   [seo.schemas]
     type = "Organization" # Organization (default) or Person
     logo = "assets/img/favicon/android-chrome-512x512.png"
-    name = "Thulite" # Name of Organization or Person
+    name = "Simpleminded Robot" # Name of Organization or Person
     sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
     images = ["cover.png"] # ["cover.png"] (default)
     article = [] # Article sections

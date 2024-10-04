@@ -15,6 +15,8 @@ tags:
   - AI
   - productivity
   - coding tools
+  - agentic
+series: ["Agentic AI"]
 contributors:
   - Scot Campbell
 pinned: false
@@ -102,7 +104,7 @@ If you're a developer looking to improve your coding workflow, I highly recommen
 
 Remember, the goal isn't to replace human creativity and problem-solving skills, but to augment them. With Claude Dev, you're not just coding; you're collaborating with AI to push the boundaries of what's possible in software development.
 
-## Related Posts
+## More on Simpleminded Robot
 
 If you enjoyed this article, you might also find these related posts interesting:
 

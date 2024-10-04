@@ -15,6 +15,7 @@ tags:
   - prompt engineering
   - software development
   - user stories
+series: ["Writing User Stories With AI"]
 contributors:
   - Scot Campbell
 pinned: false
