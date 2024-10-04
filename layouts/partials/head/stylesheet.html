@@ -6,17 +6,17 @@
     "includePaths" (slice "node_modules")
 }}
 
-{{ $themeCss := resources.Get $appScss | css.Sass $scssOptions }}
+{{ $themeCss := resources.Get $appScss | css.Sass $scssOptions | resources.Fingerprint "sha512" }}
 
 {{ if .Site.Params.custom_css -}}
-  {{ $customScss := resources.Get .Site.Params.custom_css | css.Sass $scssOptions }}
-  {{ $themeCss = slice $themeCss $customScss | resources.Concat "css/style.css" }}
+  {{ $customScss := resources.Get .Site.Params.custom_css | css.Sass $scssOptions | resources.Fingerprint "sha512" }}
+  {{ $themeCss = slice $themeCss $customScss | resources.Concat "css/style.css" | resources.Fingerprint "sha512" }}
 {{ end -}}
 
-<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}">
+<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" integrity="{{ $themeCss.Data.Integrity }}" crossorigin="anonymous">
 
 {{ if .Site.Params.options.darkMode -}}
   {{ $darkScss := "scss/common/_dark.scss" }}
-  {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions }}
-  <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" media="(prefers-color-scheme: dark)">
+  {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions | resources.Fingerprint "sha512" }}
+  <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" integrity="{{ $darkStyle.Data.Integrity }}" media="(prefers-color-scheme: dark)" crossorigin="anonymous">
 {{ end -}}

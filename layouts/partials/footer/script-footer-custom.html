@@ -1,4 +1,7 @@
-{{/* Put your custom <script></script> tags here */}}
+{{/* Include custom.js with esbuild processing */}}
+{{ partial "footer/esbuild" (dict "src" "js/custom.js" "load" "async" "transpile" false) -}}
+
+{{/* You can add more custom scripts here if needed */}}
 
 {{/* EXAMPLE - only load script for production
 {{ if eq (hugo.Environment) "production" -}}
