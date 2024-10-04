@@ -1,9 +1,9 @@
 ---
 categories:
-  - Artificial Intelligence
-  - Organizational Management
+- Artificial Intelligence
+- Organizational Management
 contributors:
-  - Scot Campbell
+- Scot Campbell
 date: 2024-10-04 19:27:13.847000+00:00
 description: Learn how to successfully implement an AI Anthropologist in your organization
   with this detailed guide covering objectives, team assembly, pilot programs, rollout
@@ -18,18 +18,18 @@ seo:
     with this detailed guide covering objectives, team assembly, pilot programs, rollout
     strategies, and continuous improvement.
   noindex: false
-  title: "Implementing the AI Anthropologist: A Step-by-Step Guide"
+  title: 'Implementing the AI Anthropologist: A Step-by-Step Guide'
 series:
-  - The AI Anthropologist
+- The AI Anthropologist
 summary: A strategic overview for implementing an AI Anthropologist in your organization,
   from defining objectives to measuring success and adapting to new insights.
 tags:
-  - AI Anthropologist
-  - Workplace Dynamics
-  - Implementation Guide
-  - Ethical AI
-  - Team Collaboration
-title: "Implementing the AI Anthropologist: A Step-by-Step Guide"
+- AI Anthropologist
+- Workplace Dynamics
+- Implementation Guide
+- Ethical AI
+- Team Collaboration
+title: 'The AI Anyhropologist 4: Implementing the AI Anthropologist'
 weight: 50
 ---
 
