@@ -48,3 +48,5 @@ hugo_stats.json
 .backups
 public.zip
 ideas
+.frontmatter
+frontmatter.json
