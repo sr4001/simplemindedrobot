@@ -1,0 +1,22 @@
+{{ $appScss := "scss/app.scss" }}
+{{ $scssOptions := dict
+    "targetPath" "css/style.css"
+    "outputStyle" "compressed"
+    "enableSourceMap" true
+    "includePaths" (slice "node_modules")
+}}
+
+{{ $themeCss := resources.Get $appScss | css.Sass $scssOptions }}
+
+{{ if .Site.Params.custom_css -}}
+  {{ $customScss := resources.Get .Site.Params.custom_css | css.Sass $scssOptions }}
+  {{ $themeCss = slice $themeCss $customScss | resources.Concat "css/style.css" }}
+{{ end -}}
+
+<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}">
+
+{{ if .Site.Params.options.darkMode -}}
+  {{ $darkScss := "scss/common/_dark.scss" }}
+  {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions }}
+  <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" media="(prefers-color-scheme: dark)">
+{{ end -}}
