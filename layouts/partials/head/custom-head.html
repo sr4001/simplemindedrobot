@@ -1,6 +1,9 @@
 <!-- Custom head -->
 {{ partial "head/favicon.html" . }}
 
+<!-- Viewport meta tag for proper rendering on mobile devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!-- Additional custom head content can be added here -->
 
 {{ $customScss := resources.Get "scss/common/_custom.scss" | css.Sass (dict "outputStyle" "compressed") | resources.Fingerprint "sha512" }}

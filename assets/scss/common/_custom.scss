@@ -133,30 +133,24 @@ pre {
 }
 
 // Custom styles for blog post layout with table of contents
-@media (min-width: 992px) {
-  .blog-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
+.blog-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-  .blog-content.with-toc .blog-main-content {
-    width: 75%;
-  }
+.blog-content.with-toc .blog-main-content,
+.blog-content:not(.with-toc) .blog-main-content {
+  width: 100%;
+}
 
-  .blog-content:not(.with-toc) .blog-main-content {
-    width: 100%;
-  }
-
-  .toc-wrapper {
-    width: 22%;
-    position: sticky;
-    top: 5rem;
-    align-self: flex-start;
-    max-height: calc(100vh - 7rem);
-    overflow-y: auto;
-  }
+.toc-wrapper {
+  width: 100%;
+  position: static;
+  align-self: flex-start;
+  max-height: none;
+  overflow-y: visible;
 }
 
 .toc-wrapper {
