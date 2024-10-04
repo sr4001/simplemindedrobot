@@ -6,9 +6,6 @@ date: 2024-09-14T00:00:00+00:00
 lastmod: 2024-09-14T00:00:00+00:00
 draft: false
 weight: 50
-categories:
-  - agile development
-  - artificial intelligence
 tags:
   - AI
   - agile

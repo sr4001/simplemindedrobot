@@ -1,14 +1,6 @@
 // Import custom variables
 @import "variables-custom";
 
-// Override default styles with our custom colors
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #000;
-    color: #fff;
-  }
-}
-
 body {
   background-color: $sl-color-bg;
   color: $sl-color-text;
