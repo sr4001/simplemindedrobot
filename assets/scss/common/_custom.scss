@@ -132,33 +132,6 @@ pre {
   }
 }
 
-// Custom styles for blog post layout with table of contents
-@media (min-width: 992px) {
-  .blog-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-
-  .blog-content.with-toc .blog-main-content {
-    width: 75%;
-  }
-
-  .blog-content:not(.with-toc) .blog-main-content {
-    width: 100%;
-  }
-
-  .toc-wrapper {
-    width: 22%;
-    position: sticky;
-    top: 5rem;
-    align-self: flex-start;
-    max-height: calc(100vh - 7rem);
-    overflow-y: auto;
-  }
-}
-
 .toc-wrapper {
   background-color: $sl-color-bg-sidebar;
   padding: 1rem;
@@ -224,31 +197,6 @@ header.navbar {
       background-color: $sl-color-accent;
       border-color: $sl-color-accent;
       color: white;
-    }
-  }
-}
-
-// Dark mode styles for pagination
-@media (prefers-color-scheme: dark) {
-  .pagination {
-    .page-item {
-      .page-link {
-        color: $link-color;
-        border-color: $sl-color-accent-high;
-        background-color: $sl-color-bg;
-
-        &:hover, &:focus {
-          background-color: $sl-color-accent-high;
-          border-color: $sl-color-accent-high;
-          color: $sl-color-bg;
-        }
-      }
-
-      &.active .page-link {
-        background-color: $sl-color-accent-high;
-        border-color: $sl-color-accent-high;
-        color: $sl-color-bg;
-      }
     }
   }
 }
