@@ -1,9 +1,9 @@
 ---
 categories:
-- agile development
-- artificial intelligence
+  - agile development
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-07-19 00:00:00+00:00
 description: Explore how AI transforms knowledge management in Agile teams, enhancing
   collaboration and decision-making for improved project outcomes.
@@ -16,18 +16,18 @@ seo:
   description: Explore how AI transforms knowledge management in Agile teams, enhancing
     collaboration and decision-making for improved project outcomes.
   noindex: false
-  title: 'AI-Powered Knowledge Management: Revolutionizing Agile Teams'
+  title: "AI-Powered Knowledge Management: Revolutionizing Agile Teams"
 summary: Explore how AI transforms knowledge management in Agile teams, enhancing
   collaboration and decision-making for improved project outcomes.
 tags:
-- agile
-- AI
-- collaboration
-- knowledge management
-- productivity
-- team collaboration
-- human-AI collaboration
-title: 'AI-Powered Knowledge Management: Revolutionizing Agile Teams'
+  - agile
+  - AI
+  - collaboration
+  - knowledge management
+  - productivity
+  - team collaboration
+  - human-AI collaboration
+title: "AI-Powered Knowledge Management: Revolutionizing Agile Teams"
 weight: 50
 ---
 

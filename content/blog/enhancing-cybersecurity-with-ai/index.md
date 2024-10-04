@@ -1,9 +1,9 @@
 ---
 categories:
-- AI
-- cybersecurity
+  - AI
+  - cybersecurity
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-06-11 00:00:00+00:00
 description: Explore how AI can revolutionize cybersecurity practices, offering advanced
   threat detection and prevention capabilities.
@@ -16,21 +16,21 @@ seo:
   description: Explore how AI can revolutionize cybersecurity practices, offering
     advanced threat detection and prevention capabilities.
   noindex: false
-  title: 'AI in Cybersecurity: Strategies and Best Practices'
+  title: "AI in Cybersecurity: Strategies and Best Practices"
 summary: Explore how AI can revolutionize cybersecurity practices, offering advanced
   threat detection and prevention capabilities.
 tags:
-- anomaly detection
-- artificial intelligence
-- best practices
-- case studies
-- cybersecurity
-- future trends
-- machine learning
-- predictive analysis
-- security strategies
-- threat detection
-title: 'AI in Cybersecurity: Strategies and Best Practices'
+  - anomaly detection
+  - artificial intelligence
+  - best practices
+  - case studies
+  - cybersecurity
+  - future trends
+  - machine learning
+  - predictive analysis
+  - security strategies
+  - threat detection
+title: "AI in Cybersecurity: Strategies and Best Practices"
 weight: 50
 ---
 

@@ -13,7 +13,7 @@ pinned: false
 homepage: false
 seo:
   canonical: https://sr4001.net.//blog/_
-  description: ''
+  description: ""
   noindex: false
-  title: ''
+  title: ""
 ---

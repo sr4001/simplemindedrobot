@@ -1,9 +1,9 @@
 ---
 categories:
-- technology
-- software development
+  - technology
+  - software development
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-01 00:00:00+00:00
 description: Discover how the Claude Dev plugin for VS Code revolutionizes the coding
   experience, boosting productivity and offering AI-powered insights for developers.
@@ -16,19 +16,19 @@ seo:
   description: Discover how the Claude Dev plugin for VS Code revolutionizes the coding
     experience, boosting productivity and offering AI-powered insights for developers.
   noindex: false
-  title: 'Supercharging Your Coding Workflow: The Claude Dev Plugin for VS Code'
+  title: "Supercharging Your Coding Workflow: The Claude Dev Plugin for VS Code"
 series:
-- Agentic AI
+  - Agentic AI
 summary: Discover how the Claude Dev plugin for VS Code revolutionizes the coding
   experience, boosting productivity and offering AI-powered insights for developers.
 tags:
-- claude dev
-- vscode
-- AI
-- productivity
-- coding tools
-- agentic
-title: 'Supercharging Your Coding Workflow: The Claude Dev Plugin for VS Code'
+  - claude dev
+  - vscode
+  - AI
+  - productivity
+  - coding tools
+  - agentic
+title: "Supercharging Your Coding Workflow: The Claude Dev Plugin for VS Code"
 weight: 50
 ---
 

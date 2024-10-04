@@ -1,9 +1,9 @@
 ---
 categories:
-- agile development
-- AI
+  - agile development
+  - AI
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-06-27 00:00:00+00:00
 description: Learn how to craft and refine prompts for AI to generate detailed, actionable
   user stories in this second part of our series.
@@ -16,18 +16,18 @@ seo:
   description: Learn how to craft and refine prompts for AI to generate detailed,
     actionable user stories in this second part of our series.
   noindex: false
-  title: 'Writing User Stories With AI 2: Fine-Tuning Your Prompt'
+  title: "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
 series:
-- Writing User Stories With AI
+  - Writing User Stories With AI
 summary: Learn how to craft and refine prompts for AI to generate detailed, actionable
   user stories in this second part of our series.
 tags:
-- agile
-- AI
-- prompt engineering
-- software development
-- user stories
-title: 'Writing User Stories With AI 2: Fine-Tuning Your Prompt'
+  - agile
+  - AI
+  - prompt engineering
+  - software development
+  - user stories
+title: "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
 weight: 50
 ---
 

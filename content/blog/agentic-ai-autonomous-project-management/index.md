@@ -1,6 +1,6 @@
 ---
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-14 00:00:00+00:00
 description: Explore how agentic AI is revolutionizing project management in Agile
   development, enhancing decision-making, risk management, and team collaboration.
@@ -13,19 +13,19 @@ seo:
   description: Explore how agentic AI is revolutionizing project management in Agile
     development, enhancing decision-making, risk management, and team collaboration.
   noindex: false
-  title: 'Agentic AI: Transforming Agile Development with Autonomous Intelligence'
+  title: "Agentic AI: Transforming Agile Development with Autonomous Intelligence"
 series:
-- Agentic AI
+  - Agentic AI
 summary: Explore how agentic AI is revolutionizing project management in Agile development,
   enhancing decision-making, risk management, and team collaboration.
 tags:
-- AI
-- agile
-- project management
-- autonomous systems
-- decision-making
-- agentic
-title: 'Agentic AI: Transforming Agile Development with Autonomous Intelligence'
+  - AI
+  - agile
+  - project management
+  - autonomous systems
+  - decision-making
+  - agentic
+title: "Agentic AI: Transforming Agile Development with Autonomous Intelligence"
 weight: 50
 ---
 

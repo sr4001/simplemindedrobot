@@ -1,9 +1,9 @@
 ---
 categories:
-- agile
-- artificial intelligence
+  - agile
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-15 00:00:00+00:00
 description: Explore how AI can enhance Acceptance Criteria in Agile development,
   improving precision, testability, and automation while ensuring consistent quality
@@ -23,11 +23,11 @@ summary: Explore how AI can enhance Acceptance Criteria in Agile development, im
   precision, testability, and automation while ensuring consistent quality across
   projects.
 tags:
-- AI
-- agile
-- acceptance criteria
-- software development
-- automation
+  - AI
+  - agile
+  - acceptance criteria
+  - software development
+  - automation
 title: Improving the Quality of Acceptance Criteria with AI in Agile Workflows
 weight: 50
 ---

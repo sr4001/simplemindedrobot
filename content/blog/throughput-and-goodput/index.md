@@ -1,8 +1,8 @@
 ---
 categories:
-- agile
+  - agile
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-05-18 00:00:00+00:00
 description: Throughput and Goodput and the effect on velocity
 draft: false
@@ -16,13 +16,13 @@ seo:
   title: Throughput vs Goodput - What Really Matters
 summary: Throughput and Goodput and the effect on velocity
 tags:
-- agile
-- definition of done
-- throughput
-- goodput
-- quality
-- first time quality
-- velocity
+  - agile
+  - definition of done
+  - throughput
+  - goodput
+  - quality
+  - first time quality
+  - velocity
 title: Throughput vs Goodput - What Really Matters
 weight: 50
 ---

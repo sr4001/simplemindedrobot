@@ -1,0 +1,11 @@
+{{ $original := resources.Get (printf "images/%s" (.Get "src")) }}
+{{ $small := $original.Fit "640x" }}
+{{ $medium := $original.Fit "1024x" }}
+{{ $large := $original.Fit "2048x" }}
+
+<picture>
+  <source srcset="{{ $small.RelPermalink }}" media="(max-width: 640px)">
+  <source srcset="{{ $medium.RelPermalink }}" media="(max-width: 1024px)">
+  <source srcset="{{ $large.RelPermalink }}" media="(min-width: 1025px)">
+  <img src="{{ $original.RelPermalink }}" alt="{{ .Get "alt" }}">
+</picture>

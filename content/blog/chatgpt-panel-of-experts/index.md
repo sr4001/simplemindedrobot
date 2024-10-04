@@ -1,9 +1,9 @@
 ---
 categories:
-- artificial intelligence
-- decision making
+  - artificial intelligence
+  - decision making
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-07-03 00:00:00+00:00
 description: Explore how to use ChatGPT to simulate a multi-round expert panel discussion,
   enhancing decision-making and problem-solving in various fields.
@@ -20,12 +20,12 @@ seo:
 summary: Explore how to use ChatGPT to simulate a multi-round expert panel discussion,
   enhancing decision-making and problem-solving in various fields.
 tags:
-- AI-assisted analysis
-- chatgpt
-- expert panels
-- multi-round discussions
-- panel of experts
-- strategic decision making
+  - AI-assisted analysis
+  - chatgpt
+  - expert panels
+  - multi-round discussions
+  - panel of experts
+  - strategic decision making
 title: Using ChatGPT as a Panel of Experts for Problem-Solving
 weight: 50
 ---

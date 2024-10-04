@@ -1,9 +1,9 @@
 ---
 categories:
-- AI
-- media analysis
+  - AI
+  - media analysis
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-06-19 00:00:00+00:00
 description: Create a powerful custom AI for media analysis using ChatGPT. Evaluate
   articles, identify biases, and boost your media literacy skills with this AI tool.
@@ -20,12 +20,12 @@ seo:
 summary: Create a powerful custom AI for media analysis using ChatGPT. Evaluate articles,
   identify biases, and boost your media literacy skills with this AI tool.
 tags:
-- AI
-- bias detection
-- chatgpt
-- fact-checking
-- gpt
-- media literacy
+  - AI
+  - bias detection
+  - chatgpt
+  - fact-checking
+  - gpt
+  - media literacy
 title: Enhance Your Digital Literacy with a Media Analysis GPT
 weight: 50
 ---

@@ -1,9 +1,9 @@
 ---
 categories:
-- technology
-- workplace
+  - technology
+  - workplace
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-08-05 00:00:00+00:00
 description: Explore how to effectively integrate AI tools in the workplace, balancing
   efficiency with human skills and ethical considerations.
@@ -20,10 +20,10 @@ seo:
 summary: Explore how to effectively integrate AI tools in the workplace, balancing
   efficiency with human skills and ethical considerations.
 tags:
-- AI
-- productivity
-- work ethics
-- digital transformation
+  - AI
+  - productivity
+  - work ethics
+  - digital transformation
 title: Navigating the Use of AI Tools in Daily Work
 weight: 50
 ---

@@ -1,9 +1,9 @@
 ---
 categories:
-- agile development
-- AI
+  - agile development
+  - AI
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-07-11 00:00:00+00:00
 description: Explore how Gherkin, sequence diagrams, and Mermaid notation enhance
   functional requirements clarity and streamline testing in AI-assisted user story
@@ -18,21 +18,21 @@ seo:
     functional requirements clarity and streamline testing in AI-assisted user story
     writing.
   noindex: false
-  title: 'Writing User Stories With AI 3: Beyond User Stories'
+  title: "Writing User Stories With AI 3: Beyond User Stories"
 series:
-- Writing User Stories With AI
+  - Writing User Stories With AI
 summary: Explore how Gherkin, sequence diagrams, and Mermaid notation enhance functional
   requirements clarity and streamline testing in AI-assisted user story writing.
 tags:
-- agile
-- AI
-- gherkin
-- mermaid
-- sequence diagrams
-- software development
-- software testing
-- user stories
-title: 'Writing User Stories With AI 3: Beyond User Stories'
+  - agile
+  - AI
+  - gherkin
+  - mermaid
+  - sequence diagrams
+  - software development
+  - software testing
+  - user stories
+title: "Writing User Stories With AI 3: Beyond User Stories"
 weight: 50
 ---
 

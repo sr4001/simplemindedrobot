@@ -1,9 +1,9 @@
 ---
 categories:
-- technology
-- artificial intelligence
+  - technology
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-08-22 00:00:00+00:00
 description: Explore the limits of AI systems and why they fall short of true intelligence,
   despite their impressive capabilities in pattern recognition and data processing.
@@ -16,19 +16,19 @@ seo:
   description: Explore the limits of AI systems and why they fall short of true intelligence,
     despite their impressive capabilities in pattern recognition and data processing.
   noindex: false
-  title: 'AI: Artificial but not so Intelligent - The Limits of Current AI Systems'
+  title: "AI: Artificial but not so Intelligent - The Limits of Current AI Systems"
 summary: Explore the limits of AI systems and why they fall short of true intelligence,
   despite their impressive capabilities in pattern recognition and data processing.
 tags:
-- AI limitations
-- machine learning
-- philosophy of mind
-- chinese room argument
-- turing test
-- AGI
-- narrow AI
-- AI ethics
-title: 'AI: Artificial but not so Intelligent - The Limits of Current AI Systems'
+  - AI limitations
+  - machine learning
+  - philosophy of mind
+  - chinese room argument
+  - turing test
+  - AGI
+  - narrow AI
+  - AI ethics
+title: "AI: Artificial but not so Intelligent - The Limits of Current AI Systems"
 weight: 50
 ---
 

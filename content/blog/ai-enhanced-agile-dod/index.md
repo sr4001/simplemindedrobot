@@ -1,9 +1,9 @@
 ---
 categories:
-- agile
-- artificial intelligence
+  - agile
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-20 00:00:00+00:00
 description: Explore how AI can enhance the Definition of Done in Agile development,
   improving clarity, testability, and compliance while ensuring consistent quality
@@ -18,18 +18,18 @@ seo:
     improving clarity, testability, and compliance while ensuring consistent quality
     across projects.
   noindex: false
-  title: 'Enhancing the Definition of Done in Agile Development with AI: Achieving
-    Clarity, Testability, and Compliance'
+  title: "Enhancing the Definition of Done in Agile Development with AI: Achieving
+    Clarity, Testability, and Compliance"
 summary: Explore how AI can enhance the Definition of Done in Agile development, improving
   clarity, testability, and compliance while ensuring consistent quality across projects.
 tags:
-- AI
-- agile
-- definition of done
-- software development
-- compliance
-title: 'Enhancing the Definition of Done in Agile Development with AI: Achieving Clarity,
-  Testability, and Compliance'
+  - AI
+  - agile
+  - definition of done
+  - software development
+  - compliance
+title: "Enhancing the Definition of Done in Agile Development with AI: Achieving Clarity,
+  Testability, and Compliance"
 weight: 50
 ---
 

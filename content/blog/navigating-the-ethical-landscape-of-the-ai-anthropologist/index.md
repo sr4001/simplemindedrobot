@@ -1,9 +1,9 @@
 ---
 categories:
-- technology
-- artificial intelligence
+  - technology
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-11 00:00:00+00:00
 description: Explore the ethical considerations surrounding the AI Anthropologist,
   focusing on privacy, consent, transparency, and responsible implementation in the
@@ -18,19 +18,19 @@ seo:
     focusing on privacy, consent, transparency, and responsible implementation in
     the workplace.
   noindex: false
-  title: 'The AI Anthropologist 3: Navigating the Ethical Landscape'
+  title: "The AI Anthropologist 3: Navigating the Ethical Landscape"
 series:
-- The AI Anthropologist
+  - The AI Anthropologist
 summary: Explore the ethical considerations surrounding the AI Anthropologist, focusing
   on privacy, consent, transparency, and responsible implementation in the workplace.
 tags:
-- AI anthropologist
-- ethics
-- privacy
-- consent
-- transparency
-- workplace AI
-title: 'The AI Anthropologist 3: Navigating the Ethical Landscape'
+  - AI anthropologist
+  - ethics
+  - privacy
+  - consent
+  - transparency
+  - workplace AI
+title: "The AI Anthropologist 3: Navigating the Ethical Landscape"
 weight: 50
 ---
 

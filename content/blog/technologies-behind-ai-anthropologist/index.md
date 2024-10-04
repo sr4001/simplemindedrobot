@@ -1,36 +1,36 @@
 ---
 categories:
-- technology
-- artificial intelligence
+  - technology
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-03 00:00:00+00:00
-description: 'Discover the key technologies driving the AI Anthropologist: NLP, emotion
+description: "Discover the key technologies driving the AI Anthropologist: NLP, emotion
   recognition, machine learning, and network analysis, and their impact on workplace
-  dynamics.'
+  dynamics."
 draft: false
 homepage: false
 lastmod: 2024-09-03 00:00:00+00:00
 pinned: false
 seo:
   canonical: https://sr4001.net.//blog/technologies-behind-ai-anthropologist/
-  description: 'Discover the key technologies driving the AI Anthropologist: NLP,
+  description: "Discover the key technologies driving the AI Anthropologist: NLP,
     emotion recognition, machine learning, and network analysis, and their impact
-    on workplace dynamics.'
+    on workplace dynamics."
   noindex: false
-  title: 'The AI Anthropologist 2: Unveiling the Technology Toolkit'
+  title: "The AI Anthropologist 2: Unveiling the Technology Toolkit"
 series:
-- The AI Anthropologist
-summary: 'Discover the key technologies driving the AI Anthropologist: NLP, emotion
+  - The AI Anthropologist
+summary: "Discover the key technologies driving the AI Anthropologist: NLP, emotion
   recognition, machine learning, and network analysis, and their impact on workplace
-  dynamics.'
+  dynamics."
 tags:
-- AI anthropologist
-- NLP
-- emotion recognition
-- machine learning
-- organizational network analysis
-title: 'The AI Anthropologist 2: Unveiling the Technology Toolkit'
+  - AI anthropologist
+  - NLP
+  - emotion recognition
+  - machine learning
+  - organizational network analysis
+title: "The AI Anthropologist 2: Unveiling the Technology Toolkit"
 weight: 50
 ---
 

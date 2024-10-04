@@ -1,9 +1,9 @@
 ---
 categories:
-- agile methods
-- software development
+  - agile methods
+  - software development
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-07-27 00:00:00+00:00
 description: Learn critical thinking skills for evaluating AI-generated content in
   software development, ensuring alignment with project goals and fostering team collaboration.
@@ -21,12 +21,12 @@ seo:
 summary: Learn critical thinking skills for evaluating AI-generated content in software
   development, ensuring alignment with project goals and fostering team collaboration.
 tags:
-- AI-generated content
-- critical evaluation
-- user stories
-- team collaboration
-- analytical thinking
-- systems thinking
+  - AI-generated content
+  - critical evaluation
+  - user stories
+  - team collaboration
+  - analytical thinking
+  - systems thinking
 title: Critically Evaluating AI-Generated Content in Software Development
 weight: 50
 ---

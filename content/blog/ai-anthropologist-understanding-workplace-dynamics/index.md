@@ -1,9 +1,9 @@
 ---
 categories:
-- AI
-- workplace
+  - AI
+  - workplace
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-08-14 00:00:00+00:00
 description: Explore how AI Anthropologists revolutionize workplace dynamics, offering
   insights into organizational culture while balancing innovation and ethics.
@@ -16,17 +16,17 @@ seo:
   description: Explore how AI Anthropologists revolutionize workplace dynamics, offering
     insights into organizational culture while balancing innovation and ethics.
   noindex: false
-  title: 'The AI Anthropologist 1: Understanding Workplace Dynamics'
+  title: "The AI Anthropologist 1: Understanding Workplace Dynamics"
 series:
-- The AI Anthropologist
+  - The AI Anthropologist
 summary: Explore how AI Anthropologists revolutionize workplace dynamics, offering
   insights into organizational culture while balancing innovation and ethics.
 tags:
-- AI anthropologist
-- workplace dynamics
-- artificial intelligence
-- organizational culture
-title: 'The AI Anthropologist 1: Understanding Workplace Dynamics'
+  - AI anthropologist
+  - workplace dynamics
+  - artificial intelligence
+  - organizational culture
+title: "The AI Anthropologist 1: Understanding Workplace Dynamics"
 weight: 50
 ---
 

@@ -1,9 +1,9 @@
 ---
 categories:
-- agile
-- agile development
+  - agile
+  - agile development
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-06-03 00:00:00+00:00
 description: Preparing AI to Write User Stories from Requirements Documents
 draft: false
@@ -14,18 +14,18 @@ seo:
   canonical: https://sr4001.net.//blog/writing-user-stories-with-ai-1/
   description: Preparing AI to Write User Stories from Requirements Documents
   noindex: false
-  title: 'Writing User Stories With AI 1: Introduction'
+  title: "Writing User Stories With AI 1: Introduction"
 series:
-- Writing User Stories With AI
+  - Writing User Stories With AI
 summary: Preparing AI to Write User Stories from Requirements Documents
 tags:
-- agile
-- agile development
-- AI
-- requirements documents
-- software development
-- user stories
-title: 'Writing User Stories With AI 1: Introduction'
+  - agile
+  - agile development
+  - AI
+  - requirements documents
+  - software development
+  - user stories
+title: "Writing User Stories With AI 1: Introduction"
 weight: 50
 ---
 

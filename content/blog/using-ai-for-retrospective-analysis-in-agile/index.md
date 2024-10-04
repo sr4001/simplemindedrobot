@@ -1,9 +1,9 @@
 ---
 categories:
-- agile
-- artificial intelligence
+  - agile
+  - artificial intelligence
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-09-09 00:00:00+00:00
 description: Explore how AI can enhance Agile retrospectives, providing data-driven
   insights, identifying hidden trends, and focusing teams on long-term improvements.
@@ -16,16 +16,16 @@ seo:
   description: Explore how AI can enhance Agile retrospectives, providing data-driven
     insights, identifying hidden trends, and focusing teams on long-term improvements.
   noindex: false
-  title: 'Using AI for Agile Retrospectives: Looking Back to Move Forward'
+  title: "Using AI for Agile Retrospectives: Looking Back to Move Forward"
 summary: Explore how AI can enhance Agile retrospectives, providing data-driven insights,
   identifying hidden trends, and focusing teams on long-term improvements.
 tags:
-- AI
-- agile
-- retrospectives
-- data analysis
-- continuous improvement
-title: 'Using AI for Agile Retrospectives: Looking Back to Move Forward'
+  - AI
+  - agile
+  - retrospectives
+  - data analysis
+  - continuous improvement
+title: "Using AI for Agile Retrospectives: Looking Back to Move Forward"
 weight: 50
 ---
 

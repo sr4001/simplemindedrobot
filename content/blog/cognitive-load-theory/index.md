@@ -1,8 +1,8 @@
 ---
 categories:
-- agile
+  - agile
 contributors:
-- Scot Campbell
+  - Scot Campbell
 date: 2024-05-26 00:00:00+00:00
 description: Why we get overwhelmed when too much knowledge is being pushed our way
 draft: false
@@ -14,14 +14,14 @@ seo:
   description: Why we get overwhelmed when too much knowledge is being pushed our
     way
   noindex: false
-  title: 'Cognitive Load Theory: Optimizing Agile Team Performance'
+  title: "Cognitive Load Theory: Optimizing Agile Team Performance"
 summary: Why we get overwhelmed when too much knowledge is being pushed our way
 tags:
-- agile
-- cognitive load theory
-- productivity
-- software development
-title: 'Cognitive Load Theory: Optimizing Agile Team Performance'
+  - agile
+  - cognitive load theory
+  - productivity
+  - software development
+title: "Cognitive Load Theory: Optimizing Agile Team Performance"
 weight: 50
 ---
 
