@@ -29,7 +29,7 @@ tags:
 - Implementation Guide
 - Ethical AI
 - Team Collaboration
-title: 'Implementing the AI Anthropologist: A Step-by-Step Guide'
+title: 'The AI Anyhropologist 4: Implementing the AI Anthropologist'
 weight: 50
 ---
 
