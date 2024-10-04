@@ -16,7 +16,7 @@ tags:
   - consent
   - transparency
   - workplace AI
-series: ["The AI Anthropologit"]
+series: ["The AI Anthropologist"]
 contributors:
   - Scot Campbell
 pinned: false

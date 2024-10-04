@@ -14,7 +14,7 @@ tags:
   - workplace dynamics
   - artificial intelligence
   - organizational culture
-series: ["The AI Anthropologit"]
+series: ["The AI Anthropologist"]
 contributors:
   - Scot Campbell
 pinned: false
