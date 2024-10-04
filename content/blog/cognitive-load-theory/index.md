@@ -1,22 +1,28 @@
 ---
-title: "Cognitive Load Theory: Optimizing Agile Team Performance"
-description: "Why we get overwhelmed when too much knowledge is being pushed our way"
-summary: "Why we get overwhelmed when too much knowledge is being pushed our way"
-date: 2024-05-26T00:00:00+00:00
-lastmod: 2024-05-26T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - agile
-tags:
-  - agile
-  - cognitive load theory
-  - productivity
-  - software development
+- agile
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-05-26 00:00:00+00:00
+description: Why we get overwhelmed when too much knowledge is being pushed our way
+draft: false
 homepage: false
+lastmod: 2024-05-26 00:00:00+00:00
+pinned: false
+seo:
+  canonical: https://sr4001.net.//blog/cognitive-load-theory/
+  description: Why we get overwhelmed when too much knowledge is being pushed our
+    way
+  noindex: false
+  title: 'Cognitive Load Theory: Optimizing Agile Team Performance'
+summary: Why we get overwhelmed when too much knowledge is being pushed our way
+tags:
+- agile
+- cognitive load theory
+- productivity
+- software development
+title: 'Cognitive Load Theory: Optimizing Agile Team Performance'
+weight: 50
 ---
 
 As agile teams, we're constantly juggling multiple tasks, learning new technologies, and adapting to changing requirements. But have you ever stopped to consider how all this mental juggling affects our productivity and effectiveness? Enter [Cognitive Load Theory](https://en.wikipedia.org/wiki/Cognitive_load), a concept that's becoming increasingly relevant in the world of software development.

@@ -1,24 +1,32 @@
 ---
-title: "Using AI for Agile Retrospectives: Looking Back to Move Forward"
-description: "Explore how AI can enhance Agile retrospectives, providing data-driven insights, identifying hidden trends, and focusing teams on long-term improvements."
-summary: "Explore how AI can enhance Agile retrospectives, providing data-driven insights, identifying hidden trends, and focusing teams on long-term improvements."
-date: 2024-09-09T00:00:00+00:00
-lastmod: 2024-09-09T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - agile
-  - artificial intelligence
-tags:
-  - AI
-  - agile
-  - retrospectives
-  - data analysis
-  - continuous improvement
+- agile
+- artificial intelligence
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-09-09 00:00:00+00:00
+description: Explore how AI can enhance Agile retrospectives, providing data-driven
+  insights, identifying hidden trends, and focusing teams on long-term improvements.
+draft: false
 homepage: false
+lastmod: 2024-09-09 00:00:00+00:00
+pinned: false
+seo:
+  canonical: https://sr4001.net.//blog/using-ai-for-retrospective-analysis-in-agile/
+  description: Explore how AI can enhance Agile retrospectives, providing data-driven
+    insights, identifying hidden trends, and focusing teams on long-term improvements.
+  noindex: false
+  title: 'Using AI for Agile Retrospectives: Looking Back to Move Forward'
+summary: Explore how AI can enhance Agile retrospectives, providing data-driven insights,
+  identifying hidden trends, and focusing teams on long-term improvements.
+tags:
+- AI
+- agile
+- retrospectives
+- data analysis
+- continuous improvement
+title: 'Using AI for Agile Retrospectives: Looking Back to Move Forward'
+weight: 50
 ---
 
 If you've been following along with my recent posts, you know I've talked a lot about how AI can help write user stories, manage cybersecurity, and drive agile workflows. But let's take a step back for a moment—what about looking _backward_ instead of always pushing forward? This is where AI-powered retrospectives come into play.

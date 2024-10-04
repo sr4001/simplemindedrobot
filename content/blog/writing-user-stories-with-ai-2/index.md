@@ -1,25 +1,34 @@
 ---
-title: "Writing User Stories With AI 2: Fine-Tuning Your Prompt"
-description: "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
-summary: "Learn how to craft and refine prompts for AI to generate detailed, actionable user stories in this second part of our series."
-date: 2024-06-27T00:00:00+00:00
-lastmod: 2024-06-27T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - agile development
-  - AI
-tags:
-  - agile
-  - AI
-  - prompt engineering
-  - software development
-  - user stories
-series: ["Writing User Stories With AI"]
+- agile development
+- AI
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-06-27 00:00:00+00:00
+description: Learn how to craft and refine prompts for AI to generate detailed, actionable
+  user stories in this second part of our series.
+draft: false
 homepage: false
+lastmod: 2024-06-27 00:00:00+00:00
+pinned: false
+seo:
+  canonical: https://sr4001.net.//blog/writing-user-stories-with-ai-2/
+  description: Learn how to craft and refine prompts for AI to generate detailed,
+    actionable user stories in this second part of our series.
+  noindex: false
+  title: 'Writing User Stories With AI 2: Fine-Tuning Your Prompt'
+series:
+- Writing User Stories With AI
+summary: Learn how to craft and refine prompts for AI to generate detailed, actionable
+  user stories in this second part of our series.
+tags:
+- agile
+- AI
+- prompt engineering
+- software development
+- user stories
+title: 'Writing User Stories With AI 2: Fine-Tuning Your Prompt'
+weight: 50
 ---
 
 In the [first part of our series]({{< relref "/blog/writing-user-stories-with-ai-1" >}}) on writing user stories with AI, we explored the foundational steps to prepare an AI, such as ChatGPT, to write user stories that meet the needs of an [Agile](https://en.wikipedia.org/wiki/Agile_software_development) development team. Now, it's time to dive deeper into the next critical step: crafting and fine-tuning your prompt. A well-constructed prompt is the backbone of generating high-quality user stories. It provides the AI with the necessary context, guiding it to produce user stories that are clear, detailed, and actionable.

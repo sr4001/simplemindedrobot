@@ -1,25 +1,33 @@
 ---
-title: "Enhance Your Digital Literacy with a Media Analysis GPT"
-description: "Create a powerful custom AI for media analysis using ChatGPT. Evaluate articles, identify biases, and boost your media literacy skills with this AI tool."
-summary: "Create a powerful custom AI for media analysis using ChatGPT. Evaluate articles, identify biases, and boost your media literacy skills with this AI tool."
-date: 2024-06-19T00:00:00+00:00
-lastmod: 2024-06-19T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - AI
-  - media analysis
-tags:
-  - AI
-  - bias detection
-  - chatgpt
-  - fact-checking
-  - gpt
-  - media literacy
+- AI
+- media analysis
 contributors:
-  - Scot Campbell
-pinned: true
+- Scot Campbell
+date: 2024-06-19 00:00:00+00:00
+description: Create a powerful custom AI for media analysis using ChatGPT. Evaluate
+  articles, identify biases, and boost your media literacy skills with this AI tool.
+draft: false
 homepage: false
+lastmod: 2024-06-19 00:00:00+00:00
+pinned: true
+seo:
+  canonical: https://sr4001.net.//blog/analyzing-media-with-custom-GPT/
+  description: Create a powerful custom AI for media analysis using ChatGPT. Evaluate
+    articles, identify biases, and boost your media literacy skills with this AI tool.
+  noindex: false
+  title: Enhance Your Digital Literacy with a Media Analysis GPT
+summary: Create a powerful custom AI for media analysis using ChatGPT. Evaluate articles,
+  identify biases, and boost your media literacy skills with this AI tool.
+tags:
+- AI
+- bias detection
+- chatgpt
+- fact-checking
+- gpt
+- media literacy
+title: Enhance Your Digital Literacy with a Media Analysis GPT
+weight: 50
 ---
 
 In today's digital age, the ability to critically analyze media content is more crucial than ever. With the overwhelming influx of information—and misinformation—it's essential to have tools that can help you assess the credibility, bias, and intent behind what you read online. One powerful way to enhance your [media literacy](https://medialiteracynow.org/challenge/what-is-media-literacy/) is by creating a custom GPT within [ChatGPT](https://chatgpt.com/) tailored specifically for media analysis. This innovative approach combines the power of artificial intelligence with the nuanced understanding required for effective media criticism.

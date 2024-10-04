@@ -1,27 +1,35 @@
 ---
-title: "AI: Artificial but not so Intelligent - The Limits of Current AI Systems"
-description: "Explore the limits of AI systems and why they fall short of true intelligence, despite their impressive capabilities in pattern recognition and data processing."
-summary: "Explore the limits of AI systems and why they fall short of true intelligence, despite their impressive capabilities in pattern recognition and data processing."
-date: 2024-08-22T00:00:00+00:00
-lastmod: 2024-08-22T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - technology
-  - artificial intelligence
-tags:
-  - AI limitations
-  - machine learning
-  - philosophy of mind
-  - chinese room argument
-  - turing test
-  - AGI
-  - narrow AI
-  - AI ethics
+- technology
+- artificial intelligence
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-08-22 00:00:00+00:00
+description: Explore the limits of AI systems and why they fall short of true intelligence,
+  despite their impressive capabilities in pattern recognition and data processing.
+draft: false
 homepage: false
+lastmod: 2024-08-22 00:00:00+00:00
+pinned: false
+seo:
+  canonical: https://sr4001.net.//blog/ai-artificial-but-not-so-intelligent/
+  description: Explore the limits of AI systems and why they fall short of true intelligence,
+    despite their impressive capabilities in pattern recognition and data processing.
+  noindex: false
+  title: 'AI: Artificial but not so Intelligent - The Limits of Current AI Systems'
+summary: Explore the limits of AI systems and why they fall short of true intelligence,
+  despite their impressive capabilities in pattern recognition and data processing.
+tags:
+- AI limitations
+- machine learning
+- philosophy of mind
+- chinese room argument
+- turing test
+- AGI
+- narrow AI
+- AI ethics
+title: 'AI: Artificial but not so Intelligent - The Limits of Current AI Systems'
+weight: 50
 ---
 
 In recent years, [Artificial Intelligence (AI)](https://www.ibm.com/cloud/learn/what-is-artificial-intelligence) has made remarkable strides, captivating our imagination and transforming various aspects of our lives. From virtual assistants to autonomous vehicles, AI seems to be everywhere. However, despite its impressive capabilities in data processing and pattern recognition, current AI systems fall short of true intelligence. In this post, we'll explore why AI, at the moment, cannot truly think and remains more of a sophisticated pattern recognition tool than a sentient being.

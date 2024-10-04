@@ -1,25 +1,30 @@
 ---
-title: "Throughput vs Goodput - What Really Matters"
-description: "Throughput and Goodput and the effect on velocity"
-summary: "Throughput and Goodput and the effect on velocity"
-date: 2024-05-18T00:00:00+00:00
-lastmod: 2024-05-18T00:00:00+00:00
-draft: false
-weight: 50
 categories:
-  - agile
-tags:
-  - agile
-  - definition of done
-  - throughput
-  - goodput
-  - quality
-  - first time quality
-  - velocity
+- agile
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-05-18 00:00:00+00:00
+description: Throughput and Goodput and the effect on velocity
+draft: false
 homepage: false
+lastmod: 2024-05-18 00:00:00+00:00
+pinned: false
+seo:
+  canonical: https://sr4001.net.//blog/throughput-and-goodput/
+  description: Throughput and Goodput and the effect on velocity
+  noindex: false
+  title: Throughput vs Goodput - What Really Matters
+summary: Throughput and Goodput and the effect on velocity
+tags:
+- agile
+- definition of done
+- throughput
+- goodput
+- quality
+- first time quality
+- velocity
+title: Throughput vs Goodput - What Really Matters
+weight: 50
 ---
 
 As an agile consultant, I've seen countless teams grapple with the concepts of [throughput](https://en.wikipedia.org/wiki/Throughput) and [goodput](https://en.wikipedia.org/wiki/Goodput). These terms often pop up in discussions about team performance and project outcomes, but there's often confusion about what they really mean and why they matter.

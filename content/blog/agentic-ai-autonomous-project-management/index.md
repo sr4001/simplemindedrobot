@@ -1,27 +1,32 @@
 ---
-title: "Agentic AI: Transforming Agile Development with Autonomous Intelligence"
-description: "Explore how agentic AI is revolutionizing project management in Agile development, enhancing decision-making, risk management, and team collaboration."
-summary: "Explore how agentic AI is revolutionizing project management in Agile development, enhancing decision-making, risk management, and team collaboration."
-date: 2024-09-14T00:00:00+00:00
-lastmod: 2024-09-14T00:00:00+00:00
-draft: false
-weight: 50
-tags:
-  - AI
-  - agile
-  - project management
-  - autonomous systems
-  - decision-making
-  - agentic
-series: ["Agentic AI"]
 contributors:
-  - Scot Campbell
-pinned: false
+- Scot Campbell
+date: 2024-09-14 00:00:00+00:00
+description: Explore how agentic AI is revolutionizing project management in Agile
+  development, enhancing decision-making, risk management, and team collaboration.
+draft: false
 homepage: false
+lastmod: 2024-09-14 00:00:00+00:00
+pinned: false
 seo:
-  title: "Agentic AI in Project Management: Revolutionizing Agile Development"
-  description: "Discover how agentic AI is transforming Agile project management, enhancing decision-making, risk mitigation, and team efficiency in software development."
+  canonical: https://sr4001.net.//blog/agentic-ai-autonomous-project-management/
+  description: Explore how agentic AI is revolutionizing project management in Agile
+    development, enhancing decision-making, risk management, and team collaboration.
   noindex: false
+  title: 'Agentic AI: Transforming Agile Development with Autonomous Intelligence'
+series:
+- Agentic AI
+summary: Explore how agentic AI is revolutionizing project management in Agile development,
+  enhancing decision-making, risk management, and team collaboration.
+tags:
+- AI
+- agile
+- project management
+- autonomous systems
+- decision-making
+- agentic
+title: 'Agentic AI: Transforming Agile Development with Autonomous Intelligence'
+weight: 50
 ---
 
 There's something thrilling about autonomy. The idea of a machine, not simply a tool to be used, but a participant in the decision-making process of a complex system like project management, carries with it a mix of awe and uncertainty. It's not about replacing human roles but rather augmenting them—allowing artificial intelligence to take on an agentic role where it acts with a degree of independence and adaptability. Welcome to the world of [agentic AI](https://venturebeat.com/ai/agentic-ai-a-deep-dive-into-the-future-of-automation/).
