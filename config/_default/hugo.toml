@@ -46,7 +46,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   rel  = "sitemap"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
