@@ -41,6 +41,17 @@
             <h2 class="h3"><a class="stretched-link text-body" href="{{ .RelPermalink }}">{{ .Params.title }}</a></h2>
             <p>{{ .Summary | safeHTML }}</p>
             {{ partial "main/blog-meta.html" . -}}
+            {{- with .Params.series -}}
+              <p>
+                <small>
+                  Part of:&nbsp;
+                  {{- range $index, $tag := . -}}
+                    {{ if gt $index 0 }} {{ end -}}
+                    <a href="{{ "/series/" | relLangURL }}{{ . | urlize }}/" class="badge bg-secondary">{{ . }}</a>
+                  {{- end -}}
+                </small>
+              </p>
+            {{- end -}}
           </article>
         </div>
       </div>
