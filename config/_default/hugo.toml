@@ -53,7 +53,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = -1 # "30m"
+    maxAge = "30m" # "30m"
 
 [taxonomies]
   contributor = "contributors"
