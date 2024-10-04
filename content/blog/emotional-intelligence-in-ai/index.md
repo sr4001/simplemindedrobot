@@ -173,7 +173,7 @@ The journey to develop emotionally intelligent AI is both exciting and complex. 
 
 ---
 
-*Note: This article reflects the state of AI and emotional intelligence as of September 25, 2024. Ongoing research may lead to new developments beyond this scope.*
+_Note: This article reflects the state of AI and emotional intelligence as of September 25, 2024. Ongoing research may lead to new developments beyond this scope._
 
 ## More on Simpleminded Robot
 

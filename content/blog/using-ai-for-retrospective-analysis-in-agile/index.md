@@ -21,7 +21,7 @@ pinned: false
 homepage: false
 ---
 
-If you've been following along with my recent posts, you know I've talked a lot about how AI can help write user stories, manage cybersecurity, and drive agile workflows. But let's take a step back for a moment—what about looking *backward* instead of always pushing forward? This is where AI-powered retrospectives come into play.
+If you've been following along with my recent posts, you know I've talked a lot about how AI can help write user stories, manage cybersecurity, and drive agile workflows. But let's take a step back for a moment—what about looking _backward_ instead of always pushing forward? This is where AI-powered retrospectives come into play.
 
 <!--more-->
 
@@ -37,7 +37,7 @@ Agile retrospectives are supposed to be a time of honest reflection. However, th
 
 - **Focus on Immediate Issues**: Teams often get stuck discussing the fires they had to put out during the sprint, rather than taking the time to analyze systemic issues. Immediate problems often dominate discussions, pushing long-term challenges to the side.
 
-- **Subjectivity**: Retrospectives rely heavily on what team members *feel* went wrong or right. These perspectives can be skewed by personal biases or short memories, which limits the effectiveness of the retrospective in providing a complete, objective picture of the sprint.
+- **Subjectivity**: Retrospectives rely heavily on what team members _feel_ went wrong or right. These perspectives can be skewed by personal biases or short memories, which limits the effectiveness of the retrospective in providing a complete, objective picture of the sprint.
 
 - **Missed Patterns**: Recurring issues, like bottlenecks or miscommunications, may go unnoticed. They aren't always obvious in the moment, or they get lost in the noise of day-to-day work, which prevents teams from recognizing long-term areas for improvement.
 

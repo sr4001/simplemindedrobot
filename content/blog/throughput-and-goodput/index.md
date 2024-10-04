@@ -40,7 +40,7 @@ Goodput, on the other hand, is where the rubber meets the road. It focuses on th
 
 ## The Impact on Velocity
 
-Now, why does this distinction matter? It all comes down to [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)).
+Now, why does this distinction matter? It all comes down to [velocity](<https://en.wikipedia.org/wiki/Velocity_(software_development)>).
 
 In the agile world, velocity is our crystal ball. It helps us predict how much work a team can handle in a sprint, which is crucial for planning and setting realistic timelines. But here's where things can go sideways: if a team is all about throughput, they might seem to have high velocity. "We completed 50 story points this sprint!" Sounds impressive, right?
 

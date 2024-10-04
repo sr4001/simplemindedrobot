@@ -166,12 +166,15 @@ By cultivating a culture of critical thinking and continuous learning, we can ha
 If you found this article helpful, you might also be interested in these related posts:
 
 - [Writing User Stories With AI 1: Introduction]({{< relref "/blog/writing-user-stories-with-ai-1" >}})
+
   - Introduces the concept of using AI for writing user stories, which is directly related to the critical evaluation of AI-generated content discussed in this article. It provides a foundation for understanding how AI can be used in the user story creation process.
 
 - [Writing User Stories with AI 2: Fine-Tuning Your Prompt]({{< relref "/blog/writing-user-stories-with-ai-2" >}})
+
   - Focuses on refining the prompts used to generate user stories with AI, which is crucial for producing high-quality initial content. Understanding how to create effective prompts complements the critical evaluation skills discussed in the current post.
 
 - [Writing User Stories with AI 3: Beyond User Stories]({{< relref "/blog/writing-user-stories-with-ai-3" >}})
+
   - Explores additional applications of AI in software development beyond user stories. It provides a broader context for understanding how critical evaluation skills can be applied to various types of AI-generated content in the development process.
 
 - [AI-Powered Knowledge Management: Revolutionizing Agile Teams]({{< relref "/blog/harnessing-ai-tame-knowledge-chaos-agile-teams" >}})

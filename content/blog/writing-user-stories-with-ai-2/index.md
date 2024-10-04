@@ -238,7 +238,7 @@ The prompt provides the AI with clear instructions on how to approach the task o
 
 ### Structured Framework
 
-The prompt includes a structured framework for the AI to follow, which is critical for consistency. The format for user stories, [acceptance criteria](https://en.wikipedia.org/wiki/Acceptance_testing), dependencies, and [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) scenarios is well-defined, ensuring that all essential elements are captured. This structure not only aids the AI in generating comprehensive user stories but also makes it easier for you to review and refine the output.
+The prompt includes a structured framework for the AI to follow, which is critical for consistency. The format for user stories, [acceptance criteria](https://en.wikipedia.org/wiki/Acceptance_testing), dependencies, and [Gherkin](<https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language>) scenarios is well-defined, ensuring that all essential elements are captured. This structure not only aids the AI in generating comprehensive user stories but also makes it easier for you to review and refine the output.
 
 ### Iterative Refinement
 

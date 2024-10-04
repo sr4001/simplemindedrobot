@@ -35,7 +35,7 @@ The theory identifies three types of cognitive load: [intrinsic](https://en.wiki
 
 ## Impact on Agile Teams
 
-So, how does this play out in our agile teams? Well, high cognitive load can significantly impact team performance and [velocity](https://en.wikipedia.org/wiki/Velocity_(software_development)). When team members are overwhelmed with information or struggling with unclear requirements, their ability to work efficiently and creatively diminishes. This can lead to slower progress, more errors, and ultimately, reduced productivity.
+So, how does this play out in our agile teams? Well, high cognitive load can significantly impact team performance and [velocity](<https://en.wikipedia.org/wiki/Velocity_(software_development)>). When team members are overwhelmed with information or struggling with unclear requirements, their ability to work efficiently and creatively diminishes. This can lead to slower progress, more errors, and ultimately, reduced productivity.
 
 ## Strategies to Reduce Cognitive Load
 
@@ -43,7 +43,7 @@ But fear not! There are several strategies we can employ to reduce cognitive loa
 
 ### Effective Sprint Planning
 
-Effective [sprint planning](https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_planning) is a great place to start. By breaking down complex tasks into smaller, manageable chunks, we can reduce the intrinsic load on team members. This not only makes the work less daunting but also allows for better estimation and tracking of progress.
+Effective [sprint planning](<https://en.wikipedia.org/wiki/Scrum_(software_development)#Sprint_planning>) is a great place to start. By breaking down complex tasks into smaller, manageable chunks, we can reduce the intrinsic load on team members. This not only makes the work less daunting but also allows for better estimation and tracking of progress.
 
 ### Improving Documentation and Knowledge Sharing
 

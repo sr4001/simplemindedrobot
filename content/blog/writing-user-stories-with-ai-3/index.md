@@ -25,7 +25,7 @@ pinned: false
 homepage: false
 ---
 
-As we continue to integrate AI into the process of software development, it's essential to look beyond just writing user stories. While user stories are fundamental in defining the "what" of a project, there are tools and techniques that can greatly enhance our understanding of the "how." This post will explore how [Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language), sequence diagrams, and [Mermaid notation](https://en.wikipedia.org/wiki/Mermaid_(software)) can be used in conjunction with AI to bring greater clarity to functional requirements and streamline the process of automated testing. By leveraging these tools, we can create a more comprehensive and actionable set of specifications that bridge the gap between high-level user stories and detailed technical implementations. This approach not only enhances communication between stakeholders but also paves the way for more efficient development and testing processes.
+As we continue to integrate AI into the process of software development, it's essential to look beyond just writing user stories. While user stories are fundamental in defining the "what" of a project, there are tools and techniques that can greatly enhance our understanding of the "how." This post will explore how [Gherkin](<https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language>), sequence diagrams, and [Mermaid notation](<https://en.wikipedia.org/wiki/Mermaid_(software)>) can be used in conjunction with AI to bring greater clarity to functional requirements and streamline the process of automated testing. By leveraging these tools, we can create a more comprehensive and actionable set of specifications that bridge the gap between high-level user stories and detailed technical implementations. This approach not only enhances communication between stakeholders but also paves the way for more efficient development and testing processes.
 
 <!--more-->
 
@@ -43,7 +43,7 @@ While these first two posts laid a solid foundation for using AI to write user s
 
 ### Gherkin: Bridging the Gap Between Human and Machine
 
-[Gherkin](https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language) is a plain-text language that serves as the cornerstone of [Behavior-Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development). It allows us to define test cases in a way that both non-technical stakeholders and automated testing tools can understand. The beauty of Gherkin lies in its simplicity and structure—every scenario is written in a way that describes the behavior of the system in business terms.
+[Gherkin](<https://en.wikipedia.org/wiki/Cucumber_(software)#Gherkin_language>) is a plain-text language that serves as the cornerstone of [Behavior-Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development). It allows us to define test cases in a way that both non-technical stakeholders and automated testing tools can understand. The beauty of Gherkin lies in its simplicity and structure—every scenario is written in a way that describes the behavior of the system in business terms.
 
 For example, consider a simple scenario for user login:
 
@@ -65,7 +65,7 @@ A sequence diagram typically involves participants (which could be users, system
 
 ### Mermaid Notation: A Modern Tool for Diagramming
 
-[Mermaid](https://en.wikipedia.org/wiki/Mermaid_(software)) is a JavaScript-based tool that allows users to create diagrams and visualizations from text descriptions. It's a modern, lightweight tool that has gained popularity due to its simplicity and versatility. Mermaid supports a variety of diagram types, including sequence diagrams, flowcharts, and Gantt charts, making it an excellent choice for developers and analysts who need to quickly visualize workflows without relying on complex diagramming software.
+[Mermaid](<https://en.wikipedia.org/wiki/Mermaid_(software)>) is a JavaScript-based tool that allows users to create diagrams and visualizations from text descriptions. It's a modern, lightweight tool that has gained popularity due to its simplicity and versatility. Mermaid supports a variety of diagram types, including sequence diagrams, flowcharts, and Gantt charts, making it an excellent choice for developers and analysts who need to quickly visualize workflows without relying on complex diagramming software.
 
 ## Using AI to Generate Gherkin and Mermaid Diagrams
 

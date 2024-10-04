@@ -131,12 +131,21 @@ As we move forward, interdisciplinary collaboration between computer scientists,
 For more insights on AI and its applications, check out our related posts on [enhancing cybersecurity with AI]({{< relref "/blog/enhancing-cybersecurity-with-ai/" >}}) and [navigating AI tools in daily work]({{< relref "/blog/navigating-ai-tools-daily-work/" >}}).
 
 [^1]: Bommasani, R., et al. (2021). "On the Opportunities and Risks of Foundation Models." arXiv preprint arXiv:2108.07258.
+
 [^2]: Pearl, J., & Mackenzie, D. (2018). The Book of Why: The New Science of Cause and Effect. Basic Books.
+
 [^3]: Davies, M., et al. (2021). "Advancing Neuromorphic Computing With Loihi: A Survey of Results and Outlook." Proceedings of the IEEE, 109(5), 911-934.
+
 [^4]: Gunning, D., & Aha, D. (2019). "DARPA's Explainable Artificial Intelligence (XAI) Program." AI Magazine, 40(2), 44-58.
+
 [^5]: Zhuang, F., et al. (2021). "A Comprehensive Survey on Transfer Learning." Proceedings of the IEEE, 109(1), 43-76.
+
 [^6]: Wang, Y., et al. (2020). "Generalizing from a Few Examples: A Survey on Few-Shot Learning." ACM Computing Surveys, 53(3), 1-34.
+
 [^7]: Acemoglu, D., & Restrepo, P. (2018). "Artificial Intelligence, Automation and Work." National Bureau of Economic Research Working Paper Series, No. 24196.
+
 [^8]: Mehrabi, N., et al. (2021). "A Survey on Bias and Fairness in Machine Learning." ACM Computing Surveys, 54(6), 1-35.
+
 [^9]: Cath, C., et al. (2018). "Artificial Intelligence and the 'Good Society': the US, EU, and UK approach." Science and Engineering Ethics, 24(2), 505-528.
+
 [^10]: Amodei, D., et al. (2016). "Concrete Problems in AI Safety." arXiv preprint arXiv:1606.06565.

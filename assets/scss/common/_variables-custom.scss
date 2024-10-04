@@ -25,23 +25,23 @@ $link-color: $sl-color-accent;
 
 // Dark mode overrides
 @media (prefers-color-scheme: dark) {
-  $sl-color-bg: hsl(210, 20%, 10%);
-  $sl-color-bg-sidebar: hsl(210, 20%, 8%);
-  $sl-color-text: hsl(210, 20%, 80%);
-  $sl-color-text-accent: $sl-color-accent-high;
+    $sl-color-bg: hsl(210, 20%, 10%);
+    $sl-color-bg-sidebar: hsl(210, 20%, 8%);
+    $sl-color-text: hsl(210, 20%, 80%);
+    $sl-color-text-accent: $sl-color-accent-high;
 
-  // Reassign $link-color for dark mode
-  $link-color: $sl-color-accent-high;
+    // Reassign $link-color for dark mode
+    $link-color: $sl-color-accent-high;
 }
 
 // CSS custom properties for use in HTML and CSS
 :root {
-  --sl-hue-blue: #{$sl-hue-blue};
-  --sl-color-accent-low: #{$sl-color-accent-low};
-  --sl-color-accent: #{$sl-color-accent};
-  --sl-color-accent-high: #{$sl-color-accent-high};
-  --sl-color-bg: #{$sl-color-bg};
-  --sl-color-bg-sidebar: #{$sl-color-bg-sidebar};
-  --sl-color-text: #{$sl-color-text};
-  --sl-color-text-accent: #{$sl-color-text-accent};
+    --sl-hue-blue: #{$sl-hue-blue};
+    --sl-color-accent-low: #{$sl-color-accent-low};
+    --sl-color-accent: #{$sl-color-accent};
+    --sl-color-accent-high: #{$sl-color-accent-high};
+    --sl-color-bg: #{$sl-color-bg};
+    --sl-color-bg-sidebar: #{$sl-color-bg-sidebar};
+    --sl-color-text: #{$sl-color-text};
+    --sl-color-text-accent: #{$sl-color-text-accent};
 }
