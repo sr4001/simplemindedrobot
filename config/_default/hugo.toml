@@ -1,4 +1,4 @@
-title = "AI and Agile Development Insights | Simpleminded Robot"
+title = "Simpleminded Robot"
 baseurl = "http://sr4001.net/"
 canonifyURLs = true
 disableAliases = true
@@ -14,7 +14,7 @@ rssLimit = 10
 summarylength = 70 # 70 (default)
 
 # Site description
-description = "Explore insights on AI integration, Agile workflows, and tech advancements in software development."
+description = "AI and Agile Development Insights | Explore AI integration, Agile workflows, and tech advancements in software development."
 
 # Multilingual
 defaultContentLanguage = "en"
