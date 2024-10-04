@@ -75,63 +75,6 @@ pre {
   border-color: $sl-color-accent;
 }
 
-// Dark mode styles
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: $sl-color-bg;
-    color: $sl-color-text;
-  }
-
-  .navbar {
-    background-color: $sl-color-bg;
-  }
-
-  a, li a {
-    color: $sl-color-accent;
-  }
-
-  a:hover, li a:hover,
-  a:focus, li a:focus {
-    color: $sl-color-accent;
-  }
-
-  .btn-primary {
-    background-color: $sl-color-accent;
-    border-color: $sl-color-accent;
-  }
-
-  .btn-primary:hover, .btn-primary:focus {
-    background-color: $sl-color-accent-high;
-    border-color: $sl-color-accent-high;
-  }
-
-  pre {
-    background-color: $sl-color-bg-sidebar;
-    border-color: $sl-color-accent;
-  }
-
-  .navbar-brand,
-  .navbar-light .navbar-nav .nav-link,
-  .navbar-light .navbar-nav .dropdown-item {
-    color: $link-color !important;
-  }
-
-  .navbar-light .navbar-nav .nav-link:hover,
-  .navbar-light .navbar-nav .nav-link:focus,
-  .navbar-light .navbar-nav .nav-link.active,
-  .navbar-light .navbar-nav .dropdown-item:hover,
-  .navbar-light .navbar-nav .dropdown-item:focus,
-  .navbar-light .navbar-nav .dropdown-item.active {
-    color: $sl-color-accent !important;
-    background-color: rgba($sl-color-accent, 0.2);
-  }
-
-  .navbar-light .navbar-nav .dropdown-menu {
-    background-color: $sl-color-bg;
-    border-color: $sl-color-accent-high;
-  }
-}
-
 .toc-wrapper {
   background-color: $sl-color-bg-sidebar;
   padding: 1rem;
