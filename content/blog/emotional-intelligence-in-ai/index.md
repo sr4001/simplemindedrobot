@@ -19,8 +19,8 @@ seo:
   noindex: false
   title: "Emotional Intelligence in AI: Can Machines Understand Feelings?"
 summary: "Explore the world of emotional intelligence in AI, its capabilities,
-    limitations, and the ethical considerations of machines that can recognize and
-    respond to human emotions."
+  limitations, and the ethical considerations of machines that can recognize and
+  respond to human emotions."
 tags:
   - AI
   - emotional intelligence
