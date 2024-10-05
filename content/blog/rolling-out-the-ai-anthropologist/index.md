@@ -4,13 +4,13 @@ categories:
 - Organizational Management
 contributors:
 - Scot Campbell
-date: 2024-10-04 19:27:13.847000+00:00
+date: 2024-10-01 19:27:13.847000+00:00
 description: Learn how to successfully implement an AI Anthropologist in your organization
   with this detailed guide covering objectives, team assembly, pilot programs, rollout
   strategies, and continuous improvement.
 draft: false
 homepage: false
-lastmod: 2024-10-04 20:31:54.289000+00:00
+lastmod: 2024-10-01 20:31:54.289000+00:00
 pinned: false
 seo:
   canonical: https://sr4001.net.//blog/rolling-out-the-ai-anthropologist/
