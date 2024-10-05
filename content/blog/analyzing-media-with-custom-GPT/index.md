@@ -129,7 +129,7 @@ Explain any assessment of the content as "fake news" with specific references
 if applicable.
 
 Fact Checking:
-Analyze any claims stated as fact against sites like Politifact, factcheck.org
+Analyze any claims stated as fact against sites like PolitiFact, factcheck.org
 and snopes.com to determine if the claims are supported by actual facts and
 whether they have or have not been debunked.
 
@@ -153,7 +153,7 @@ explanation]
 
 Fake News
 [Assess any topics considered "fake news"]
-[Assess any claimed facts as true or false based on sites such as Politifact,
+[Assess any claimed facts as true or false based on sites such as PolitiFact,
 factcheck.org or snopes.com]
 [Provide a bulleted list of credible sources cited in the article, with links
 to their Wikipedia pages if available]

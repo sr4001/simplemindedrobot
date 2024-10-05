@@ -89,7 +89,7 @@ To illustrate how AI can enhance retrospectives, let's consider a practical exam
 
 ## **Case Study: Using AI for Retrospective Analysis**
 
-Let's say your team has been consistently underperforming during testing phases. Despite covering this issue in multiple retrospectives, the problem persists. Each time, discussions lead to surface-level fixes, such as improving communication or adjusting sprint goals, but these changes never seem to address the core issue.
+Let's say your team has been consistently under performing during testing phases. Despite covering this issue in multiple retrospectives, the problem persists. Each time, discussions lead to surface-level fixes, such as improving communication or adjusting sprint goals, but these changes never seem to address the core issue.
 
 This is where AI can step in. By aggregating information from previous sprints, AI can highlight patterns that manual retrospectives may have missed. For example, AI could reveal that the QA team is consistently overburdened during certain phases of the sprint, leading to delays in testing.
 

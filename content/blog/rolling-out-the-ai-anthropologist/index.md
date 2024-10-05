@@ -29,7 +29,7 @@ tags:
 - Implementation Guide
 - Ethical AI
 - Team Collaboration
-title: 'The AI Anyhropologist 4: Implementing the AI Anthropologist'
+title: 'The AI Anthropologist 4: Implementing the AI Anthropologist'
 weight: 50
 ---
 
@@ -121,7 +121,7 @@ This phased approach allows for:
 
 Throughout this rollout, ethical safeguards remain paramount:
 
-- **Anonymization of data** ensures that individuals are not identified in reports.
+- **Anonymizing data** ensures that individuals are not identified in reports.
 - **Opt-in participation** lets teams or individuals volunteer to be part of the analysis, which increases buy-in and reduces concerns around forced participation.
 
 ---

@@ -39,8 +39,6 @@ Imagine this scenario: You're deep into an Agile project, racing towards your ne
 
 Agile teams excel at adapting to change and delivering results swiftly. However, managing the vast knowledge generated along the way can be challenging. [Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence) is emerging as a potential solution to manage information overload and preserve valuable insights in Agile environments.
 
-{{< img src="aikm.png" alt="AI-powered knowledge management in Agile teams" >}}
-
 ## The Knowledge Management Challenge in Agile Environments
 
 Agile methodologies prioritize flexibility and speed, which can pose significant challenges for [knowledge management](https://km-world.com). When racing to meet [sprint](https://www.scrum.org/resources/what-is-scrum) deadlines, meticulously documenting information often takes a backseat. As a result, critical insights – such as the rationale behind design choices or lessons learned from complex bugs – can be lost.
@@ -146,7 +144,7 @@ Agile teams often use a variety of tools for project management, communication, 
 
 Introducing AI tools can significantly change how teams work. Some team members may resist these changes, either due to skepticism about AI's capabilities or concerns about job security.
 
-**Current State**: Organizations are focusing on change management strategies, including comprehensive training programs and gradual rollouts. Some AI tools now include user-friendly interfaces and "explainable AI" features to increase transparency and build trust.
+**Current State**: Organizations are focusing on change management strategies, including comprehensive training programs and gradual roll outs. Some AI tools now include user-friendly interfaces and "explainable AI" features to increase transparency and build trust.
 
 ### 4. Overreliance on AI
 
