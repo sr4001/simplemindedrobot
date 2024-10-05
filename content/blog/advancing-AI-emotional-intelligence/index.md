@@ -65,9 +65,9 @@ Incorporating these capabilities into real-world AI applications could shift the
 
 ### Broader Workplace Applications: The AI Anthropologist's Role
 
-These advancements in emotional detection also tie into the broader concepts discussed in my _AI Anthropologist_ series. In the workplace, AI could take on a more observational and analytical role, not just monitoring workflow efficiency but also understanding the emotional dynamics within teams.
+These advancements in emotional detection also tie into the broader concepts discussed in my _[AI Anthropologist](https://sr4001.net/series/the-ai-anthropologist/)_ series. In the workplace, AI could take on a more observational and analytical role, not just monitoring workflow efficiency but also understanding the emotional dynamics within teams.
 
-As mentioned in the _AI Anthropologist_ series, AI can be an anthropological observer, analyzing patterns in communication to provide insights into workplace behavior and collaboration. Emotional detection could enhance this ability. If AI can detect team frustration during a project, it could suggest team-building exercises or recommend steps to reduce stress. In this sense, AI becomes not just a passive observer but an active participant in maintaining a healthy emotional environment in professional settings.
+As mentioned in the _[AI Anthropologist](https://sr4001.net/series/the-ai-anthropologist/)_ series, AI can be an anthropological observer, analyzing patterns in communication to provide insights into workplace behavior and collaboration. Emotional detection could enhance this ability. If AI can detect team frustration during a project, it could suggest team-building exercises or recommend steps to reduce stress. In this sense, AI becomes not just a passive observer but an active participant in maintaining a healthy emotional environment in professional settings.
 
 This concept is particularly important when we consider hybrid or remote work environments. Here, emotional cues from in-person meetings are often lost. AI could fill that gap by analyzing text-based communication (emails, chat messages) for emotional content, offering managers new tools to gauge team sentiment and respond accordingly.
 
@@ -89,6 +89,6 @@ The research discussed in _The Conversation_ article illustrates just how far AI
 
 By connecting these findings to the ideas explored in my blog post on emotional intelligence, we see that AI’s journey is still in its early stages. Emotional detection enhances the functional quality of AI outputs, making interactions more human-like, but it doesn’t equate to true empathy or understanding. The next step in this journey, which may take years or even decades, will involve deeper integration of context, history, and cultural sensitivity into AI systems.
 
-In the meantime, advancements like those highlighted in the _Conversation_ article are pushing us toward a more empathetic, adaptive AI—one that can not only process our words but respond to the feelings behind them. This is a crucial development in the broader role of AI, both in personal interactions and workplace dynamics, as explored in the _AI Anthropologist_ series.
+In the meantime, advancements like those highlighted in the _Conversation_ article are pushing us toward a more empathetic, adaptive AI—one that can not only process our words but respond to the feelings behind them. This is a crucial development in the broader role of AI, both in personal interactions and workplace dynamics, as explored in the _[AI Anthropologist](https://sr4001.net/series/the-ai-anthropologist/)_ series.
 
 To learn more about the new research on AI emotional detection, you can read the original article [here](https://theconversation.com/happy-sad-or-angry-ai-can-detect-emotions-in-text-according-to-new-research-239376).
