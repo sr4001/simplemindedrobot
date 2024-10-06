@@ -64,19 +64,19 @@
   </div>
 </div>
 
-<!-- Add previous/next navigation -->
+<!-- Updated previous/next navigation -->
 <div class="row justify-content-center mt-5">
   <div class="col-md-12 col-lg-10">
-    <nav class="d-flex">
+    <nav class="blog-navigation">
       {{if .PrevInSection}}
-        <a class="btn btn-outline-primary" href="{{.PrevInSection.Permalink}}">&larr; {{.PrevInSection.Title}}</a>
+        <a class="btn btn-outline-primary" href="{{.PrevInSection.Permalink}}" title="{{.PrevInSection.Title}}">&larr; Previous</a>
       {{else}}
-        <div></div>
+        <div class="btn btn-outline-primary invisible">&larr; Previous Post</div>
       {{end}}
       {{if .NextInSection}}
-        <a class="btn btn-outline-primary" href="{{.NextInSection.Permalink}}">{{.NextInSection.Title}} &rarr;</a>
+        <a class="btn btn-outline-primary" href="{{.NextInSection.Permalink}}" title="{{.NextInSection.Title}}">Next &rarr;</a>
       {{else}}
-        <div></div>
+        <div class="btn btn-outline-primary invisible">Next Post &rarr;</div>
       {{end}}
     </nav>
   </div>

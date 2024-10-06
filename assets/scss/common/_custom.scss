@@ -220,3 +220,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Teko', sans-serif;
     font-weight: 600;
 }
+
+// New styles for previous/next navigation buttons
+.blog-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+    .btn {
+        width: 45%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
