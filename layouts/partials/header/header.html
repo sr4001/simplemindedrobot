@@ -17,8 +17,10 @@
     <div class="container">
   {{ end -}}
 
-    <!-- Site title -->
-    <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">{{ .Site.Title }}</a>
+    <!-- Site title replaced with image -->
+    <a class="navbar-brand me-auto me-lg-3" href="{{ relLangURL "" }}">
+      <img src="{{ "images/logo.png" | relURL }}" alt="{{ .Site.Title }}" class="site-logo">
+    </a>
 
     <!-- FlexSearch mobile -->
     {{ partial "main/showFlexSearch" . }}
@@ -272,5 +274,3 @@
 {{ if site.Params.doks.flexSearch -}}
 {{ partial "header/search-modal" . }}
 {{ end -}}
-
-
