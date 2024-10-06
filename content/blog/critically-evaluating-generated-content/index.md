@@ -35,7 +35,7 @@ As AI tools become increasingly sophisticated, they offer developers new ways to
 
 <!--more-->
 
-![Critical evaluation of AI generated content](./criticallyeval.png)
+![Critical evaluation of AI generated content](criticallyeval.png)
 
 ## The Importance of Critical Evaluation
 

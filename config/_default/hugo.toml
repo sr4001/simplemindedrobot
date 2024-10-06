@@ -53,7 +53,13 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
-    maxAge = "30m" # "30m"
+    maxAge = "30m"
+  [caches.images]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
+  [caches.assets]
+    dir = ":resourceDir/_gen"
+    maxAge = "720h"
 
 [taxonomies]
   contributor = "contributors"
@@ -64,7 +70,6 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
-# docs = "/docs/1.0/:sections[1:]/:slug/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
@@ -89,3 +94,15 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   hint = "photo"
   quality = 85
   resampleFilter = "Lanczos"
+
+[imaging.exif]
+  disableDate = false
+  disableLatLong = true
+  includeFields = ""
+  excludeFields = ""
+
+[server]
+  [[server.headers]]
+    for = "/**"
+    [server.headers.values]
+      Cache-Control = "public, max-age=31536000"

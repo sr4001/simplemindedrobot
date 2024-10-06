@@ -35,7 +35,7 @@ Imagine this scenario: You're deep into an Agile project, racing towards your ne
 
 <!--more-->
 
-![A digital brain managing knowledge](./aikm.png)
+![A digital brain managing knowledge](aikm.png)
 
 Agile teams excel at adapting to change and delivering results swiftly. However, managing the vast knowledge generated along the way can be challenging. [Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Artificial_intelligence) is emerging as a potential solution to manage information overload and preserve valuable insights in Agile environments.
 

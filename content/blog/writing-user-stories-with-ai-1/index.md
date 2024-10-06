@@ -33,7 +33,7 @@ When developing software, user stories are crucial for translating high-level re
 
 <!--more-->
 
-![AI assisted user story writing process illustration](./writewithai1.png)
+![AI assisted user story writing process illustration](writewithai1.png)
 
 ## The Importance of User Stories in Software Development
 

@@ -33,7 +33,7 @@ There's something thrilling about autonomy. The idea of a machine, not simply a 
 
 <!--more-->
 
-![Agentic AI assisting in project management tasks](./agentic_ai_project_management.webp)
+![Agentic AI assisting in project management tasks](agentic_ai_project_management.webp)
 
 The notion of agentic AI is simple but profound. It's the concept of [AI as an agent](https://www.ibm.com/think/topics/ai-agents)—an entity capable of making decisions and taking actions to achieve goals, often **adapting its behavior in real-time** based on dynamic environments. Unlike traditional AI, which operates based on predefined parameters, agentic AI operates within a framework where it has the **autonomy to assess, evaluate, and act**, continuously learning from feedback.
 

@@ -32,7 +32,7 @@ Imagine walking into your office to find a new colleague at the desk next to you
 
 <!--more-->
 
-![A human being critically evaluating AI generated output](./humanintheloop.png)
+![A human being critically evaluating AI generated output](humanintheloop.png)
 
 Welcome to the world of [AI in the workplace](https://hbr.org/2019/07/how-ai-is-changing-work-and-leadership) - a realm where incredible efficiency meets potential pitfalls, and where navigating the balance between human insight and artificial intelligence has become a critical skill.
 

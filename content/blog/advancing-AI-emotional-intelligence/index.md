@@ -32,7 +32,7 @@ As artificial intelligence advances, it’s not just about crunching numbers, in
 
 But can AI truly understand these emotions, or is it just performing a sophisticated form of mimicry? In this article, we’ll explore how these advancements intersect with the ideas presented in my post on emotional intelligence in AI and delve into how these innovations can refine AI outputs. We’ll also loop in concepts from the _AI Anthropologist_ series to examine the broader implications for AI's role in the workplace and beyond.
 
-!["AI is learning to emulate emotional intelligence"](./aiemotinalint.webp)
+!["AI is learning to emulate emotional intelligence"](aiemotinalint.webp)
 
 ### Decoding Emotions in Text: The Cutting-Edge of AI Research
 

@@ -29,7 +29,7 @@ As agile teams, we're constantly juggling multiple tasks, learning new technolog
 
 <!--more-->
 
-![Illustration of cognitive load concept in agile team performance](./cognitiveload.webp)
+![Illustration of cognitive load concept in agile team performance](cognitiveload.webp)
 
 ## Understanding Cognitive Load Theory
 

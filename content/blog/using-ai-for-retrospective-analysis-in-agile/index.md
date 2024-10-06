@@ -37,7 +37,7 @@ In Agile, retrospectives are one of the most important ceremonies, designed to h
 
 In this post, I'll explore how AI can improve retrospective analysis, identify hidden trends, and help teams focus on long-term improvement rather than just short-term fixes.
 
-![Abstract representation of AI analyzing retrospective data in an Agile environment](./aiagileretro.webp)
+![Abstract representation of AI analyzing retrospective data in an Agile environment](aiagileretro.webp)
 
 ## **How Traditional Retrospectives Fall Short**
 

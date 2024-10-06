@@ -34,7 +34,7 @@ In today's digital age, the ability to critically analyze media content is more 
 
 <!--more-->
 
-![Robotic AI Reading a Newspaper](./mediaanalysis.png)
+![Robotic AI Reading a Newspaper](mediaanalysis.png)
 
 This comprehensive guide will walk you through the process of setting up a custom GPT that can evaluate articles from the web, helping you identify [cognitive biases](https://www.verywellmind.com/what-is-a-cognitive-bias-2794963), political agendas, and assess the credibility of sources. Whether you're a researcher, a journalist, or simply someone who values media literacy, this guide will equip you with the tools to make more informed decisions in the digital landscape.
 
