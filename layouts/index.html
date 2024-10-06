@@ -35,7 +35,7 @@
       </div>
 
       <!-- Three Square Cards -->
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 equal-height-cards">
         {{ range first 3 (after 1 $featuredPosts) }}
         <div class="col">
           <div class="card h-100 d-flex flex-column">
@@ -44,7 +44,7 @@
               <p class="card-text small">{{ .Summary | plainify | truncate 150 }}</p>
             </div>
             <div class="card-footer mt-auto">
-              {{ partial "main/blog-meta.html" . }}
+              {{ partial "main/card-meta.html" . }}
               <a href="{{ .RelPermalink }}" class="btn btn-sm btn-outline-primary mt-2" aria-label="Read more about {{ .Title }}">Read More</a>
             </div>
           </div>
@@ -55,23 +55,6 @@
     </div>
   </div>
 </section>
-
-<!-- Categories Section -->
-<section class="mt-5">
-  <div class="row justify-content-center">
-    <div class="col-xl-12">
-      <h2 class="h3 mb-4">Explore Topics</h2>
-      <div class="row">
-        {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-        <div class="col-md-4 mb-3">
-          <a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}" class="btn btn-outline-secondary btn-block">{{ $name }}</a>
-        </div>
-        {{ end }}
-      </div>
-    </div>
-  </div>
-</section>
-
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
@@ -95,7 +78,7 @@
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
       <h2 class="mt-2">Explore More AI and Agile Insights</h2>
-      <a class="btn btn-primary rounded-pill px-4 my-2" href="/blog/" role="button" aria-label="View all blog posts">View All Posts</a>
+      <a class="btn btn-primary mt-2" href="/blog/" role="button" aria-label="View all blog posts">View All Posts</a>
     </div>
   </div>
 </section>

@@ -1,7 +1,7 @@
 ---
 categories:
-  - Artificial Intelligence
-  - Organizational Management
+  - artificial intelligence
+  - organizational management
 contributors:
   - Scot Campbell
 date: 2024-10-01 19:27:13.847000+00:00
@@ -24,11 +24,11 @@ series:
 summary: A strategic overview for implementing an AI Anthropologist in your organization,
   from defining objectives to measuring success and adapting to new insights.
 tags:
-  - AI Anthropologist
-  - Workplace Dynamics
-  - Implementation Guide
-  - Ethical AI
-  - Team Collaboration
+  - ai anthropologist
+  - workplace dynamics
+  - implementation guide
+  - ethical ai
+  - team collaboration
 title: "The AI Anthropologist 4: Implementing the AI Anthropologist"
 weight: 50
 ---

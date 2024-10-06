@@ -26,6 +26,9 @@ tags:
   - emotional intelligence
   - machine learning
   - ethics
+categories:
+  - artificial intelligence
+  - emotional intelligence
 title: "Emotional Intelligence in AI: Can Machines Understand Feelings?"
 weight: 50
 ---
