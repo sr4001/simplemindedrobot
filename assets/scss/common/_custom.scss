@@ -296,3 +296,33 @@ h1, h2, h3, h4, h5, h6 {
     width: auto;
     object-fit: contain;
 }
+
+// New styles for breadcrumbs
+.breadcrumb {
+    font-family: Arial, sans-serif;
+    font-size: 0.875rem; // 14px assuming base font size is 16px
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-radius: 0;
+
+    .breadcrumb-item {
+        + .breadcrumb-item::before {
+            content: ">";
+            color: $sl-color-text;
+        }
+
+        &.active {
+            color: $sl-color-text;
+        }
+
+        a {
+            color: $sl-color-accent;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

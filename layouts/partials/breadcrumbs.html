@@ -1,19 +1,38 @@
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    {{ template "breadcrumbnav" (dict "p1" . "p2" .) }}
+    <li class="breadcrumb-item">
+      <a href="{{ .Site.Home.Permalink }}">Home</a>
+    </li>
+    {{ if .Section }}
+    <li class="breadcrumb-item">
+      <a href="{{ .Site.BaseURL }}{{ .Section }}">{{ humanize .Section }}</a>
+    </li>
+    {{ end }}
+    <li class="breadcrumb-item active" aria-current="page">
+      {{ $title := .Title }}
+      {{ $maxLength := 100 }}
+      {{ if gt (len $title) $maxLength }}
+        {{ $words := split $title " " }}
+        {{ $truncated := "" }}
+        {{ range $index, $word := $words }}
+          {{ if le (len (printf "%s %s" $truncated $word)) $maxLength }}
+            {{ $truncated = printf "%s %s" $truncated $word }}
+          {{ else }}
+            {{ if eq $index 0 }}
+              {{ $truncated = $word }}
+            {{ else }}
+              {{ break }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        {{ $truncated = trim $truncated " " }}
+        {{ if ne $truncated $title }}
+          {{ $truncated = printf "%s..." $truncated }}
+        {{ end }}
+        {{ $truncated }}
+      {{ else }}
+        {{ $title }}
+      {{ end }}
+    </li>
   </ol>
 </nav>
-{{ define "breadcrumbnav" }}
-{{ if .p1.Parent }}
-{{ template "breadcrumbnav" (dict "p1" .p1.Parent "p2" .p2 )  }}
-{{ else if not .p1.IsHome }}
-{{ template "breadcrumbnav" (dict "p1" .p1.Site.Home "p2" .p2 )  }}
-{{ end }}
-<li class="breadcrumb-item{{ if eq .p1 .p2 }} active" aria-current="page{{ end }}">
-  {{ if eq .p1 .p2 }}
-    {{ .p1.Title }}
-  {{ else }}
-    <a href="{{ .p1.Permalink }}">{{ .p1.Title }}</a>
-  {{ end }}
-</li>
-{{ end }}
