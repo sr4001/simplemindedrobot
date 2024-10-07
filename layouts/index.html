@@ -30,7 +30,7 @@
           <h3 class="card-title"><a class="text-body" href="{{ $firstFeatured.RelPermalink }}">{{ $firstFeatured.Title }}</a></h3>
           <p class="card-text">{{ $firstFeatured.Summary | safeHTML }}</p>
           {{ partial "main/blog-meta.html" $firstFeatured }}
-          <a href="{{ $firstFeatured.RelPermalink }}" class="btn btn-primary mt-2" aria-label="Read more about {{ $firstFeatured.Title }}">Read More</a>
+          <a href="{{ $firstFeatured.RelPermalink }}" class="btn btn-main-action" aria-label="Read more about {{ $firstFeatured.Title }}">Read More</a>
         </div>
       </div>
 
@@ -44,7 +44,6 @@
               <p class="card-text small">{{ .Summary | plainify | truncate 150 }}</p>
             </div>
             <div class="card-footer mt-auto">
-              {{ partial "main/card-meta.html" . }}
               <a href="{{ .RelPermalink }}" class="btn btn-main-action" aria-label="Read more about {{ .Title }}">Read More</a>
             </div>
           </div>
