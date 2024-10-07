@@ -8,7 +8,7 @@
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
-    "build": "hugo --verbose --minify --gc",
+    "build": "hugo --loglevel --minify --gc",
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
