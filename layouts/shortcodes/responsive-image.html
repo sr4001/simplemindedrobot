@@ -8,11 +8,21 @@
 {{- end -}}
 
 {{- if $image -}}
-  {{- $small := $image.Resize "480x" -}}
-  {{- $medium := $image.Resize "768x" -}}
-  {{- $large := $image.Resize "1024x" -}}
+  {{- $isGif := eq (path.Ext $src) ".gif" -}}
 
   <figure>
+    {{- if $isGif -}}
+    <img
+      src="{{ $image.RelPermalink }}"
+      width="{{ $image.Width }}"
+      height="{{ $image.Height }}"
+      alt="{{ $alt }}"
+      loading="lazy"
+    >
+    {{- else -}}
+    {{- $small := $image.Resize "480x" -}}
+    {{- $medium := $image.Resize "768x" -}}
+    {{- $large := $image.Resize "1024x" -}}
     <img
       srcset="{{ $small.RelPermalink }} 480w,
               {{ $medium.RelPermalink }} 768w,
@@ -28,6 +38,7 @@
       alt="{{ $alt }}"
       loading="lazy"
     >
+    {{- end -}}
     {{- with $caption -}}
     <figcaption>{{ . }}</figcaption>
     {{- end -}}
