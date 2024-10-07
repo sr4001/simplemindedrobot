@@ -5,7 +5,7 @@
   [en.params]
     languageISO = "EN"
     languageTag = "en-US"
-    titleAddition = "AI and Agile Development Insights"
+    titleAddition = "Recent Thoughts on AI and Agile Development"
     description = "Explore cutting-edge insights on AI integration, Agile workflows, and tech advancements in software development. Join us in navigating the complexities of modern tech."
     titleHome = "Simpleminded Robot"
     alertText = '<a class="alert-link stretched-link fw-normal" href="/blog/">Check out our latest insights on AI and Agile Development!</a>'
