@@ -24,6 +24,11 @@ body {
     border-bottom: 1px solid $gray-200;
 }
 
+// Updated button styles
+.btn {
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
+}
+
 .btn-primary {
     background-color: $sl-color-accent;
     border-color: $sl-color-accent;
@@ -33,6 +38,20 @@ body {
 .btn-primary:focus {
     background-color: $sl-color-accent-high;
     border-color: $sl-color-accent-high;
+}
+
+// New styles for "Read More" and "View All Posts" buttons on the main page
+.btn-main-action {
+    background-color: white;
+    border: 2px solid $sl-color-accent;
+    color: $sl-color-accent;
+    transition: all 0.3s ease;
+
+    &:hover,
+    &:focus {
+        background-color: $sl-color-accent;
+        color: white;
+    }
 }
 
 // Updated link styles
