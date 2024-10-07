@@ -12,22 +12,38 @@
   {{ $medium := $image.Resize "768x" }}
   {{ $large := $image.Resize "1024x" }}
 
+  {{ $smallWebp := $small.Resize "480x webp" }}
+  {{ $mediumWebp := $medium.Resize "768x webp" }}
+  {{ $largeWebp := $large.Resize "1024x webp" }}
+
   <figure>
-    <img
-      srcset="{{ $small.RelPermalink }} 480w,
-              {{ $medium.RelPermalink }} 768w,
-              {{ $large.RelPermalink }} 1024w,
-              {{ $image.RelPermalink }} {{ $image.Width }}w"
-      sizes="(max-width: 480px) 480px,
-             (max-width: 768px) 768px,
-             (max-width: 1024px) 1024px,
-             {{ $image.Width }}px"
-      src="{{ $image.RelPermalink }}"
-      width="{{ $image.Width }}"
-      height="{{ $image.Height }}"
-      alt="{{ $alt }}"
-      loading="lazy"
-    >
+    <picture>
+      <source
+        type="image/webp"
+        srcset="{{ $smallWebp.RelPermalink }} 480w,
+                {{ $mediumWebp.RelPermalink }} 768w,
+                {{ $largeWebp.RelPermalink }} 1024w"
+        sizes="(max-width: 480px) 480px,
+               (max-width: 768px) 768px,
+               (max-width: 1024px) 1024px,
+               100vw"
+      >
+      <img
+        srcset="{{ $small.RelPermalink }} 480w,
+                {{ $medium.RelPermalink }} 768w,
+                {{ $large.RelPermalink }} 1024w,
+                {{ $image.RelPermalink }} {{ $image.Width }}w"
+        sizes="(max-width: 480px) 480px,
+               (max-width: 768px) 768px,
+               (max-width: 1024px) 1024px,
+               100vw"
+        src="{{ $image.RelPermalink }}"
+        width="{{ $image.Width }}"
+        height="{{ $image.Height }}"
+        alt="{{ $alt }}"
+        loading="lazy"
+      >
+    </picture>
     {{ with $caption }}
     <figcaption>{{ . }}</figcaption>
     {{ end }}
