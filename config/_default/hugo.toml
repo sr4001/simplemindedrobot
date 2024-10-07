@@ -12,6 +12,7 @@ languageCode = "en-US"
 pagination.pagerSize = 10
 rssLimit = 10
 summarylength = 70 # 70 (default)
+timeout = "60s"
 
 # Site description
 description = "AI and Agile Development Insights | Explore AI integration, Agile workflows, and tech advancements in software development."
@@ -23,8 +24,8 @@ defaultContentLanguageInSubdir = false
 
 copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>"
 
-[build.buildStats]
-  enable = true
+[build]
+  buildStats.enable = true
 
 [outputs]
   home = ["HTML", "RSS", "searchIndex"]
