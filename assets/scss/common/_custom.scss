@@ -46,6 +46,12 @@ body {
     border: 2px solid $sl-color-accent;
     color: $sl-color-accent;
     transition: all 0.3s ease;
+    display: inline-block; /* Ensure the button resizes based on content */
+    margin: 0 auto; /* Center the button */
+    width: auto; /* Let the width be determined by the content */
+    padding-left: 1rem; /* Optional: Add padding if needed */
+    padding-right: 1rem; /* Optional: Add padding if needed */
+    text-align: center; /* Ensure text inside the button is centered */
 
     &:hover,
     &:focus {
