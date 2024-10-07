@@ -1,1 +1,13 @@
-<!-- Intentionally left blank -->
+<!-- Preload critical assets -->
+<link rel="preload" href="{{ "css/main.css" | relURL }}" as="style">
+<link rel="preload" href="{{ "js/main.js" | relURL }}" as="script">
+
+<!-- Prefetch common assets -->
+<link rel="prefetch" href="{{ "images/logo.png" | relURL }}">
+<link rel="prefetch" href="{{ "favicon.ico" | relURL }}">
+
+<!-- Preconnect to third-party domains -->
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!-- DNS-Prefetch -->
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">

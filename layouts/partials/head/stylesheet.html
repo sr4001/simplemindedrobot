@@ -5,16 +5,19 @@
     "enableSourceMap" true
     "includePaths" (slice "node_modules")
 }}
-{{ $themeCss := resources.Get $appScss | toCSS $scssOptions | minify | fingerprint "sha512" }}
-<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" crossorigin="anonymous">
+
+{{ $themeCss := resources.Get $appScss | toCSS $scssOptions | postCSS | minify | fingerprint "sha512" }}
 
 {{ if .Site.Params.custom_css -}}
-  {{ $customScss := resources.Get .Site.Params.custom_css | css.Sass $scssOptions | resources.Fingerprint "sha512" }}
+  {{ $customScss := resources.Get .Site.Params.custom_css | css.Sass $scssOptions | postCSS | resources.Fingerprint "sha512" }}
   {{ $themeCss = slice $themeCss $customScss | resources.Concat "css/style.css" | resources.Fingerprint "sha512" }}
 {{ end -}}
 
+<link rel="preload" href="{{ $themeCss.RelPermalink }}" as="style" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" crossorigin="anonymous">
+
 {{ if .Site.Params.options.darkMode -}}
   {{ $darkScss := "scss/common/_dark.scss" }}
-  {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions | resources.Fingerprint "sha512" }}
+  {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions | postCSS | resources.Fingerprint "sha512" }}
   <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" media="(prefers-color-scheme: dark)" crossorigin="anonymous">
 {{ end -}}

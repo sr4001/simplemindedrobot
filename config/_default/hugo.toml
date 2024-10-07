@@ -71,8 +71,18 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
 
-[minify.tdewolff.html]
-  keepWhitespace = false
+[minify]
+  minifyOutput = true
+
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepWhitespace = false
+    [minify.tdewolff.css]
+      keepCSS2 = true
+      precision = 1
+    [minify.tdewolff.js]
+      precision = 1
+      keepVarNames = false
 
 [related]
   threshold = 80

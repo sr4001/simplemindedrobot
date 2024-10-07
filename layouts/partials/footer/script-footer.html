@@ -3,7 +3,7 @@
   {{ partial "footer/esbuild" (dict "src" "js/bootstrap.js" "load" "async" "transpile" false) -}}
 {{- end }}
 
-{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "async" "transpile" false) -}}
+{{ partial "footer/esbuild" (dict "src" "js/app.js" "targetPath" "main.js" "load" "defer" "transpile" false) -}}
 
 {{ partial "footer/script-footer-custom.html" . -}}
 
@@ -20,6 +20,15 @@
   {{- else -}}
     {{- $flexsearchLangConfigPath = "js/flexsearch.js" -}}
   {{- end -}}
-  {{ partial "footer/esbuild-template" (dict "src" $flexsearchLangConfigPath "load" "async" "transpile" false "isMultilingual" site.IsMultiLingual "searchLimit" $searchLimit) -}}
+  {{ partial "footer/esbuild-template" (dict "src" $flexsearchLangConfigPath "load" "async" "transpile" false "isMultilingual" hugo.IsMultilingual "searchLimit" $searchLimit) -}}
   {{ partial "footer/esbuild" (dict "src" "js/search-modal.js" "load" "async" "transpile" false) -}}
 {{ end -}}
+
+<script>
+  // Fallback for browsers that don't support native lazy loading
+  if (!('loading' in HTMLImageElement.prototype)) {
+    const script = document.createElement('script');
+    script.src = 'https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js';
+    document.body.appendChild(script);
+  }
+</script>
