@@ -1,16 +1,24 @@
 // Define $gray-200 variable
 $gray-200: #e9ecef;
 
-// Import Google Font Teko
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+// Import Google Font Josefin Sans Medium 500 Italic
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600&display=swap');
 
 // Import custom variables
 @import "variables-custom";
 
-// Set Teko for headers
+// Set Josefin Sans for headers
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Teko', sans-serif;
+    font-family: "Sarpanch", sans-serif;
     font-weight: 600;
+    font-style: normal;
+}
+
+// Ensure headings remain in sans-serif for contrast
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Sarpanch", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 body {
@@ -244,11 +252,6 @@ a:not([class]):hover,
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-// Ensure headings remain in sans-serif for contrast
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Teko', sans-serif;
-    font-weight: 600;
-}
 
 // New styles for previous/next navigation buttons
 .blog-navigation {
