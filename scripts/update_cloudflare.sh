@@ -4,6 +4,7 @@
 API_TOKEN="${CLOUDFLARE_API_TOKEN}"
 ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"
 PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"
+ZONE_ID="${CLOUDFLARE_ZONE_ID}"
 
 # Version Variables
 NODE_VERSION="22.9.0"
@@ -11,9 +12,9 @@ NPM_VERSION="10.8.3"
 HUGO_VERSION="0.135.0"
 
 # Check if required environment variables are set
-if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ]; then
+if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z "$ZONE_ID" ]; then
     echo "Error: Required environment variables are not set."
-    echo "Please ensure CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, and CLOUDFLARE_PROJECT_NAME are set."
+    echo "Please ensure CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID, CLOUDFLARE_PROJECT_NAME, and CLOUDFLARE_ZONE_ID are set."
     exit 1
 fi
 
@@ -68,8 +69,27 @@ EOF
     fi
 }
 
+# Clear Cloudflare Cache
+clear_cache() {
+    local data='{"purge_everything":true}'
+
+    response=$(cf_api_call POST "/zones/$ZONE_ID/purge_cache" "$data")
+
+    # Check if the cache purge was successful
+    if [[ $(echo "$response" | jq -r '.success') == "false" ]]; then
+        echo "Error: Failed to purge Cloudflare cache"
+        echo "$response" | jq -r '.errors[]'
+        exit 1
+    else
+        echo "Cloudflare cache successfully purged."
+    fi
+}
+
 # Main execution
 echo "Updating Cloudflare Pages project settings..."
 update_project_settings
+
+echo "Clearing Cloudflare cache..."
+clear_cache
 
 echo "Configuration complete. Please check the output for any errors."
