@@ -37,7 +37,7 @@ Artificial intelligence (AI) has been advancing at an incredible pace, transform
 
 <!--more-->
 
-![An abstract representation of a human brain intertwined with circuit boards or neural network patterns](ai_emotional_intelligence.webp)
+{{< responsive-image src="ai_emotional_intelligence.webp" alt="An abstract representation of a human brain intertwined with circuit boards or neural network patterns" >}}
 
 ## What Is Emotional Intelligence?
 

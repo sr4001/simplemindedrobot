@@ -36,7 +36,7 @@ In recent years, [Artificial Intelligence (AI)](https://www.ibm.com/cloud/learn/
 
 <!--more-->
 
-![A confused-looking robot contemplating a complex equation, symbolizing the gap between artificial intelligence and human cognition in understanding abstract concepts.](confusedai.webp)
+{{< responsive-image src="confusedai.webp" alt="A confused-looking robot contemplating a complex equation, symbolizing the gap between artificial intelligence and human cognition in understanding abstract concepts." >}}
 
 ## The Illusion of Intelligence in AI
 

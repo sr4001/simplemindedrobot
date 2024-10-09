@@ -36,7 +36,7 @@ For the last few weeks, I've been using the [Claude Dev](https://marketplace.vis
 
 <!--more-->
 
-![Demo of Claude Dev](https://media.githubusercontent.com/media/saoudrizwan/claude-dev/main/demo.gif)
+{{< responsive-image src="https://media.githubusercontent.com/media/saoudrizwan/claude-dev/main/demo.gif" alt="Demo of Claude Dev" >}}
 
 ## What is Claude Dev?
 

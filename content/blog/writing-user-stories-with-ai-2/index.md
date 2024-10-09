@@ -35,7 +35,7 @@ In the [first part of our series]({{< relref "/blog/writing-user-stories-with-ai
 
 <!--more-->
 
-![AI-assisted user story writing process with focus on prompt refinement](writewithai2.png)
+{{< responsive-image src="writewithai2.png" alt="AI-assisted user story writing process with focus on prompt refinement" >}}
 
 ## Understanding the Role of the Prompt
 

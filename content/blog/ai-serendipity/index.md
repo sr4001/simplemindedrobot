@@ -31,7 +31,7 @@ As algorithms increasingly govern our lives and outcomes become meticulously pla
 
 <!--more-->
 
-![AI Serendipity](aiserendipity.webp)
+{{< responsive-image src="aiserendipity.webp" alt="AI Serendipity" >}}
 
 During the COVID pandemic, my team and I experienced firsthand the importance of creating moments of serendipity, even in a remote setting. We leveraged the 'watercooler effect'—the kind of spontaneous, informal conversations that often happen near the office watercooler—to recreate those chance encounters virtually. These moments often lead to serendipitous discoveries, where casual interactions spark new ideas or reveal helpful insights. With everyone working from home for the first time, we used online tools and held regular meetings with little or no agenda just to get everyone together virtually. These informal sessions fostered unexpected conversations, new ideas, and deeper connections—much like the serendipity we once experienced in physical office spaces. With AI orchestrating such serendipity, these types of interactions among remote workers could be even more fulfilling. AI can help recreate the watercooler effect by orchestrating casual interactions that feel organic, fostering a sense of connection and facilitating serendipitous moments that otherwise might be lost in remote settings.
 

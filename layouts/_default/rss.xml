@@ -6,7 +6,7 @@
 {{- else -}}
 {{- $pages = $pctx.Pages -}}
 {{- end -}}
-{{- $limit := .Site.Params.rssLimit -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
 {{- if ge $limit 1 -}}
 {{- $pages = $pages | first $limit -}}
 {{- end -}}
@@ -28,20 +28,37 @@
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with .Params.contributors }}
+
+      {{ if (isset .Params "contributors") }}
+      {{ $contributors := .Params.contributors }}
+      {{ if reflect.IsSlice $contributors }}
       <author>
-        {{ range $index, $element := . }}
-        {{ $element }}{{ if lt (add $index 1) (len .) }}, {{ end }}
+        {{ range $index, $element := $contributors }}
+        {{ $element }}{{ if lt (add $index 1) (len $contributors) }}, {{ end }}
         {{ end }}
       </author>
+      {{ else }}
+      <author>{{ $contributors }}</author>
       {{ end }}
+      {{ end }}
+
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
+
       {{ with .Params.blogComment }}
-        {{ if gt (len .) 0 }}
-        <blogComment>{{ . | html }}</blogComment>
-        {{ end }}
+      {{ if gt (len .) 0 }}
+      <blogComment>{{ . | safeHTML }}</blogComment>
       {{ end }}
+      {{ end }}
+
+      {{ $image := .Resources.ByType "image" }}
+      {{ if gt (len $image) 0 }}
+      {{ $originalImage := index $image 0 }}
+      {{ $smallPngName := replace $originalImage.Name (path.Ext $originalImage.Name) "_sm.png" }}
+      {{ $smallPngPath := path.Join .RelPermalink $smallPngName }}
+      <image>{{ $smallPngPath | absURL }}</image>
+      {{ end }}
+
     </item>
     {{ end }}
   </channel>
