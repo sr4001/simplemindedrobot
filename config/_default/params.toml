@@ -1,144 +1,147 @@
-# Hugo
+# Hugo basic site parameters
 title = "Simpleminded Robot"
 description = "Discover how AI is transforming Agile development practices. Explore tech trends, project management insights, and innovative solutions for modern software development."
-images = ["cover.png"]
+images = ["cover.png"]  # Default image for social sharing and SEO
 
-# mainSections
+# Main sections to be considered for content organization
 mainSections = ["docs"]
 
+# Social media settings
 [social]
-  twitter = ""
+  twitter = ""  # Twitter handle (if applicable)
 
-# Doks (@thulite/doks-core)
+# Doks theme configuration (@thulite/doks-core)
 [doks]
-  # Color mode
-  colorMode = "auto" # auto (default), light or dark
-  colorModeToggler = true # true (default) or false (this setting is only relevant when colorMode = auto)
+  # Color mode settings
+  colorMode = "auto" # Options: auto (default), light, or dark
+  colorModeToggler = true # Enable/disable color mode toggle (only relevant when colorMode = auto)
 
-  # Navbar
-  navbarSticky = true # true (default) or false
-  containerBreakpoint = "xxl" # "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
+  # Navbar settings
+  navbarSticky = true # Make navbar sticky (true by default)
+  containerBreakpoint = "xxl" # Navbar container breakpoint: "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
-  ## Button
-  navBarButton = false # false (default) or true
-  navBarButtonUrl = "/docs/prologue/introduction/"
-  navBarButtonText = "Get started"
+  # Navbar button settings
+  navBarButton = false # Show/hide navbar button (false by default)
+  navBarButtonUrl = "/docs/prologue/introduction/"  # URL for navbar button
+  navBarButtonText = "Get started"  # Text for navbar button
 
-  # FlexSearch
-  flexSearch = true # true (default) or false
-  searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
-  searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
-  showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
-  indexSummary = false # true or false (default); whether to index only the `.Summary` instead of the full `.Content`; limits the respective JSON field size and thus increases loading time
+  # Search settings
+  flexSearch = true # Enable/disable FlexSearch (true by default)
+  searchExclKinds = [] # Page kinds to exclude from search indexing
+  searchExclTypes = [] # Content types to exclude from search indexing
+  showSearch = [] # Sections to show search (empty array means all pages)
+  indexSummary = false # Index only summary instead of full content (false by default)
 
-  ## Search results
-  showDate = false # false (default) or true
-  showSummary = true # true (default) or false
-  searchLimit = 99 # 0 (no limit, default) or natural number
+  # Search results display settings
+  showDate = false # Show date in search results (false by default)
+  showSummary = true # Show summary in search results (true by default)
+  searchLimit = 99 # Limit for search results (0 means no limit)
 
-  # Global alert
-  alert = false # false (default) or true
-  alertDismissable = true # true (default) or false
+  # Global alert settings
+  alert = false # Show/hide global alert (false by default)
+  alertDismissable = true # Make alert dismissable (true by default)
 
-  # Bootstrap
-  bootstrapJavascript = false # false (default) or true
+  # Bootstrap JavaScript
+  bootstrapJavascript = false # Include Bootstrap JavaScript (false by default)
 
-  # Nav
-  sectionNav = ["docs"] # ["docs"] (default) or list of sections (e.g. ["docs", "guides"])
-  toTopButton = true # false (default) or true
-  breadcrumbTrail = true # false (default) or true
-  headlineHash = true # true (default) or false
-  scrollSpy = true # true (default) or false
+  # Navigation settings
+  sectionNav = ["docs"] # Sections to include in navigation
+  toTopButton = true # Show/hide "to top" button (false by default)
+  breadcrumbTrail = true # Show/hide breadcrumb trail (false by default)
+  headlineHash = true # Enable/disable headline hash links (true by default)
+  scrollSpy = true # Enable/disable scroll spy for navigation (true by default)
 
-  # Multilingual
-  multilingualMode = false # false (default) or true
-  showMissingLanguages = false # whether or not to show untranslated languages in the language menu; true (default) or false
+  # Multilingual settings
+  multilingualMode = false # Enable/disable multilingual mode (false by default)
+  showMissingLanguages = false # Show/hide untranslated languages in language menu (true by default)
 
-  # Versioning
-  docsVersioning = false # false (default) or true
-  docsVersion = "1.0"
+  # Versioning settings
+  docsVersioning = false # Enable/disable docs versioning (false by default)
+  docsVersion = "1.0"  # Current docs version
 
-  # UX
-  headerBar = true # true (default) or false
-  backgroundDots = false # true (default) or false
+  # UX settings
+  headerBar = true # Show/hide header bar (true by default)
+  backgroundDots = false # Show/hide background dots (true by default)
 
-  # Homepage
-  sectionFooter = true # false (default) or true
+  # Homepage settings
+  sectionFooter = true # Show/hide section footer on homepage (false by default)
 
-  # Blog
-  relatedPosts = true # false (default) or true
-  imageList = true # true (default) or false
-  imageSingle = true # true (default) or false
+  # Blog settings
+  relatedPosts = true # Show/hide related posts (false by default)
+  imageList = true # Show/hide images in post lists (true by default)
+  imageSingle = true # Show/hide images in single posts (true by default)
 
-  # Table of Contents
-  toc = true # false (default) or true
-  tocStartLevel = 2 # 2 (default)
-  tocEndLevel = 3 # 3 (default)
+  # Table of Contents settings
+  toc = true # Enable/disable Table of Contents (false by default)
+  tocStartLevel = 2 # Starting heading level for ToC (2 by default)
+  tocEndLevel = 3 # Ending heading level for ToC (3 by default)
 
-  # Repository
-  editPage = false # false (default) or true
-  lastMod = false # false (default) or true
-  repoHost = "GitHub" # GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"
-  docsRepoBranch = "main" # main (default), master, or <branch name>
-  docsRepoSubPath = "" # "" (none, default) or <sub path>
+  # Repository settings
+  editPage = false # Enable/disable "Edit this page" links (false by default)
+  lastMod = false # Show/hide last modified date (false by default)
+  repoHost = "GitHub" # Repository host: GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
+  docsRepo = "https://github.com/h-enk/doks"  # URL of the docs repository
+  docsRepoBranch = "main" # Branch name of the docs repository
+  docsRepoSubPath = "" # Subpath within the repository for docs
 
-  # SCSS colors
+  # SCSS color customization (commented out by default)
   # backGround = "yellowgreen"
-  ## Dark theme
-  # textDark = "#dee2e6" # "#dee2e6" (default), "#dee2e6" (orignal), or custom color
-  # accentDark = "#5d2f86" # "#5d2f86" (default), "#5d2f86" (original), or custom color
-  ## Light theme
-  # textLight = "#1d2d35" # "#1d2d35" (default), "#1d2d35" (orignal), or custom color
-  # accentLight = "#8ed6fb" # "#8ed6fb" (default), "#8ed6fb" (orignal), or custom color
+  ## Dark theme colors
+  # textDark = "#dee2e6"
+  # accentDark = "#5d2f86"
+  ## Light theme colors
+  # textLight = "#1d2d35"
+  # accentLight = "#8ed6fb"
 
+  # Menu settings (commented out by default)
   # [doks.menu]
   #   [doks.menu.section]
-  #     auto = true # true (default) or false
-  #     collapsibleSidebar = true # true (default) or false
+  #     auto = true # Automatically generate section menu (true by default)
+  #     collapsibleSidebar = true # Make sidebar collapsible (true by default)
 
-# Debug
+# Debug settings for render hooks
 [render_hooks.image]
-  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
+  errorLevel = 'ignore' # Error level for image rendering: ignore (default), warning, or error
 
 [render_hooks.link]
-  errorLevel = 'ignore' # ignore (default), warning, or error (fails the build)
-  highlightBroken = false # true or false (default)
+  errorLevel = 'ignore' # Error level for link rendering: ignore (default), warning, or error
+  highlightBroken = false # Highlight broken links (false by default)
 
-# Images (@thulite/images)
+# Image processing settings (@thulite/images)
 [thulite_images]
   [thulite_images.defaults]
-    decoding = "async" # sync, async, or auto (default)
-    fetchpriority = "auto" # high, low, or auto (default)
-    loading = "lazy" # eager or lazy (default)
-    widths = [480, 576, 768, 1025, 1200, 1440] # [640, 768, 1024, 1366, 1600, 1920] for example
-    sizes = "auto" # 100vw (default), 75vw, or auto for example
-    process = "" # "fill 1600x900" or "fill 2100x900" for example
-    lqip = "16x webp q20" # "16x webp q20" or "21x webp q20" for example
+    decoding = "async" # Image decoding: sync, async, or auto (default)
+    fetchpriority = "auto" # Fetch priority: high, low, or auto (default)
+    loading = "lazy" # Image loading: eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440] # Responsive image widths
+    sizes = "auto" # Responsive image sizes: 100vw (default), 75vw, or auto
+    process = "" # Image processing commands
+    lqip = "16x webp q20" # Low-quality image placeholder settings
 
-# Inline SVG (@thulite/inline-svg)
+# Inline SVG settings (@thulite/inline-svg)
 [inline_svg]
-  iconSetDir = "tabler-icons" # "tabler-icons" (default)
+  iconSetDir = "tabler-icons" # Directory for icon set ("tabler-icons" by default)
 
-# SEO (@thulite/seo)
+# SEO settings (@thulite/seo)
 [seo]
   [seo.title]
-    separator = " | "
-    suffix = ""
+    separator = " | "  # Separator for page titles
+    suffix = ""  # Suffix for page titles
   [seo.favicons]
-    sizes = [16, 32, 96, 192]
-    icon = "img/favicon/favicon-32x32.png"
-    svgIcon = "img/favicon/favicon.svg"
-    maskIcon = "img/favicon/safari-pinned-tab.svg"
-    maskIconColor = "#5bbad5"
+    sizes = [16, 32, 96, 192]  # Favicon sizes
+    icon = "img/favicon/favicon-32x32.png"  # Default favicon
+    svgIcon = "img/favicon/favicon.svg"  # SVG favicon
+    maskIcon = "img/favicon/safari-pinned-tab.svg"  # Safari mask icon
+    maskIconColor = "#5bbad5"  # Color for Safari mask icon
 
+  # Schema settings (commented out by default)
   # [seo.schemas]
-  #   type = "Organization" # Organization (default) or Person
-  #   logo = "assets/img/favicon/android-chrome-512x512.png"
+  #   type = "Organization" # Schema type: Organization (default) or Person
+  #   logo = "assets/img/favicon/android-chrome-512x512.png"  # Organization logo
   #   name = "Simpleminded Robot" # Name of Organization or Person
-  #   sameAs = [] # E.g. ["https://github.com/thuliteio/thulite", "https://fosstodon.org/@thulite"]
-  #   images = ["cover.png"] # ["cover.png"] (default)
-  #   article = [] # Article sections
-  #   newsArticle = [] # NewsArticle sections
-  #   blogPosting = ["blog"] # BlogPosting sections
-  #   product = [] # Product sections
+  #   sameAs = [] # Social media and other links
+  #   images = ["cover.png"] # Default images for schema
+  #   article = [] # Article schema sections
+  #   newsArticle = [] # NewsArticle schema sections
+  #   blogPosting = ["blog"] # BlogPosting schema sections
+  #   product = [] # Product schema sections

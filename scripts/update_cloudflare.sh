@@ -19,6 +19,13 @@ if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z
 fi
 
 # Function to make API calls
+
+# cf_api_call() - Make a Cloudflare API call
+#
+# This function is used to make a Cloudflare API call. It takes three parameters:
+# method (GET, PUT, POST, DELETE), endpoint, and data.
+#
+# The `data` parameter is optional and should be a JSON string.
 cf_api_call() {
     local method=$1
     local endpoint=$2
@@ -31,6 +38,14 @@ cf_api_call() {
 }
 
 # Update project settings
+# update_project_settings() - Update project settings
+#
+# This function updates the project settings for the specified project with the
+# given environment variables. It takes no parameters.
+#
+# The function makes a PATCH request to the Cloudflare API to update the
+# project settings. If the request is successful, it does nothing. If the request
+# fails, it prints the error message to the console and exits with a status of 1.
 update_project_settings() {
     local data=$(cat <<EOF
     {
@@ -70,6 +85,12 @@ EOF
 }
 
 # Clear Cloudflare Cache
+
+# Clear the Cloudflare cache for the given zone.
+#
+# This function makes a POST request to the Cloudflare API to purge the cache for
+# the given zone. If the purge is successful, it prints a success message. If the
+# purge fails, it prints an error message and exits with status code 1.
 clear_cache() {
     local data='{"purge_everything":true}'
 

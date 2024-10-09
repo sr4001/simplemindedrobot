@@ -1,43 +1,50 @@
+# Site Configuration
+
+# Basic site information
 title = "Simpleminded Robot"
 baseurl = "http://sr4001.net/"
-canonifyURLs = true
-disableAliases = true
-disableHugoGeneratorInject = true
-# disableKinds = ["taxonomy", "term"]
-enableEmoji = true
-enableGitInfo = false
-enableRobotsTXT = true
-languageCode = "en-US"
-# paginate = 10
-pagination.pagerSize = 10
-rssLimit = 10
-summarylength = 70 # 70 (default)
-timeout = "60s"
+canonifyURLs = true  # Converts all relative URLs to absolute URLs
+disableAliases = true  # Disables generation of alias redirects
+disableHugoGeneratorInject = true  # Removes Hugo generator meta tag
+# disableKinds = ["taxonomy", "term"]  # Uncomment to disable taxonomy and term pages
+enableEmoji = true  # Enables emoji support in content
+enableGitInfo = false  # Disables Git commit information
+enableRobotsTXT = true  # Generates a robots.txt file
+languageCode = "en-US"  # Sets the language code for the site
+# paginate = 10  # Uncomment to set number of items per page in lists
+pagination.pagerSize = 10  # Number of pagination links to display
+rssLimit = 10  # Limit of items in RSS feed
+summarylength = 70  # Length of automatic page summaries
+timeout = "60s"  # Build timeout
 
-# Site description
+# Site description for SEO
 description = "AI and Agile Development Insights | Explore AI integration, Agile workflows, and tech advancements in software development."
 
-# Multilingual
-defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
-defaultContentLanguageInSubdir = false
+# Multilingual settings
+defaultContentLanguage = "en"  # Default content language
+disableLanguages = ["de", "nl"]  # Disabled languages
+defaultContentLanguageInSubdir = false  # Don't put default language in subdirectory
 
+# Copyright notice
 copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en' target='_blank' rel='noopener noreferrer'>CC BY-NC-SA 4.0</a>"
 
+# Build configuration
 [build]
-  buildStats.enable = true
+  buildStats.enable = true  # Enables build statistics
 
+# Output formats configuration
 [outputs]
-  home = ["HTML", "RSS", "searchIndex"]
-  section = ["HTML", "RSS", "SITEMAP"]
+  home = ["HTML", "RSS", "searchIndex"]  # Output formats for home page
+  section = ["HTML", "RSS", "SITEMAP"]  # Output formats for sections
 
+# Custom output format for search index
 [outputFormats.searchIndex]
   mediaType = "application/json"
   baseName = "search-index"
   isPlainText = true
   notAlternative = true
 
-# Add output format for section sitemap.xml
+# Custom output format for section sitemap
 [outputFormats.SITEMAP]
   mediaType = "application/xml"
   baseName = "sitemap"
@@ -46,11 +53,13 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   noUgly = true
   rel  = "sitemap"
 
+# Sitemap configuration
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
   priority = 0.5
 
+# Caching configuration
 [caches]
   [caches.getjson]
     dir = ":cacheDir/:project"
@@ -62,18 +71,21 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
     dir = ":resourceDir/_gen"
     maxAge = "720h"
 
+# Taxonomy configuration
 [taxonomies]
   contributor = "contributors"
   category = "categories"
   tag = "tags"
   series = "series"
 
+# URL structure configuration
 [permalinks]
   blog = "/blog/:slug/"
   docs = "/docs/:sections[1:]/:slug/"
 
+# Minification configuration
 [minify]
-  minifyOutput = true
+  minifyOutput = true  # Enables minification of output
 
   [minify.tdewolff]
     [minify.tdewolff.html]
@@ -85,6 +97,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
       precision = 1
       keepVarNames = false
 
+# Related content configuration
 [related]
   threshold = 80
   includeNewer = true
@@ -99,6 +112,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
       name = "date"
       weight = 10
 
+# Image processing configuration
 [imaging]
   anchor = "Center"
   bgColor = "#ffffff"
@@ -112,6 +126,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
   includeFields = ""
   excludeFields = ""
 
+# Server configuration
 [server]
   [[server.headers]]
     for = "/**"
