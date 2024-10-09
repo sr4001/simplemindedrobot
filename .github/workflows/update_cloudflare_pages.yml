@@ -1,26 +1,27 @@
-name: Update Cloudflare Pages Configuration
+name: Update Cloudflare Settings
 
 on:
   push:
     branches:
-      - main  # or your default branch name
-  pull_request:
-    types:
-      - closed
+      - main
+  workflow_dispatch:
 
 jobs:
-  update_cloudflare_pages:
-    if: github.event.pull_request.merged == true || github.event_name == 'push'
+  update-cloudflare:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Update Cloudflare Pages configuration
+      - name: Install jq
+        run: sudo apt-get install jq
+
+      - name: Run Update Script
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_PROJECT_NAME: ${{ secrets.CLOUDFLARE_PROJECT_NAME }}
         run: |
-          chmod +x ./configure_cloudflare_pages.sh
-          ./configure_cloudflare_pages.sh
+          chmod +x scripts/update_cloudflare.sh
+          ./scripts/update_cloudflare.sh

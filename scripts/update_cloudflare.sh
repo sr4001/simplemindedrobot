@@ -5,6 +5,11 @@ API_TOKEN="${CLOUDFLARE_API_TOKEN}"
 ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"
 PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"
 
+# Version Variables
+NODE_VERSION="22.9.0"
+NPM_VERSION="10.8.3"
+HUGO_VERSION="0.135.0"
+
 # Check if required environment variables are set
 if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ]; then
     echo "Error: Required environment variables are not set."
@@ -26,7 +31,8 @@ cf_api_call() {
 
 # Update project settings
 update_project_settings() {
-    local data='{
+    local data=$(cat <<EOF
+    {
         "build_config": {
             "build_command": "npm run build",
             "destination_dir": "public",
@@ -35,22 +41,31 @@ update_project_settings() {
         "deployment_configs": {
             "preview": {
                 "environment_variables": {
-                    "NODE_VERSION": "22.9.0",
-                    "NPM_VERSION": "10.8.3",
-                    "HUGO_VERSION": "0.135.0"
+                    "NODE_VERSION": "$NODE_VERSION",
+                    "NPM_VERSION": "$NPM_VERSION",
+                    "HUGO_VERSION": "$HUGO_VERSION"
                 }
             },
             "production": {
                 "environment_variables": {
-                    "NODE_VERSION": "22.9.0",
-                    "NPM_VERSION": "10.8.3",
-                    "HUGO_VERSION": "0.135.0"
+                    "NODE_VERSION": "$NODE_VERSION",
+                    "NPM_VERSION": "$NPM_VERSION",
+                    "HUGO_VERSION": "$HUGO_VERSION"
                 }
             }
         }
-    }'
+    }
+EOF
+    )
 
-    cf_api_call PATCH "/accounts/$ACCOUNT_ID/pages/projects/$PROJECT_NAME" "$data"
+    response=$(cf_api_call PATCH "/accounts/$ACCOUNT_ID/pages/projects/$PROJECT_NAME" "$data")
+
+    # Check if the update was successful
+    if [[ $(echo "$response" | jq -r '.success') == "false" ]]; then
+        echo "Error: Failed to update project settings"
+        echo "$response" | jq -r '.errors[]'
+        exit 1
+    fi
 }
 
 # Main execution
