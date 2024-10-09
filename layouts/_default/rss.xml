@@ -43,8 +43,18 @@
       {{ end }}
 
       <guid>{{ .Permalink }}</guid>
-      <content>{{ .Content | html }}</content>
-      <description>{{ .Summary | html }}</description>
+      <content>
+        {{- $paragraphs := split .Content "<p>" -}}
+        {{- $filteredParagraphs := slice -}}
+        {{- range $paragraphs -}}
+          {{- if and (not (findRE "<img" .)) (not (findRE "{{<" .)) -}}
+            {{- $filteredParagraphs = $filteredParagraphs | append . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- $firstThreeParagraphs := first 3 $filteredParagraphs -}}
+        {{- delimit $firstThreeParagraphs "<p>" | html -}}
+      </content>
+      <summary>{{ .Summary | html }}</summary>
 
       {{ with .Params.blogComment }}
       {{ if gt (len .) 0 }}
