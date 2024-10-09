@@ -43,6 +43,7 @@
       {{ end }}
 
       <guid>{{ .Permalink }}</guid>
+      <content>{{ .Content | html }}</content>
       <description>{{ .Summary | html }}</description>
 
       {{ with .Params.blogComment }}
