@@ -6,14 +6,13 @@ ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"
 PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"
 ZONE_ID="${CLOUDFLARE_ZONE_ID}"
 
-# Read values from cloudflare.json
-CLOUDFLARE_JSON="cloudflare.json"
-BUILD_COMMAND=$(jq -r '.build.build_command' $CLOUDFLARE_JSON)
-DESTINATION_DIR=$(jq -r '.build.destination_dir' $CLOUDFLARE_JSON)
-ROOT_DIR=$(jq -r '.build.output_dir' $CLOUDFLARE_JSON)
-NODE_VERSION=$(jq -r '.environment.NODE_VERSION' $CLOUDFLARE_JSON)
-NPM_VERSION=$(jq -r '.environment.NPM_VERSION' $CLOUDFLARE_JSON)
-HUGO_VERSION=$(jq -r '.environment.HUGO_VERSION' $CLOUDFLARE_JSON)
+# Define local variables for build and environment settings
+BUILD_COMMAND="npm run build"
+DESTINATION_DIR="public"
+ROOT_DIR=""
+NODE_VERSION="16.13.0"
+NPM_VERSION="8.1.0"
+HUGO_VERSION="0.88.1"
 
 # Check if required environment variables are set
 if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z "$ZONE_ID" ]; then
