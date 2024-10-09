@@ -1,19 +1,44 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Params.rssLimit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ .Site.Title | xmlEscape }}</title>
-    <link>{{ .Site.BaseURL | xmlEscape }}</link>
-    <description>{{ .Site.Params.description | xmlEscape }}</description>
-    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</lastBuildDate>
-    {{ range .Pages }}
+    <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+    <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+    <language>{{.}}</language>{{end}}{{ with .Site.Copyright }}
+    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{ range $pages }}
     <item>
-      <title>{{ .Title | xmlEscape }}</title>
-      <link>{{ .Permalink | xmlEscape }}</link>
-      <description><![CDATA[{{ .Summary | plainify }}]]></description>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 MST" }}</pubDate>
-      <guid>{{ .Permalink | xmlEscape }}</guid>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+      {{ with .Params.contributors }}
+      <author>
+        {{ range $index, $element := . }}
+        {{ $element }}{{ if lt (add $index 1) (len .) }}, {{ end }}
+        {{ end }}
+      </author>
+      {{ end }}
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ .Summary | html }}</description>
       {{ with .Params.blogComment }}
-      <blogComment><![CDATA[{{ . }}]]></blogComment>
+      <blogComment><![CDATA[{{ . | replace "]]>" "]]]]><![CDATA[>" }}]]></blogComment>
       {{ end }}
     </item>
     {{ end }}
