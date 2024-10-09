@@ -23,7 +23,7 @@
   {{- $smallPng = $smallPng | resources.Copy $smallPngPath -}}
 
   <!-- Output the path for verification -->
-  <p>Small PNG created at: {{ $smallPng.RelPermalink }}</p>
+  {{/*  <p>Small PNG created at: {{ $smallPng.RelPermalink }}</p>  */}}
 
   <figure>
     {{- if $isGif -}}
