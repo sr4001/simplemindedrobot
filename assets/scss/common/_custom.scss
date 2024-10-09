@@ -48,23 +48,29 @@ body {
     border-color: $sl-color-accent-high;
 }
 
-// New styles for "Read More" and "View All Posts" buttons on the main page
+// Updated styles for "Read More" and "View All Posts" buttons on the main page
 .btn-main-action {
-    background-color: white;
-    border: 2px solid $sl-color-accent;
+    background-color: transparent;
+    border: 1px solid $sl-color-accent;
     color: $sl-color-accent;
-    transition: all 0.3s ease;
-    display: inline-block; /* Ensure the button resizes based on content */
-    margin: 0 auto; /* Center the button */
-    width: auto; /* Let the width be determined by the content */
-    padding-left: 1rem; /* Optional: Add padding if needed */
-    padding-right: 1rem; /* Optional: Add padding if needed */
-    text-align: center; /* Ensure text inside the button is centered */
+    transition: all 0.15s ease-in-out;
+    display: inline-block;
+    margin: 0 auto;
+    width: auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
 
     &:hover,
     &:focus {
         background-color: $sl-color-accent;
+        border-color: $sl-color-accent;
         color: white;
+        text-decoration: none;
     }
 }
 
