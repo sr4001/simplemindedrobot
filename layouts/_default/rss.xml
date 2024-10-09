@@ -38,7 +38,9 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Summary | html }}</description>
       {{ with .Params.blogComment }}
-      <blogComment><![CDATA[{{ . | replace "]]>" "]]]]><![CDATA[>" }}]]></blogComment>
+        {{ if gt (len .) 0 }}
+        <blogComment>{{ . | html }}</blogComment>
+        {{ end }}
       {{ end }}
     </item>
     {{ end }}
