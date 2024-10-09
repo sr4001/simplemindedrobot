@@ -1,15 +1,12 @@
 {
   "build": {
-    "publish": "public",
-    "command": "npm run build"
+    "destination_dir": "public",
+    "build_command": "npm run build",
+    "output_dir": ""
   },
   "environment": {
     "NODE_VERSION": "20.11.0",
     "NPM_VERSION": "10.2.4",
     "HUGO_VERSION": "0.125.1"
-  },
-  "dev": {
-    "command": "npm run dev",
-    "port": 8888
   }
 }

@@ -6,10 +6,14 @@ ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"
 PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"
 ZONE_ID="${CLOUDFLARE_ZONE_ID}"
 
-# Version Variables
-NODE_VERSION="22.9.0"
-NPM_VERSION="10.8.3"
-HUGO_VERSION="0.135.0"
+# Read values from cloudflare.json
+CLOUDFLARE_JSON="cloudflare.json"
+BUILD_COMMAND=$(jq -r '.build.build_command' $CLOUDFLARE_JSON)
+DESTINATION_DIR=$(jq -r '.build.destination_dir' $CLOUDFLARE_JSON)
+ROOT_DIR=$(jq -r '.build.output_dir' $CLOUDFLARE_JSON)
+NODE_VERSION=$(jq -r '.environment.NODE_VERSION' $CLOUDFLARE_JSON)
+NPM_VERSION=$(jq -r '.environment.NPM_VERSION' $CLOUDFLARE_JSON)
+HUGO_VERSION=$(jq -r '.environment.HUGO_VERSION' $CLOUDFLARE_JSON)
 
 # Check if required environment variables are set
 if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z "$ZONE_ID" ]; then
@@ -50,9 +54,9 @@ update_project_settings() {
     local data=$(cat <<EOF
     {
         "build_config": {
-            "build_command": "npm run build",
-            "destination_dir": "public",
-            "root_dir": ""
+            "build_command": "$BUILD_COMMAND",
+            "destination_dir": "$DESTINATION_DIR",
+            "root_dir": "$ROOT_DIR"
         },
         "deployment_configs": {
             "preview": {
