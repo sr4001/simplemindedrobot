@@ -9,7 +9,13 @@
     },
     "headline": "{{ .Title }}",
     "description": "{{ .Description }}",
-    "image": "{{ .Params.image | absURL }}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{ .Params.image | absURL }}",
+      "height": 675,
+      "width": 1200
+    },
+    "url": "{{ .Permalink }}",
     "author": {
       "@type": "Person",
       "name": "{{ range .Params.contributors }}{{ . }}{{ end }}"
