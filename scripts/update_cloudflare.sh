@@ -1,4 +1,7 @@
 #!/bin/bash
+# Prerequisite: A Cloudflare Pages project and associated API tokens must be configured prior to running this workflow or it will fail.
+# Prerequisite: The Cloudflare API token must have the required permissions (Cloudflare Pages:Edit, Zone:Edit, Cache Purge, Page Rules:Edit)
+# Prerequisite: The CLOUDFLARE_PROJECT_NAME, CLOUDFLARE_ZONE_ID, CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID must be set in the GitHub secrets
 
 # Cloudflare API configuration (saved in GitHub secrets)
 API_TOKEN="${CLOUDFLARE_API_TOKEN}"        # Authentication token for Cloudflare API
