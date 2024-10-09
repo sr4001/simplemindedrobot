@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Cloudflare API configuration
-API_TOKEN="${CLOUDFLARE_API_TOKEN}"
-ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"
-PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"
-ZONE_ID="${CLOUDFLARE_ZONE_ID}"
+# Cloudflare API configuration (saved in GitHub secrets)
+API_TOKEN="${CLOUDFLARE_API_TOKEN}"        # Authentication token for Cloudflare API
+ACCOUNT_ID="${CLOUDFLARE_ACCOUNT_ID}"      # Cloudflare account ID
+PROJECT_NAME="${CLOUDFLARE_PROJECT_NAME}"  # Name of the Cloudflare Pages project
+ZONE_ID="${CLOUDFLARE_ZONE_ID}"            # ID of the Cloudflare zone (domain)
 
 # Define local variables for build and environment settings
-BUILD_COMMAND="npm run build"
-DESTINATION_DIR="public"
-ROOT_DIR=""
-NODE_VERSION="16.13.0"
-NPM_VERSION="8.1.0"
-HUGO_VERSION="0.88.1"
+BUILD_COMMAND="npm run build"  # Command to build the project
+DESTINATION_DIR="public"       # Directory where build output is stored
+ROOT_DIR=""                    # Root directory of the project (empty means current directory)
+NODE_VERSION="16.13.0"         # Version of Node.js to use
+NPM_VERSION="8.1.0"            # Version of npm to use
+HUGO_VERSION="0.88.1"          # Version of Hugo to use (if applicable)
 
 # Check if required environment variables are set
 if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z "$ZONE_ID" ]; then
@@ -21,14 +21,15 @@ if [ -z "$API_TOKEN" ] || [ -z "$ACCOUNT_ID" ] || [ -z "$PROJECT_NAME" ] || [ -z
     exit 1
 fi
 
-# Function to make API calls
-
-# cf_api_call() - Make a Cloudflare API call
+# Function to make API calls to Cloudflare
 #
-# This function is used to make a Cloudflare API call. It takes three parameters:
-# method (GET, PUT, POST, DELETE), endpoint, and data.
+# Parameters:
+# $1: HTTP method (GET, PUT, POST, DELETE)
+# $2: API endpoint
+# $3: JSON data (optional)
 #
-# The `data` parameter is optional and should be a JSON string.
+# This function constructs and sends HTTP requests to the Cloudflare API
+# using the provided parameters and authentication token.
 cf_api_call() {
     local method=$1
     local endpoint=$2
@@ -40,15 +41,11 @@ cf_api_call() {
          ${data:+-d "$data"}
 }
 
-# Update project settings
-# update_project_settings() - Update project settings
+# Function to update project settings
 #
-# This function updates the project settings for the specified project with the
-# given environment variables. It takes no parameters.
-#
-# The function makes a PATCH request to the Cloudflare API to update the
-# project settings. If the request is successful, it does nothing. If the request
-# fails, it prints the error message to the console and exits with a status of 1.
+# This function updates the Cloudflare Pages project settings including
+# build configuration and environment variables for both preview and
+# production deployments.
 update_project_settings() {
     local data=$(cat <<EOF
     {
@@ -87,13 +84,11 @@ EOF
     fi
 }
 
-# Clear Cloudflare Cache
-
-# Clear the Cloudflare cache for the given zone.
+# Function to clear Cloudflare cache
 #
-# This function makes a POST request to the Cloudflare API to purge the cache for
-# the given zone. If the purge is successful, it prints a success message. If the
-# purge fails, it prints an error message and exits with status code 1.
+# This function sends a request to Cloudflare to purge the entire cache
+# for the specified zone (domain). It's useful after deploying updates
+# to ensure that the latest version of the site is served to visitors.
 clear_cache() {
     local data='{"purge_everything":true}'
 

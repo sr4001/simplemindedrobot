@@ -1,5 +1,6 @@
 name: Update Cloudflare Settings
 
+# Trigger the workflow on push to the main branch and manual dispatch
 on:
   push:
     branches:
@@ -11,12 +12,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Install jq (JSON processor)
       - name: Install jq
         run: sudo apt-get install jq
 
+      # Step 3: Run the update script
+      # Ensure the following GitHub secrets are set with Cloudflare values:
+      # - CLOUDFLARE_API_TOKEN: Your Cloudflare API token
+      # - CLOUDFLARE_ACCOUNT_ID: Your Cloudflare account ID
+      # - CLOUDFLARE_PROJECT_NAME: Your Cloudflare project name
+      # - CLOUDFLARE_ZONE_ID: Your Cloudflare zone ID
+      #
+      # Required API permissions on Cloudflare:
+      # - Cloudflare Pages:Edit
+      # - Zone:Edit
+      # - Cache Purge:Purge
+      # - Page Rules:Edit
       - name: Run Update Script
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
