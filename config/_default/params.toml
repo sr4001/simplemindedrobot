@@ -13,7 +13,7 @@ mainSections = ["docs"]
 # Doks theme configuration (@thulite/doks-core)
 [doks]
   # Color mode settings
-  colorMode = "auto" # Options: auto (default), light, or dark
+  colorMode = "light" # Options: auto (default), light, or dark
   colorModeToggler = true # Enable/disable color mode toggle (only relevant when colorMode = auto)
 
   # Navbar settings
