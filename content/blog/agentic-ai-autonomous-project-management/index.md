@@ -14,8 +14,6 @@ seo:
     development, enhancing decision-making, risk management, and team collaboration.
   noindex: false
   title: "Agentic AI: Transforming Agile Development with Autonomous Intelligence"
-series:
-  - Agentic AI
 summary: Explore how agentic AI is revolutionizing project management in Agile development,
   enhancing decision-making, risk management, and team collaboration.
 tags:
