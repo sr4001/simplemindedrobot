@@ -6,7 +6,7 @@
     <div class="text-center">{{ .Content }}</div>
     <div class="card-list">
       {{ range .Paginator.Pages }}
-        <div class="card card-terms my-3">
+        <div class="card card-terms my-3 bg-transparent border-dark border-opacity-10">
           <div class="card-body">
             <article>
               <a class="stretched-link" href="{{ .RelPermalink }}">{{ .Title | title }} ({{ len .Pages }}) &rarr;</a>
