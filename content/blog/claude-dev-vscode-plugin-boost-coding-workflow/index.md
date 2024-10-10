@@ -30,6 +30,9 @@ tags:
   - agentic
 title: "Supercharging Your Coding Workflow: The Claude Dev Plugin for VS Code"
 weight: 50
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 ---
 
 For the last few weeks, I've been using the [Claude Dev](https://marketplace.visualstudio.com/items?itemName=saoudrizwan.claude-dev) plugin for VS Code and now can't see working without it. This powerful AI assistant has transformed my coding experience, boosting productivity and offering insights that have taken my development process to the next level. Let me share my experience with Claude Dev and why it's become an indispensable tool in my software development toolkit.

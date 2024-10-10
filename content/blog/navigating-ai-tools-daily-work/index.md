@@ -26,6 +26,9 @@ tags:
   - digital transformation
 title: Navigating the Use of AI Tools in Daily Work
 weight: 50
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 ---
 
 Imagine walking into your office to find a new colleague at the desk next to yours. This coworker never sleeps, can process vast amounts of information in seconds, and seems to have an answer for everything. Sounds like a dream team member, right? But what if this tireless worker also lacks the ability to read between the lines, misses cultural nuances, and can't brainstorm truly novel ideas?

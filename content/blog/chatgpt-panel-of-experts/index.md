@@ -28,6 +28,9 @@ tags:
   - strategic decision making
 title: Using ChatGPT as a Panel of Experts for Problem-Solving
 weight: 50
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 ---
 
 The rapid advancement of AI-assisted decision-making tools has opened up new possibilities for problem-solving and analysis. Among these innovations, one method that stands out is the creation of a virtual Panel of Experts using ChatGPT. This approach goes beyond simply seeking quick answers; it aims to replicate the depth and nuance of collaborative thinking found in real-world expert panels.

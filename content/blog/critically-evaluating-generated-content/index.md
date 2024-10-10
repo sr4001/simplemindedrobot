@@ -29,6 +29,9 @@ tags:
   - systems thinking
 title: Critically Evaluating AI-Generated Content in Software Development
 weight: 50
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 ---
 
 As AI tools become increasingly sophisticated, they offer developers new ways to streamline workflows and generate content. However, the true value of these tools lies not in their outputs alone, but in how we critically evaluate and refine those outputs. This is especially crucial when using AI to generate user stories and other project documentation. In this post, we'll explore essential critical thinking skills and practical steps for evaluating AI-generated content, ensuring it aligns with project requirements and serves as a catalyst for deeper team discussions.
