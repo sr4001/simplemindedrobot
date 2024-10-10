@@ -29,6 +29,11 @@
   # url = "/tutorial/lorem/"
 
 [[main]]
+  name = "Simpleminded Robot"
+  url = ""
+  weight=1
+
+[[main]]
   name = "About"
   url = "/about/"
   weight = 10

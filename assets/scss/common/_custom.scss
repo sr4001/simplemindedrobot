@@ -1,13 +1,13 @@
 // Define $gray-200 variable
 $gray-200: #e9ecef;
 
-// Import Google Font Josefin Sans Medium 500 Italic
+// Import Google Font Orbitron Medium 500
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
 // Import custom variables
 @import "variables-custom";
 
-// Set Josefin Sans for headers
+// Set Orbitron for headers
 h1, h2, h3, h4, h5, h6 {
     font-family: "Orbitron", serif;
     font-optical-sizing: auto;
@@ -15,22 +15,33 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
 }
 
-// Ensure headings remain in sans-serif for contrast
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Orbitron", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+html {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(221,221,221,1) 0%, rgba(255,255,255,1) 100%) no-repeat;
+    background-attachment: fixed;
 }
 
 body {
-    background-color: $sl-color-bg;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: transparent;
     color: $sl-color-text;
     font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
 }
 
+// Add this to make the main content area grow and push the footer down
+main {
+    flex: 1 0 auto;
+}
+
+// Ensure the footer stays at the bottom
+footer {
+    flex-shrink: 0;
+}
+
 .navbar {
-    background-color: white;
+    background-color: $sl-color-bg;
     border-bottom: 1px solid $gray-200;
 }
 
@@ -40,7 +51,7 @@ body {
 }
 
 .btn-primary {
-    background-color: $sl-color-accent;
+    background-color: transparent;
     border-color: $sl-color-accent;
 }
 
@@ -131,7 +142,7 @@ pre {
 }
 
 .toc-wrapper {
-    background-color: $sl-color-bg-sidebar;
+    background-color: transparent;
     padding: 1rem;
     border-radius: 0.25rem;
     margin-bottom: 1rem;
@@ -186,14 +197,14 @@ header.navbar {
 
             &:hover,
             &:focus {
-                background-color: $sl-color-accent;
+                background-color: transparent;
                 border-color: $sl-color-accent;
                 color: white;
             }
         }
 
         &.active .page-link {
-            background-color: $sl-color-accent;
+            background-color: transparent;
             border-color: $sl-color-accent;
             color: white;
         }
@@ -260,7 +271,6 @@ a:not([class]):hover,
     font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
 }
 
-
 // New styles for previous/next navigation buttons
 .blog-navigation {
     display: flex;
@@ -273,6 +283,11 @@ a:not([class]):hover,
         overflow: hidden;
         text-overflow: ellipsis;
     }
+}
+
+// New bg-transparent class
+.bg-transparent {
+    background-color: transparent !important;
 }
 
 // Ensure all navbars (including home page) have the same border

@@ -8,7 +8,7 @@ draft: false
 type: "legal"
 ---
 
-Where technology, AI, and the future of software development converge. My name is Scot Campbell, and I've spent over two decades navigating the intersections of technology, strategy, and business. As a seasoned Solution Consultant and Agile practitioner, I'm driven by a passion for blending technical insights with real-world business solutions.
+Where technology, AI, and the future of software development converge. I'm Scot Campbell, and I've spent over two decades navigating the intersections of technology, strategy, and business. As a seasoned Solution Consultant and Agile practitioner, I'm driven by a passion for blending technical insights with real-world business solutions.
 
 My professional journey has led me to explore a wide range of domains, from project management and data analytics to cutting-edge AI applications. I've worked with organizations to optimize operations, bridge gaps between technical and business teams, and implement systems that make a tangible impact on efficiency and innovation.
 

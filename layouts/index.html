@@ -25,7 +25,7 @@
 
       {{ if $firstFeatured }}
       <!-- Main Featured Post -->
-      <div class="card mb-4">
+      <div class="card mb-4 bg-transparent border-dark border-opacity-10">
         <div class="card-body">
           <h3 class="card-title"><a class="text-body" href="{{ $firstFeatured.RelPermalink }}">{{ $firstFeatured.Title }}</a></h3>
           <p class="card-text">{{ $firstFeatured.Summary | safeHTML }}</p>
@@ -38,7 +38,7 @@
       <div class="row row-cols-1 row-cols-md-3 g-4 equal-height-cards">
         {{ range first 3 (after 1 $featuredPosts) }}
         <div class="col">
-          <div class="card h-100 d-flex flex-column">
+          <div class="card h-100 d-flex flex-column bg-transparent border-dark border-opacity-10">
             <div class="card-body flex-grow-1">
               <h4 class="card-title h5"><a class="text-body" href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
               <p class="card-text small">{{ .Summary | plainify | truncate 150 }}</p>
@@ -73,7 +73,7 @@
 
 {{ define "sidebar-footer" }}
 {{ if site.Params.doks.sectionFooter -}}
-<section class="section section-md container-fluid bg-light">
+<section class="section section-md container-fluid bg-transparent">
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
       <h2 class="mt-2">Explore More AI and Agile Insights</h2>
