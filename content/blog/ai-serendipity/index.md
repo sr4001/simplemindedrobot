@@ -22,6 +22,19 @@ tags:
 - AI
 - serendipity
 - covid-19
+- artificial intelligence
+- innovation
+- technology
+- remote collaboration
+- digital transformation
+- workplace culture
+- future of work
+- creativity
+- machine learning
+- tech trends
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 title: AI Serendipity - Uncovering the Unexpected
 weight: 50
 blogComment: "Excited to share my latest blog post, \"AI Serendipity: Uncovering the Unexpected\"! In this piece, I dive into how AI can help us discover surprising connections and opportunities we might otherwise miss. For professionals navigating rapid change and innovation, this concept opens the door to embracing the unexpected as a strategic advantage. If you're interested in the evolving role of AI in driving creativity and unexpected breakthroughs, this read is for you! #AI #Innovation #Serendipity #TechTrends"
