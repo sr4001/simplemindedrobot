@@ -1,16 +1,10 @@
-{{ $last := sub (len .Params.contributors) 1 -}}
+{{ if .PublishDate -}}
 <p>
   <small>
     {{- time.Format (default ":date_long" .Site.Params.dateFormat) .PublishDate -}}
-    {{/*  {{- with .Params.categories -}}
-      &nbsp;in&nbsp;
-      {{- range $index, $category := . -}}
-        {{ if gt $index 0 }}, {{ end -}}
-        <a class="stretched-link position-relative link-muted" href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
-      {{- end }}
-    {{- end }}  */}}
     {{- with .Params.contributors -}}
       &nbsp;by&nbsp;
+      {{- $last := sub (len .) 1 -}}
       {{- range $index, $contributor := . -}}
         {{- if gt $index 0 }}{{ if eq $index $last }} and {{ else }}, {{ end }}{{ end -}}
         {{- with $.Site.GetPage "taxonomyTerm" (printf "contributors/%s" (urlize .)) -}}
@@ -24,6 +18,7 @@
         <a class="stretched-link position-relative" href="{{ "/contributors/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>
       {{- end }}
     {{- end -}}
+    {{ if .ReadingTime -}}
     <span class="stretched-link position-relative reading-time text-nowrap" title="{{ i18n "reading_time" }}">
       <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
@@ -32,8 +27,10 @@
       </svg>
       {{- .ReadingTime }}&nbsp;{{ i18n "minute" .ReadingTime -}}
     </span>
+    {{- end }}
   </small>
 </p>
+{{- end }}
 
 {{- with .Params.tags -}}
 <p>
@@ -46,6 +43,7 @@
 </p>
 {{- end -}}
 
+{{ if and .IsPage (eq .Type "blog") -}}
 <!-- Structured Data for Blog Post -->
 <script type="application/ld+json">
 {
@@ -73,3 +71,4 @@
   }
 }
 </script>
+{{- end }}
