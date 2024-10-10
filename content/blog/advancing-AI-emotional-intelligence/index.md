@@ -23,6 +23,9 @@ tags:
 - data analysis
 - technology
 title: "Advancing AI Emotional Intelligence - The Journey from Detection to Understanding"
+author: "Scot Campbell"
+language: "en"
+type: "blog post"
 weight: 50
 ---
 

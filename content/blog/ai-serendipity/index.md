@@ -2,7 +2,6 @@
 categories:
 - remote work
 - AI
-- serendipity
 contributors:
 - Scot Campbell
 date: 2024-10-08T18:28:11.132Z
