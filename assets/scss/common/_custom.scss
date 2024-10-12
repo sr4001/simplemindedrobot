@@ -1,378 +1,364 @@
-// Define $gray-200 variable
-$gray-200: #e9ecef;
-
 // Import Google Font Orbitron Medium 500
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
 
-// Import custom variables
-@import "variables-custom";
+// Variables
+$font-family-sans-serif: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", sans-serif;
 
-// Set Orbitron for headers
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Orbitron", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
-    font-style: normal;
+// Mixins
+@mixin transition($property: all, $duration: 0.2s, $timing: ease-in-out) {
+  transition: $property $duration $timing;
 }
 
-// html {
-//     height: 100%;
-//     background: linear-gradient(0deg, rgb(200, 200, 200) 0%, rgba(255,255,255,1) 100%) no-repeat;
-//     background-attachment: fixed;
-// }
-
+// Global Styles
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    background-color: transparent;
-    color: $sl-color-text;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: var(--sl-color-bg);
+  color: var(--sl-color-text);
+  font-family: $font-family-sans-serif;
 }
 
-// Add this to make the main content area grow and push the footer down
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
-// Ensure the footer stays at the bottom
 footer {
-    flex-shrink: 0;
+  flex-shrink: 0;
 }
 
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Orbitron", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a {
+  color: var(--sl-color-accent);
+  @include transition(color);
+
+  &:hover,
+  &:focus {
+    color: var(--sl-color-accent-high);
+  }
+}
+
+// Navbar
 .navbar {
-    background-color: $sl-color-bg;
-    border-bottom: 1px solid $gray-200;
+  background-color: var(--sl-color-bg);
+  border-bottom: 1px solid var(--sl-color-border);
+  height: 60px;
+
+  &-brand,
+  &-light .navbar-nav .nav-link,
+  &-light .navbar-nav .dropdown-item {
+    color: var(--sl-color-accent) !important;
+  }
+
+  &-light .navbar-nav {
+    .nav-link,
+    .dropdown-item {
+      &:hover,
+      &:focus,
+      &.active {
+        color: var(--sl-color-accent-high) !important;
+        background-color: rgba(var(--sl-color-accent), 0.1);
+      }
+    }
+
+    .dropdown-menu {
+      background-color: var(--sl-color-bg);
+      border-color: var(--sl-color-accent);
+    }
+  }
 }
 
-// Updated button styles
+.site-logo {
+  max-height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+// Buttons
 .btn {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
+  font-family: $font-family-sans-serif;
 }
 
 .btn-primary {
-    background-color: transparent;
-    border-color: $sl-color-accent;
+  background-color: transparent;
+  border-color: var(--sl-color-accent);
+
+  &:hover,
+  &:focus {
+    background-color: var(--sl-color-accent-high);
+    border-color: var(--sl-color-accent-high);
+  }
 }
 
-.btn-primary:hover,
-.btn-primary:focus {
-    background-color: $sl-color-accent-high;
-    border-color: $sl-color-accent-high;
-}
-
-// Updated styles for "Read More" and "View All Posts" buttons on the main page
 .btn-main-action {
-    background-color: transparent;
-    border: 1px solid $sl-color-accent;
-    color: $sl-color-accent;
-    transition: all 0.15s ease-in-out;
-    display: inline-block;
-    margin: 0 auto;
-    width: auto;
-    padding: 0.375rem 0.75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: 0.25rem;
-    text-align: center;
-    font-weight: 400;
+  @extend .btn-primary;
+  color: var(--sl-color-accent);
+  @include transition;
+  display: inline-block;
+  margin: 0 auto;
+  width: auto;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  text-align: center;
+  font-weight: 400;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--sl-color-bg);
     text-decoration: none;
-
-    &:hover,
-    &:focus {
-        background-color: $sl-color-accent;
-        border-color: $sl-color-accent;
-        color: white;
-        text-decoration: none;
-    }
+  }
 }
 
-// Updated link styles
-a {
-    color: $sl-color-accent;
-    transition: color 0.2s ease-in-out;
-}
-
-a {
-    color: $sl-color-accent;
-}
-
-// Override links in list items
-li a {
-    color: $sl-color-accent;
-}
-
-li a:hover,
-li a:focus {
-    color: $sl-color-accent;
-}
-
-// Improve contrast for card titles
+// Cards
 .card-title {
-    color: $sl-color-accent-low;
+  color: var(--sl-color-accent-low);
 }
 
-// Style for code blocks
+.equal-height-cards {
+  display: flex;
+  flex-wrap: wrap;
+
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    flex: 1 0 auto;
+  }
+
+  .card-footer {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+// Code blocks
 pre {
-    background-color: $sl-color-bg-sidebar;
-    border: 1px solid $sl-color-accent-low;
-    border-radius: 4px;
+  background-color: var(--sl-color-bg-sidebar);
+  border: 1px solid var(--sl-color-accent-low);
+  border-radius: 4px;
 }
 
-// Updated styles for navbar links and menu items
-.navbar-brand,
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav .dropdown-item {
-    color: $sl-color-accent !important;
+code:not(:where(.not-content *)) {
+  color: var(--sl-color-accent);
+  background-color: rgba(var(--sl-color-accent), 0.1);
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-.navbar-light .navbar-nav .nav-link:focus,
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .dropdown-item:hover,
-.navbar-light .navbar-nav .dropdown-item:focus,
-.navbar-light .navbar-nav .dropdown-item.active {
-    color: $sl-color-accent !important;
-    background-color: rgba($sl-color-accent, 0.1);
-}
-
-.navbar-light .navbar-nav .dropdown-menu {
-    background-color: $sl-color-bg;
-    border-color: $sl-color-accent;
-}
-
+// Table of Contents
 .toc-wrapper {
-    background-color: transparent;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    margin-bottom: 1rem;
-}
+  background-color: transparent;
+  padding: 1rem;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
 
-.toc-wrapper h2 {
+  h2 {
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
+  }
 }
 
-#TableOfContents ul {
+#TableOfContents {
+  ul {
     list-style-type: none;
     padding-left: 1rem;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      a {
+        color: var(--sl-color-accent);
+        text-decoration: none;
+      }
+    }
+  }
 }
 
-#TableOfContents ul li {
-    margin-bottom: 0.5rem;
-}
-
-#TableOfContents ul li a {
-    color: $link-color;
-    text-decoration: none;
-}
-
-#TableOfContents ul li a {
-    color: $sl-color-accent;
-}
-
+// Blog styles
 .blog-main-content {
-    padding-top: 2rem;
-}
+  padding-top: 2rem;
 
-.blog-main-content h1,
-.blog-main-content h2,
-.blog-main-content h3,
-.blog-main-content h4,
-.blog-main-content h5,
-.blog-main-content h6 {
+  h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 70px;
+  }
 }
 
-header.navbar {
-    height: 60px; /* Adjust this value according to your actual navbar height */
-}
-
-// New styles for pagination buttons
-.pagination {
-    .page-item {
-        .page-link {
-            color: $link-color;
-            border-color: $sl-color-accent;
-
-            &:hover,
-            &:focus {
-                background-color: transparent;
-                border-color: $sl-color-accent;
-                color: white;
-            }
-        }
-
-        &.active .page-link {
-            background-color: transparent;
-            border-color: $sl-color-accent;
-            color: white;
-        }
-    }
-}
-
-// Override purple colors with blue
-$purple: $sl-color-accent;
-$db-purple-100: $sl-color-accent-high;
-$db-purple-200: $sl-color-accent;
-$db-purple-300: $sl-color-accent-low;
-$primary: $sl-color-accent;
-
-// Override callout styles
-.callout {
-    &-note {
-        background: tint-color($sl-color-accent, 80%);
-        code:not(:where(.not-content *)) {
-            color: var(--ec-codeFg);
-            background: shade-color($sl-color-accent, 75%);
-        }
-    }
-}
-
-// Override any other elements that might use $purple
-.purple-bg {
-    background-color: $sl-color-accent;
-}
-
-.purple-text {
-    color: $sl-color-accent;
-}
-
-// Ensure code blocks use the new color scheme
-code:not(:where(.not-content *)) {
-    color: $sl-color-accent;
-    background-color: tint-color($sl-color-accent, 90%);
-}
-
-// Override any remaining purple links
-a:not([class]),
-.content a:not([class]) {
-    color: $sl-color-accent;
-    text-decoration-color: $sl-color-accent;
-}
-
-a:not([class]):hover,
-.content a:not([class]):hover {
-    color: $sl-color-accent;
-}
-
-// Override header-bar style with light blue to dark blue gradient
-.header-bar {
-    border-top: 4px solid;
-    border-image-source: linear-gradient(83.21deg, #87ceeb 0%, #0000ff 100%);
-    border-image-slice: 1;
-}
-
-// New styles to change post, page, summary, and excerpt text to serif font
 .content,
 .blog-main-content,
 .post-summary,
 .post-excerpt {
-    font-family: "Helvetica Neue", "Helvetica", "Arial", "Nimbus Sans L", "Roboto", "Noto Sans", "Segoe UI", "Liberation Sans", "Franklin Gothic Medium", "Fira Sans", "sans-serif";
+  font-family: $font-family-sans-serif;
 }
 
-// New styles for previous/next navigation buttons
 .blog-navigation {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
 
-    .btn {
-        width: 45%;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
+  .btn {
+    width: 45%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
-// New bg-transparent class
+// Pagination
+.pagination {
+  .page-item {
+    .page-link {
+      color: var(--sl-color-accent);
+      border-color: var(--sl-color-accent);
+
+      &:hover,
+      &:focus {
+        border-color: var(--sl-color-accent-high);
+        color: var(--sl-color-bg);
+      }
+    }
+
+    &.active .page-link {
+      border-color: var(--sl-color-accent);
+      color: var(--sl-color-bg);
+    }
+  }
+}
+
+// Callouts
+.callout {
+  &-note {
+    background: rgba(var(--sl-color-accent), 0.1);
+    code:not(:where(.not-content *)) {
+      color: var(--sl-color-accent);
+      background: rgba(var(--sl-color-accent), 0.2);
+    }
+  }
+}
+
+// Header bar
+.header-bar {
+  border-top: 4px solid;
+  border-image-source: linear-gradient(83.21deg, var(--sl-color-accent-low) 0%, var(--sl-color-accent-high) 100%);
+  border-image-slice: 1;
+}
+
+// Utility classes
 .bg-transparent {
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
 
-// Ensure all navbars (including home page) have the same border
-.navbar {
-    border-bottom: 1px solid $gray-200;
-}
-
-// Updated styles for equal-height cards with equal-height footers
-.equal-height-cards {
-    display: flex;
-    flex-wrap: wrap;
-
-    .col {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card-body {
-        flex: 1 0 auto;
-    }
-
-    .card-footer {
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-    }
-}
-
-// Ensure all card-footers have the same height
-.equal-height-cards .row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.equal-height-cards .card-footer {
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-}
-
-// New styles for the site logo
-.navbar-brand {
-    display: flex;
-    align-items: center;
-    height: 100%;
-}
-
-.site-logo {
-    max-height: 40px; // Adjust this value to fit your header height
-    width: auto;
-    object-fit: contain;
-}
-
-// New styles for breadcrumbs
+// Breadcrumbs
 .breadcrumb {
-    font-family: Arial, sans-serif;
-    font-size: 0.875rem; // 14px assuming base font size is 16px
-    padding: 0.5rem 0;
-    margin-bottom: 1rem;
-    background-color: transparent;
-    border-radius: 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.875rem;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border-radius: 0;
 
-    .breadcrumb-item {
-        + .breadcrumb-item::before {
-            content: ">";
-            color: $sl-color-text;
-        }
-
-        &.active {
-            color: $sl-color-text;
-        }
-
-        a {
-            color: $sl-color-accent;
-            text-decoration: none;
-
-            &:hover {
-                text-decoration: underline;
-            }
-        }
+  .breadcrumb-item {
+    + .breadcrumb-item::before {
+      content: ">";
+      color: var(--sl-color-text);
     }
+
+    &.active {
+      color: var(--sl-color-text);
+    }
+
+    a {
+      color: var(--sl-color-accent);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// Ensure all links use the accent color
+a:not([class]),
+.content a:not([class]) {
+  color: var(--sl-color-accent);
+  text-decoration-color: var(--sl-color-accent);
+
+  &:hover {
+    color: var(--sl-color-accent-high);
+  }
+}
+
+// Add styles for series, tags, and categories pages
+.series.list .content,
+.tags.list .content,
+.categories.list .content {
+  padding-top: 1rem;
+}
+
+.series.list .card,
+.tags.list .card,
+.categories.list .card {
+  margin-bottom: 1rem;
+  border: 1px solid var(--sl-color-border);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.series.list .content .card:hover,
+.tags.list .content .card:hover,
+.categories.list .content .card:hover,
+.series.list .card.card-terms:hover,
+.tags.list .card.card-terms:hover,
+.categories.list .card.card-terms:hover {
+  border-color: var(--sl-color-accent);
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.series.list .content .card-body,
+.tags.list .content .card-body,
+.categories.list .content .card-body,
+.series.list .card-terms .card-body,
+.tags.list .card-terms .card-body,
+.categories.list .card-terms .card-body {
+  padding: 1rem;
+}
+
+.series.list .content .card-body h2,
+.tags.list .content .card-body h2,
+.categories.list .content .card-body h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.series.list .content .card-body p,
+.tags.list .content .card-body p,
+.categories.list .content .card-body p {
+  font-size: 0.875rem;
+  color: var(--sl-color-text-light);
+  margin-bottom: 0;
 }

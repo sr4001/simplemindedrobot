@@ -210,6 +210,31 @@ series: ["AI in Agile"]
 
 7. Update your theme templates to display and link series information on relevant pages
 
+8. **Important**: When adding new taxonomy terms, remember to include them in the styling in `assets/scss/common/_custom.scss`. Add or modify the CSS selectors to ensure consistent styling across all taxonomy pages. For example:
+
+```scss
+.series.list .content,
+.tags.list .content,
+.categories.list .content,
+.your-new-taxonomy.list .content {
+  padding-top: 1rem;
+}
+
+.series.list .card,
+.tags.list .card,
+.categories.list .card,
+.your-new-taxonomy.list .card {
+  margin-bottom: 1rem;
+  border: 1px solid var(--sl-color-border);
+  border-radius: 0.25rem;
+  transition: all 0.2s ease-in-out;
+}
+
+// ... (continue adding the new taxonomy to other relevant selectors)
+```
+
+This step ensures that your new taxonomy pages will have consistent styling with existing ones.
+
 ## Customization
 
 ### Styling
@@ -266,4 +291,4 @@ This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/lic
 
 ---
 
-For any questions or support, please [contact us](mailto:your-email@example.com) or open an issue in this repository.
+For any questions or support, please open an issue in this repository.

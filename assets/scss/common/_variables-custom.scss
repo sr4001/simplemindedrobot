@@ -20,6 +20,9 @@ $sl-color-bg-sidebar: hsl(210, 20%, 98%);
 $sl-color-text: hsl(210, 20%, 20%);
 $sl-color-text-accent: $sl-color-accent;
 
+// Border colors
+$sl-color-border: hsl(210, 14%, 89%);
+
 // Assign $link-color to the medium highlight blue color
 $link-color: $sl-color-accent;
 
@@ -29,6 +32,7 @@ $link-color: $sl-color-accent;
     $sl-color-bg-sidebar: hsl(210, 20%, 8%);
     $sl-color-text: hsl(210, 20%, 80%);
     $sl-color-text-accent: $sl-color-accent-high;
+    $sl-color-border: hsl(210, 14%, 30%);
 
     // Reassign $link-color for dark mode
     $link-color: $sl-color-accent-high;
@@ -44,4 +48,5 @@ $link-color: $sl-color-accent;
     --sl-color-bg-sidebar: #{$sl-color-bg-sidebar};
     --sl-color-text: #{$sl-color-text};
     --sl-color-text-accent: #{$sl-color-text-accent};
+    --sl-color-border: #{$sl-color-border};
 }
