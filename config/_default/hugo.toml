@@ -2,7 +2,7 @@
 
 # Basic site information
 title = "Simpleminded Robot"
-baseurl = "http://sr4001.net/"
+baseurl = "http://simpleminded.bot/"
 canonifyURLs = true  # Converts all relative URLs to absolute URLs
 disableAliases = true  # Disables generation of alias redirects
 disableHugoGeneratorInject = true  # Removes Hugo generator meta tag
