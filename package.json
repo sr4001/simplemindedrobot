@@ -5,20 +5,19 @@
   "author": "Thulite",
   "license": "MIT",
   "scripts": {
-    "preinstall": "npm link glob-all",
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
-    "build": "hugo --minify --gc",
+    "build": "npm ci && hugo --minify --gc",
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
-    "glob-all": "git+https://github.com/sr4001/node-glob-all.git",
     "@tabler/icons": "^3.19.0",
     "@thulite/doks-core": "^1.7.0",
     "@thulite/images": "^3.3.0",
     "@thulite/inline-svg": "^1.2.0",
     "glob": "^11.0.0",
+    "glob-all": "^3.3.1",
     "thulite": "^2.5.0"
   },
   "devDependencies": {
@@ -27,5 +26,8 @@
   },
   "engines": {
     "node": ">=20.11.0"
+  },
+  "overrides": {
+    "glob": "^11.0.0"
   }
 }
