@@ -83,14 +83,16 @@
 {{- /* is .babelEs6 is set to true - use babel to lower to es6 */ -}}
 {{- if $babel -}}
   {{- $babelConfig := (dict "noComments" true "minified" true "config" "config/babel.module.config.js") -}}
-  {{- $js = $js | js.Build $jsConfig | babel $babelConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | babel $babelConfig | fingerprint "sha512" -}}
 {{- else if eq (hugo.Environment) "development" -}}
   {{- $jsConfig = (dict "sourceMap" "inline" "target" "es2015" "params" $params) -}}
-  {{- $js = $js | js.Build $jsConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | fingerprint "sha512" -}}
 {{- else -}}
-  {{- $js = $js | js.Build $jsConfig | fingerprint -}}
+  {{- $js = $js | js.Build $jsConfig | fingerprint "sha512" -}}
 {{- end -}}
 
 <script {{ with $load }}{{ . | safeHTMLAttr }}{{ end }}
-  src="{{- $js.RelPermalink -}}">
+  src="{{- $js.RelPermalink -}}"
+  integrity="{{ $js.Data.Integrity }}"
+  crossorigin="anonymous">
 </script>

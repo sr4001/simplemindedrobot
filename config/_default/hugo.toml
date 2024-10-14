@@ -132,3 +132,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
     for = "/**"
     [server.headers.values]
       Cache-Control = "public, max-age=31536000"
+
+# Asset processing configuration
+[assets]
+  fingerprint = true

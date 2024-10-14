@@ -14,10 +14,10 @@
 {{ end -}}
 
 <link rel="preload" href="{{ $themeCss.RelPermalink }}" as="style" crossorigin="anonymous">
-<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" crossorigin="anonymous">
+<link rel="stylesheet" href="{{ $themeCss.RelPermalink }}" integrity="{{ $themeCss.Data.Integrity }}" crossorigin="anonymous">
 
 {{ if .Site.Params.options.darkMode -}}
   {{ $darkScss := "scss/common/_dark.scss" }}
   {{ $darkStyle := resources.Get $darkScss | css.Sass $scssOptions | postCSS | resources.Fingerprint "sha512" }}
-  <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" media="(prefers-color-scheme: dark)" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ $darkStyle.RelPermalink }}" integrity="{{ $darkStyle.Data.Integrity }}" media="(prefers-color-scheme: dark)" crossorigin="anonymous">
 {{ end -}}
