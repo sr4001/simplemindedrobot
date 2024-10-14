@@ -289,6 +289,10 @@ We welcome contributions to improve our content and site functionality. Please r
 
 This project is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en). Please see the LICENSE file for more details.
 
+## Theme Documentation
+
+For details on how the Doks theme is used in this project, please refer to our [Theme Usage Guide](theme-usage.md).
+
 ---
 
 For any questions or support, please open an issue in this repository.
