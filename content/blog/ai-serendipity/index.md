@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-10-08T18:28:15.885Z
 pinned: false
 seo:
-  canonical: https://sr4001.net/blog/ai-serendipity/
+  canonical: https://simpleminded.bot/blog/ai-serendipity/
   description: Explore how serendipity in AI can lead to unexpected innovations, transforming industries and development approaches.
   noindex: false
   title: AI Serendipity - Leveraging Unplanned AI Discoveries for Innovation
@@ -85,7 +85,7 @@ The ethics of AI Serendipity are also crucial. Serendipity shouldn't be used to 
 
 ## Expanding AI Serendipity Beyond Recommendations
 
-To expand the concept of AI Serendipity beyond recommendation engines, we can draw inspiration from the AI Anthropologist approach described in my blog series, '[The AI Anthropologist](https://sr4001.net/series/the-ai-anthropologist/)'. This approach focuses on AI observing, analyzing, and understanding human dynamics to create meaningful interventions. In the context of serendipity, an AI acting as an anthropologist can go beyond merely suggesting content; it can facilitate deeper human interactions by understanding social contexts, encouraging engagement across diverse groups, and fostering creative collaboration.
+To expand the concept of AI Serendipity beyond recommendation engines, we can draw inspiration from the AI Anthropologist approach described in my blog series, '[The AI Anthropologist](https://simpleminded.bot/series/the-ai-anthropologist/)'. This approach focuses on AI observing, analyzing, and understanding human dynamics to create meaningful interventions. In the context of serendipity, an AI acting as an anthropologist can go beyond merely suggesting content; it can facilitate deeper human interactions by understanding social contexts, encouraging engagement across diverse groups, and fostering creative collaboration.
 
 Imagine an AI system that monitors remote team dynamics and identifies opportunities for productive cross-pollination of ideas, much like a skilled anthropologist observing cultural behaviors. It could orchestrate team discussions by pairing individuals who might benefit from each other's expertise, or by prompting conversations based on subtle observations of team activities. In this way, AI Serendipity becomes a tool for enhancing not just individual discovery, but collective creativity and cohesion.
 

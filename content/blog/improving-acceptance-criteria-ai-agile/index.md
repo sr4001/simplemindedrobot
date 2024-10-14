@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-09-15 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/improving-acceptance-criteria-ai-agile/
+  canonical: https://simpleminded.bot.//blog/improving-acceptance-criteria-ai-agile/
   description: Explore how AI is helping agile teams improve acceptance criteria, ensuring quality and efficiency in development.
   noindex: false
   title: "Improving Acceptance Criteria in Agile with AI: Best Practices for Quality and Efficiency"

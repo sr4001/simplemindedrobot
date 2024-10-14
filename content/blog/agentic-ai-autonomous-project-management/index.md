@@ -8,7 +8,7 @@ homepage: false
 lastmod: 2024-09-14 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/agentic-ai-autonomous-project-management/
+  canonical: https://simpleminded.bot.//blog/agentic-ai-autonomous-project-management/
   description: Discover how agentic AI is transforming autonomous project management, enabling smarter workflows, and empowering teams.
   noindex: false
   title: "Agentic AI for Autonomous Project Management: Revolutionizing Workflows"

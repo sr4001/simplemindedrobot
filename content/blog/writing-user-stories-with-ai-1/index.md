@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-06-03 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/writing-user-stories-with-ai-1/
+  canonical: https://simpleminded.bot.//blog/writing-user-stories-with-ai-1/
   description: Preparing AI to Write User Stories from Requirements Documents
   noindex: false
   title: "Writing User Stories With AI 1: Introduction"

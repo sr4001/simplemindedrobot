@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sr4001.net/sitemap.xml
+Sitemap: https://simpleminded.bot/sitemap.xml

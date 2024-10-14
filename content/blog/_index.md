@@ -12,7 +12,7 @@ contributors: []
 pinned: false
 homepage: false
 seo:
-  canonical: https://sr4001.net.//blog/_
+  canonical: https://simpleminded.bot.//blog/_
   description: ""
   noindex: false
   title: ""

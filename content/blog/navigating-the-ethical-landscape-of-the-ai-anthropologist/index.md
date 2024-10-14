@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-09-11 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/navigating-the-ethical-landscape-of-the-ai-anthropologist/
+  canonical: https://simpleminded.bot.//blog/navigating-the-ethical-landscape-of-the-ai-anthropologist/
   description: Understand the ethical challenges posed by AI anthropologists in the workplace, from privacy concerns to decision-making accountability.
   noindex: false
   title: "Navigating the Ethical Landscape of the AI Anthropologist in the Workplace"

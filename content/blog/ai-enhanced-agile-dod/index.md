@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-09-20 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/ai-enhanced-agile-dod/
+  canonical: https://simpleminded.bot.//blog/ai-enhanced-agile-dod/
   description: Discover how AI is revolutionizing Agile DoD workflows, boosting efficiency, and improving development practices.
   noindex: false
   title: "AI-Enhanced Agile DoD: Improving Agile Workflows with AI"

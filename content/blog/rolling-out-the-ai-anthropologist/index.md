@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-10-01 20:31:54.289000+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/rolling-out-the-ai-anthropologist/
+  canonical: https://simpleminded.bot.//blog/rolling-out-the-ai-anthropologist/
   description: Learn how to roll out AI anthropologists in the workplace, optimizing team dynamics and fostering better collaboration.
   noindex: false
   title: "Rolling Out the AI Anthropologist: Practical Steps for Workplace Integration"

@@ -23,13 +23,13 @@ AI models, including advanced LLMs, lack genuine comprehension and operate on pa
 
 The use of AI, especially in sensitive areas, raises significant ethical questions about privacy, consent, and potential misuse. Despite their sophistication, AI systems can make mistakes or produce nonsensical outputs, especially when dealing with complex or ambiguous queries.
 
-As emphasized in our post [Critically Evaluating AI-Generated Content in Software Development](https://sr4001.net/critically-evaluating-generated-content), it's essential to approach AI-generated content with a critical mindset. This includes:
+As emphasized in our post [Critically Evaluating AI-Generated Content in Software Development](https://simpleminded.bot/critically-evaluating-generated-content), it's essential to approach AI-generated content with a critical mindset. This includes:
 
 - Verifying information from multiple sources
 - Understanding the context and limitations of AI-generated outputs
 - Applying human judgment and domain expertise
 
-For a deeper exploration of the current limitations of AI systems, please refer to our post [AI: Artificial but not so Intelligent](https://sr4001.net/ai-artificial-but-not-so-intelligent).
+For a deeper exploration of the current limitations of AI systems, please refer to our post [AI: Artificial but not so Intelligent](https://simpleminded.bot/ai-artificial-but-not-so-intelligent).
 
 ## Responsible Use of AI
 

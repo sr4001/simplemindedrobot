@@ -94,7 +94,7 @@ Key settings include:
 
 ```toml
 title = "Simpleminded Robot"
-baseurl = "http://sr4001.net/"
+baseurl = "http://simpleminded.bot/"
 description = "AI and Agile Development Insights | Explore AI integration, Agile workflows, and tech advancements in software development."
 languageCode = "en-US"
 pagination.pagerSize = 10
@@ -165,7 +165,7 @@ To edit meta descriptions, keywords, and other SEO-related data for individual p
 title: "My SEO-Friendly Page"
 description: "This page covers the best practices for AI in Agile development."
 seo:
-  canonical: "https://sr4001.net/my-page/"
+  canonical: "https://simpleminded.bot/my-page/"
   noindex: false
   title: "AI in Agile Development"
 tags: ["ai", "agile"]

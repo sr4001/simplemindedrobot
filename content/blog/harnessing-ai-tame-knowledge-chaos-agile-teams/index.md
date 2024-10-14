@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-07-19 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/harnessing-ai-tame-knowledge-chaos-agile-teams/
+  canonical: https://simpleminded.bot.//blog/harnessing-ai-tame-knowledge-chaos-agile-teams/
   description: Learn how AI can help agile teams manage knowledge chaos, improve collaboration, and streamline processes.
   noindex: false
   title: "Harnessing AI to Tame Knowledge Chaos in Agile Teams: Strategies for Success"

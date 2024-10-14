@@ -13,7 +13,7 @@ homepage: false
 lastmod: 2024-07-11 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://sr4001.net.//blog/writing-user-stories-with-ai-3/
+  canonical: https://simpleminded.bot.//blog/writing-user-stories-with-ai-3/
   description: Explore how Gherkin, sequence diagrams, and Mermaid notation enhance
     functional requirements clarity and streamline testing in AI-assisted user story
     writing.

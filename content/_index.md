@@ -8,6 +8,6 @@ draft: false
 seo:
   title: "AI and Agile Development Insights | Simpleminded Robot"
   description: "Discover how AI is transforming Agile development practices. Explore tech trends, project management insights, and innovative solutions for modern software development."
-  canonical: "https://sr4001.net/" # Assuming this is the correct canonical URL
+  canonical: "https://simpleminded.bot/" # Assuming this is the correct canonical URL
   noindex: false
 ---
