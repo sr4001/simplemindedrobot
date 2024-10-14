@@ -5,6 +5,7 @@
   "author": "Thulite",
   "license": "MIT",
   "scripts": {
+    "preinstall": "npm link glob-all",
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
     "format": "prettier **/** -w -c",
@@ -12,6 +13,7 @@
     "preview": "vite preview --outDir public"
   },
   "dependencies": {
+    "glob-all": "git+https://github.com/sr4001/node-glob-all.git",
     "@tabler/icons": "^3.19.0",
     "@thulite/doks-core": "^1.7.0",
     "@thulite/images": "^3.3.0",
