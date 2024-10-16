@@ -23,6 +23,20 @@ tags:
   - AI governance
   - claude AI
   - AI
+  - hiring
+  - AST
+  - HR
+  - ethical hacking
+  - claude AI guidelines
+  - ethical AI development
+  - AI ethical principles
+  - AI alignment strategies
+  - AI human rights compliance
+  - AI fairness in decision-making
+  - anthropic AI ethics
+  - AI risk mitigation strategies
+  - AI ethical impact assessment
+  - AI bias reduction techniques
 title: "Ethics by Design: Understanding Claude AI's Constitutional Framework"
 weight: 50
 author: "Scot Campbell"
