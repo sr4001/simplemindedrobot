@@ -1,7 +1,10 @@
 # Hugo basic site parameters
 title = "Simpleminded Robot"
 description = "Discover how AI is transforming Agile development practices. Explore tech trends, project management insights, and innovative solutions for modern software development."
-images = ["cover.png"]  # Default image for social sharing and SEO
+images = ["/img/apple-touch-icon.png"]  # Default image for social sharing and SEO
+logo = "/img/apple-touch-icon.png"
+logoAlt = "Simpleminded Robot - Thoughts on AI and Agile Development"
+imageAlt = "Simpleminded Robot - Thoughts on AI and Agile Development"
 
 # Main sections to be considered for content organization
 mainSections = ["docs"]
