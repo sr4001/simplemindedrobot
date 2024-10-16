@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-07-03 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/chatgpt-panel-of-experts/
+  canonical: https://simpleminded.bot/blog/chatgpt-panel-of-experts/
   description: Learn how a ChatGPT panel of experts can provide informed answers by simulating multi-expert discussions for deeper analysis.
   noindex: false
   title: Creating a ChatGPT Panel of Experts for Informed Decision Making

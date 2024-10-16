@@ -10,7 +10,7 @@ homepage: false
 lastmod: 2024-05-26 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/cognitive-load-theory/
+  canonical: https://simpleminded.bot/blog/cognitive-load-theory/
   description: Discover how cognitive load theory can be integrated with AI to optimize workflows, reduce fatigue, and improve decision-making.
   noindex: false
   title: "Applying Cognitive Load Theory in AI-Enhanced Workflows"

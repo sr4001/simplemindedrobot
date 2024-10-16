@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-07-27 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/critically-evaluating-generated-/
+  canonical: https://simpleminded.bot/blog/critically-evaluating-generated-/
   description: Learn how to critically evaluate AI-generated content, ensuring quality, accuracy, and alignment with business goals.
   noindex: false
   title: "Critically Evaluating AI-Generated Content: Best Practices for Quality and Accuracy"

@@ -10,7 +10,7 @@ homepage: false
 lastmod: 2024-05-18 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/throughput-and-goodput/
+  canonical: https://simpleminded.bot/blog/throughput-and-goodput/
   description: Throughput and Goodput and the effect on velocity
   noindex: false
   title: Throughput vs Goodput - What Really Matters

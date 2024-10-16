@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-10-04 20:34:30.287000+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/emotional-intelligence-in-ai/
+  canonical: https://simpleminded.bot/blog/emotional-intelligence-in-ai/
   description: Explore how AI systems are developing emotional intelligence to improve human interactions and social awareness.
   noindex: false
   title: "Improving Emotional Intelligence in AI for Better Human Interactions"

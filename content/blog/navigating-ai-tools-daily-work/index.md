@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-08-05 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/navigating-ai-tools-daily-work/
+  canonical: https://simpleminded.bot/blog/navigating-ai-tools-daily-work/
   description: Learn how to effectively navigate AI tools in daily work to improve productivity, streamline processes, and achieve better results.
   noindex: false
   title: "Navigating AI Tools in Daily Work: Enhancing Productivity and Efficiency"

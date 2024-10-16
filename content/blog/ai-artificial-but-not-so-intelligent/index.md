@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-08-22 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/ai-artificial-but-not-so-intelligent/
+  canonical: https://simpleminded.bot/blog/ai-artificial-but-not-so-intelligent/
   description: Explore the limitations of AI's intelligence, where it fails, and what needs to improve for future advancements.
   noindex: false
   title: "AI: Artificial but Not So Intelligent - Limitations and Challenges"

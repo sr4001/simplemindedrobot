@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-06-11 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/enhancing-cybersecurity-with-ai/
+  canonical: https://simpleminded.bot/blog/enhancing-cybersecurity-with-ai/
   description: Discover how AI is transforming cybersecurity by identifying threats, protecting data, and improving defensive capabilities.
   noindex: false
   title: "Enhancing Cybersecurity with AI: Protecting Data with Advanced Machine Learning"

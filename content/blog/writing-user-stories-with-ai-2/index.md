@@ -12,7 +12,7 @@ homepage: false
 lastmod: 2024-06-27 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/writing-user-stories-with-ai-2/
+  canonical: https://simpleminded.bot/blog/writing-user-stories-with-ai-2/
   description: Learn how to craft and refine prompts for AI to generate detailed,
     actionable user stories in this second part of our series.
   noindex: false

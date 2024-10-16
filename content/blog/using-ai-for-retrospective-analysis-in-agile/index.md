@@ -12,7 +12,7 @@ homepage: false
 lastmod: 2024-09-09 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/using-ai-for-retrospective-analysis-in-agile/
+  canonical: https://simpleminded.bot.blog/using-ai-for-retrospective-analysis-in-agile/
   description: Explore how AI can enhance Agile retrospectives, providing data-driven
     insights, identifying hidden trends, and focusing teams on long-term improvements.
   noindex: false

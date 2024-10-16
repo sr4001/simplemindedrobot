@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-06-19 00:00:00+00:00
 pinned: true
 seo:
-  canonical: https://simpleminded.bot.//blog/analyzing-media-with-custom-GPT/
+  canonical: https://simpleminded.bot/blog/analyzing-media-with-custom-GPT/
   description: Uncover how custom GPT models are used to analyze media, providing richer insights and transforming content consumption.
   noindex: false
   title: Analyzing Media Content with Custom GPT Models for Deeper Insights

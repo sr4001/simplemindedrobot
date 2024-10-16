@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-08-14 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/ai-anthropologist-understanding-workplace-dynamics/
+  canonical: https://simpleminded.bot/blog/ai-anthropologist-understanding-workplace-dynamics/
   description: Learn how AI anthropologists analyze and optimize workplace dynamics, promoting better collaboration and efficiency.
   noindex: false
   title: "AI Anthropologist: How AI Can Transform Workplace Dynamics"

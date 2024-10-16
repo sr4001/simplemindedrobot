@@ -11,7 +11,7 @@ homepage: false
 lastmod: 2024-09-03 00:00:00+00:00
 pinned: false
 seo:
-  canonical: https://simpleminded.bot.//blog/technologies-behind-ai-anthropologist/
+  canonical: https://simpleminded.bot/blog/technologies-behind-ai-anthropologist/
   description: Discover the core technologies behind AI anthropologists and how they are reshaping workplace analysis and human dynamics.
   noindex: false
   title: "The Technologies Behind the AI Anthropologist: Exploring AI's Role in Workplace Analysis"
