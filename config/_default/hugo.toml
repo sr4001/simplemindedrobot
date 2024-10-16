@@ -80,7 +80,7 @@ copyright = "<a class='text-muted' href='https://creativecommons.org/licenses/by
 
 # URL structure configuration
 [permalinks]
-  blog = "/blog/:slug/"
+  blog = "/blog/:filename/"
   docs = "/docs/:sections[1:]/:slug/"
 
 # Minification configuration
