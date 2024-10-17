@@ -10,15 +10,24 @@ type: "legal"
 
 ## Introduction
 
-Welcome to Simpleminded Robot. We value your privacy and are committed to protecting any personal information you share with us. This Privacy Policy explains how we collect, use, and safeguard your information when you interact with our blog.
+Welcome to Simpleminded Robot. We deeply value your privacy and are committed to protecting any personal information you share with us. This Privacy Policy is put in place with the best intentions to ensure transparency and safeguard your privacy rights.
+
+We believe that privacy is a fundamental right, and we strive to minimize data collection and processing to only what is necessary for providing you with a great user experience. Our goal is to be clear and honest about our practices, ensuring you have control over your information.
+
+This Privacy Policy explains how we collect, use, and safeguard your information when you interact with our blog. We encourage you to read this policy carefully to understand our practices regarding your information and how we will treat it.
+
+While we use some third-party services to enhance your experience, we have chosen these services carefully, considering their impact on your privacy. We aim to balance functionality with privacy protection, always keeping your best interests in mind.
+
+If you have any questions or concerns about this policy or our practices, we encourage you to contact us. Your trust is important to us, and we are committed to maintaining it by adhering to these privacy principles.
 
 ## Information We Collect
 
-While we don't collect personal information directly, some third-party services we use may collect data:
+While we don't collect personal information directly, some third-party services and functionalities we use may process or store data:
 
 1. GitHub (via utteranc.es): For comment storage
 2. Cloudflare Insights: For web traffic analysis
 3. Google Fonts: For website styling
+4. FlexSearch: For on-site search functionality
 
 ## Comment System
 
@@ -30,15 +39,16 @@ We use utteranc.es, a lightweight comments widget built on GitHub issues. Here's
 4. We will not use your GitHub information for any purpose other than responding to comments.
 5. The use of GitHub Issues and GitHub accounts is subject to GitHub's terms and conditions, not those of Simpleminded Robot.
 
-## Data Retention
+## Data Processing and Storage
 
-We don't collect any data directly, so we have nothing to retain. However:
-- Comments are stored in GitHub Issues and are subject to GitHub's data retention policies.
-- Web traffic data collected by Cloudflare Insights is subject to their data retention policies.
+1. We don't collect any data directly, so we have nothing to retain.
+2. Comments are stored in GitHub Issues and are subject to GitHub's data retention policies.
+3. Web traffic data collected by Cloudflare Insights is subject to their data retention policies.
+4. FlexSearch processes search queries client-side (in your browser) and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
 
 ## User Rights
 
-Users who interact with our comment system or whose data is collected by our third-party services have certain rights regarding their data. These may include the right to access, correct, or delete their personal information. Please refer to the privacy policies of GitHub, Cloudflare, and Google for more information on how to exercise these rights.
+Users who interact with our comment system or whose data is processed by our third-party services have certain rights regarding their data. These may include the right to access, correct, or delete their personal information. Please refer to the privacy policies of GitHub, Cloudflare, and Google for more information on how to exercise these rights.
 
 ## Data Security
 
@@ -50,6 +60,7 @@ Our blog may use cookies for essential functionality and analytics purposes. The
 
 - Cloudflare Insights uses cookies to analyze web traffic.
 - Google Fonts may use cookies to optimize font delivery.
+- FlexSearch may use your browser's local storage to store a search index for improved search performance. This data remains on your device and is not transmitted to us.
 
 ## Children's Privacy
 
@@ -57,7 +68,7 @@ Our blog is not intended for children under the age of 13. We do not knowingly c
 
 ## International Data Transfers
 
-As we use services like GitHub, Cloudflare, and Google Fonts, your data may be transferred to and processed in countries other than your own. By using our blog, you consent to this transfer.
+As we use services like GitHub, Cloudflare, and Google Fonts, your data may be transferred to and processed in countries other than your own. By using our blog, you consent to this transfer. Note that FlexSearch processes data locally in your browser and does not involve international data transfers.
 
 ## Third-Party Services
 
@@ -67,6 +78,7 @@ We use the following third-party services:
 2. GitHub: For storing comments as issues. Please review GitHub's privacy policy for more information on how they handle your data.
 3. Cloudflare Insights: For web traffic analysis. Please review Cloudflare's privacy policy for details on how they collect and process data.
 4. Google Fonts: For website styling. Please review Google's privacy policy to understand how they handle data related to font delivery.
+5. FlexSearch: For on-site search functionality. FlexSearch processes search queries client-side and may store a search index in your browser's local storage. This data does not leave your device and is not accessible to us.
 
 ## Links to Other Websites
 
@@ -78,7 +90,7 @@ We may update our Privacy Policy from time to time. Any changes will be posted o
 
 ## Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at [your contact email or form].
+If you have any questions about this Privacy Policy, please message us via [Github](https://github.com/sr4001).
 
 ## Consent
 
