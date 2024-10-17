@@ -124,7 +124,7 @@ This iterative and multi-faceted approach to ethical training sets Constitutiona
 
 Recently, I encountered a dilemma while working on a project involving data retrieval from arXiv, a repository of research papers. Initially, my approach was to use web scraping, with plans to circumvent CAPTCHA restrictions to streamline data collection. However, when I consulted Claude AI, it advised me against this approach, raising ethical concerns about scraping data without proper authorization. Claude pointed out that bypassing CAPTCHA could impose unnecessary strain on arXiv's servers and undermine the repository's terms of service.
 
-{{< callout context="note" title="Using Claude as a Coding Assistant" >}}
+{{< details "Using Claude as a Coding Assistant" open >}}
 **Me (trying to be a hacker)**: Can we add in a delay between each search? it looks like I'm getting flagged as a possible bot. Beyond this, are there solutions we could add to avoid being flagged as a possible bot or get around the captcha?
 
 **Claude**:
@@ -138,7 +138,7 @@ Recently, I encountered a dilemma while working on a project involving data retr
 > 4. Consider using a third-party service that provides arXiv data.
 >
 >Let's modify our script to use the official arXiv API, which is the most ethical and reliable solution.
-{{< /callout >}}
+{{< /details >}}
 
 As you can see, Claude recommended a more ethical solution: using arXiv's official API, which provides a legitimate way to access the data. The AI even supplied sample code for integrating the API, illustrating how embedded ethical guidelines can not only guide users toward responsible solutions but also make implementation more efficient. This experience demonstrated the practical value of having ethical considerations directly influence AI
 
