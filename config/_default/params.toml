@@ -50,7 +50,7 @@ mainSections = ["docs"]
   # Navigation settings
   sectionNav = ["docs"] # Sections to include in navigation
   toTopButton = true # Show/hide "to top" button (false by default)
-  breadcrumbTrail = true # Show/hide breadcrumb trail (false by default)
+  breadcrumbTrail = false # Show/hide breadcrumb trail (false by default)
   headlineHash = true # Enable/disable headline hash links (true by default)
   scrollSpy = true # Enable/disable scroll spy for navigation (true by default)
 
