@@ -220,14 +220,7 @@ Even with carefully designed ethical guidelines, there's always the potential fo
 
 For example, an AI system designed to protect user privacy might inadvertently make it more difficult for legitimate investigations to uncover fraud or other criminal activities. Balancing competing ethical priorities in such scenarios remains an ongoing challenge.
 
-### Scalability Concerns
-
-As AI systems become more complex and are applied to an ever-wider range of tasks, ensuring that Constitutional AI principles scale effectively across all applications can be challenging. What works for a language model like Claude may need significant adaptation for other types of AI systems, such as those used in robotics or autonomous vehicles.
-
-Addressing these scalability concerns will be crucial for the widespread adoption of Constitutional AI principles across the AI industry.
-
 {{< details "Case Study: Applying Constitutional AI to Hiring Algorithms" >}}
-
 In a recent incident, a company's hiring system rejected a manager's own resume within seconds of submission, prompting criticism about bias in automated hiring systems. The situation highlighted the potential pitfalls of AI-based hiring algorithms that rely on rigid criteria, leading to the rejection of qualified candidates based on superficial factors. Read the full article[^6].
 
 [^6]: MSN. "'Lazy and mediocre' HR team fired after manager's own CV gets auto-rejected in seconds, exposing system failure." [msn.com](https://www.msn.com/en-gb/money/other/lazy-and-mediocre-hr-team-fired-after-manager-s-own-cv-gets-auto-rejected-in-seconds-exposing-system-failure/ar-AA1rj1eW)
@@ -249,7 +242,6 @@ Implementing Constitutional AI in hiring algorithms could involve several key st
 5. **Human Oversight**: Incorporating human review of AI decisions, especially in cases where the AI's decision might be questioned.
 
 By applying these principles, a Constitutional AI-based hiring system could significantly improve fairness and efficiency in the recruitment process, addressing the shortcomings highlighted in the case study.
-
 {{< /details >}}
 
 ## The Future of Constitutional AI
@@ -288,7 +280,9 @@ While the future of Constitutional AI looks promising, several challenges need t
 
 3. **Balancing Performance and Ethics**: There may be instances where strict adherence to ethical guidelines could limit an AI system's performance or efficiency. Finding the right balance will be crucial.
 
-4. **Validation and Testing**: Developing robust methods to validate and test the ethical behavior of AI systems across a wide range of scenarios remains a significant challenge.
+4. **Avoiding "One Size Fits All"**: As AI is applied to an ever wider range of tasks, ensuring that Constitutional AI principles are effective across multiple applications can be challenging. What works for a language model like Claude may need significant adaptation for other types of AI systems, such as those used in robotics or autonomous vehicles.
+
+5. **Validation and Testing**: Developing robust methods to validate and test the ethical behavior of AI systems across a wide range of scenarios remains a significant challenge.
 
 ## Ethical Horizons: Guiding Future Paths in AI Development
 
