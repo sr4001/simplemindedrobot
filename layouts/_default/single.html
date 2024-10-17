@@ -68,6 +68,10 @@
 				<div class="my-n3"></div>
 			{{ end -}}
 			-->
+
+			<!-- Add utterances comments here -->
+			{{ partial "comments/utterances.html" . }}
+
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}
 			</div>

@@ -70,7 +70,7 @@ mainSections = ["docs"]
   sectionFooter = true # Show/hide section footer on homepage (false by default)
 
   # Blog settings
-  relatedPosts = true # Show/hide related posts (false by default)
+  relatedPosts = false # Show/hide related posts (false by default)
   imageList = true # Show/hide images in post lists (true by default)
   imageSingle = true # Show/hide images in single posts (true by default)
 
@@ -148,3 +148,10 @@ mainSections = ["docs"]
   #   newsArticle = [] # NewsArticle schema sections
   #   blogPosting = ["blog"] # BlogPosting schema sections
   #   product = [] # Product schema sections
+
+# Utterances configuration
+[utterances]
+  repo = "sr4001/simplemindedrobot" # Replace with your GitHub username and repository name
+  issueTerm = "pathname"
+  label = "comment"
+  theme = "github-light"
