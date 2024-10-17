@@ -69,8 +69,8 @@
 			{{ end -}}
 			-->
 
-			<!-- Add utterances comments here -->
-			{{ partial "comments/utterances.html" . }}
+			<!-- Add giscus comments here -->
+			{{ partial "comments/giscus.html" . }}
 
 		</main>
 		{{ if and (eq site.Params.doks.containerBreakpoint "fluid") (in .Site.Params.mainSections .Type) }}

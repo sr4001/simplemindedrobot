@@ -24,18 +24,18 @@ If you have any questions or concerns about this policy or our practices, we enc
 
 While we don't collect personal information directly, some third-party services and functionalities we use may process or store data:
 
-1. GitHub (via utteranc.es): For comment storage
+1. GitHub (via giscus): For comment storage
 2. Cloudflare Insights: For web traffic analysis
 3. Google Fonts: For website styling
 4. FlexSearch: For on-site search functionality
 
 ## Comment System
 
-We use utteranc.es, a lightweight comments widget built on GitHub issues. Here's what you need to know:
+We use [giscus](https://giscus.app), a lightweight comments widget built on GitHub issues. Here's what you need to know:
 
 1. To comment, you need a GitHub account.
-2. Your comments will be stored as GitHub issues.
-3. All comments will be moderated.
+2. Your comments will be stored as GitHub discussions.
+3. All comments are subject to moderation.
 4. We will not use your GitHub information for any purpose other than responding to comments.
 5. The use of GitHub Issues and GitHub accounts is subject to GitHub's terms and conditions, not those of Simpleminded Robot.
 
@@ -74,7 +74,7 @@ As we use services like GitHub, Cloudflare, and Google Fonts, your data may be t
 
 We use the following third-party services:
 
-1. utteranc.es: For our comment system. Please review utteranc.es' privacy policy for more information.
+1. utteranc.es: For our comment system. Please review giscus' privacy policy for more information.
 2. GitHub: For storing comments as issues. Please review GitHub's privacy policy for more information on how they handle your data.
 3. Cloudflare Insights: For web traffic analysis. Please review Cloudflare's privacy policy for details on how they collect and process data.
 4. Google Fonts: For website styling. Please review Google's privacy policy to understand how they handle data related to font delivery.

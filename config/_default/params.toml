@@ -20,7 +20,7 @@ mainSections = ["docs"]
   colorModeToggler = true # Enable/disable color mode toggle (only relevant when colorMode = auto)
 
   # Navbar settings
-  navbarSticky = true # Make navbar sticky (true by default)
+  navbarSticky = false # Make navbar sticky (true by default)
   containerBreakpoint = "xxl" # Navbar container breakpoint: "", "sm", "md", "lg" (default), "xl", "xxl", or "fluid"
 
   # Navbar button settings
@@ -83,7 +83,7 @@ mainSections = ["docs"]
   editPage = false # Enable/disable "Edit this page" links (false by default)
   lastMod = false # Show/hide last modified date (false by default)
   repoHost = "GitHub" # Repository host: GitHub (default), Gitea, GitLab, Bitbucket, or BitbucketServer
-  docsRepo = "https://github.com/h-enk/doks"  # URL of the docs repository
+  docsRepo = "https://github.com/sr4001/simplemindedrobot"  # URL of the docs repository
   docsRepoBranch = "main" # Branch name of the docs repository
   docsRepoSubPath = "" # Subpath within the repository for docs
 
@@ -149,9 +149,17 @@ mainSections = ["docs"]
   #   blogPosting = ["blog"] # BlogPosting schema sections
   #   product = [] # Product schema sections
 
-# Utterances configuration
-[utterances]
-  repo = "sr4001/simplemindedrobot" # Replace with your GitHub username and repository name
-  issueTerm = "pathname"
-  label = "comment"
-  theme = "github-light"
+# Giscus configuration
+[giscus]
+  repo = "sr4001/simplemindedrobot"
+  repoId = "R_kgDOM6jfDw"
+  category = "Announcements"
+  categoryId = "DIC_kwDOM6jfD84Cjcrf"
+  mapping = "url"
+  strict = "0"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "top"
+  theme = "light"
+  lang = "en"
+  loading = "lazy"
