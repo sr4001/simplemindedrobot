@@ -52,3 +52,5 @@ ideas
 frontmatter.json
 git_changes.txt
 content/blog.zip
+lighthouse-report.json
+performance_findings.json

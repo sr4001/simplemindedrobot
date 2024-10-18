@@ -395,3 +395,15 @@ a:not([class]),
     width: 100%;
     margin-top: 2rem;
   }
+
+  /* Ensure lazy-loaded images are styled correctly */
+.lazyload,
+.lazyloading {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 300ms;
+}

@@ -14,7 +14,7 @@
     <meta property="og:image" content="{{ index . 0 | absURL }}" />
     <meta property="og:image:alt" content="{{ $.Site.Params.imageAlt | default $.Site.Title }}" />
   {{- else -}}
-    <meta property="og:image" content="{{ .Site.Params.logo | default "/img/logo.png" | absURL }}" />
+    <meta property="og:image" content="{{ .Site.Params.logo | default "/img/logo.webp" | absURL }}" />
     <meta property="og:image:alt" content="{{ .Site.Params.logoAlt | default .Site.Title }}" />
   {{- end -}}
 {{- end -}}

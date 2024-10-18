@@ -1,8 +1,8 @@
 # Hugo basic site parameters
 title = "Simpleminded Robot"
 description = "Discover how AI is transforming Agile development practices. Explore tech trends, project management insights, and innovative solutions for modern software development."
-images = ["/img/apple-touch-icon.png"]  # Default image for social sharing and SEO
-logo = "/img/apple-touch-icon.png"
+images = ["/images/logo.webp"]  # Default image for social sharing and SEO
+logo = "/images/logo.webp"
 logoAlt = "Simpleminded Robot - Thoughts on AI and Agile Development"
 imageAlt = "Simpleminded Robot - Thoughts on AI and Agile Development"
 
