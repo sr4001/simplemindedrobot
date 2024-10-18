@@ -62,7 +62,7 @@ The concept of Constitutional AI represents a significant shift in how we approa
 
 ### Comparison with Other Models
 
-Most AI systems implement ethical guidelines as overlays, where ethical filters are applied to the model's output. However, this can lead to inconsistencies or ethical concerns if the underlying decision-making process does not inherently consider these principles. By contrast, Claude AI's Constitutional AI framework integrates ethical guidelines into the training phase, allowing the AI to critique and revise its responses based on ethical principles during learning. This approach seeks to create more consistently ethical outputs across various scenarios.[^2] [^3]
+Most AI systems implement ethical guidelines as overlays, where ethical filters are applied to the model's output. However, this can lead to inconsistencies or ethical concerns if the underlying decision-making process does not inherently consider these principles. By contrast, Claude AI's Constitutional AI framework integrates ethical guidelines into the training phase, allowing the AI to critique and revise its responses based on ethical principles during learning. This approach seeks to create more consistently ethical outputs across various scenarios.[^2][^3]
 
 [^3]: Springerlink. "Constitutional AI: A Survey of the State of the Art." [link.springer.com](https://link.springer.com/article/10.1007/s00146-024-02040-9)
 
