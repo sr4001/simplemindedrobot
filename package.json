@@ -1,9 +1,10 @@
 {
-  "name": "simplemindedrobot",
-  "version": "0.0.0",
+  "name": "@doks-theme/simplemindedrobot",
+  "version": "1.0.0",
   "description": "Doks theme",
-  "author": "Thulite",
-  "license": "MIT",
+  "author": "Simpleminded Robot",
+  "license": "CC BY-NC-SA 4.0",
+  "private": true,
   "scripts": {
     "create": "hugo new",
     "dev": "hugo server --disableFastRender --noHTTPCache",
